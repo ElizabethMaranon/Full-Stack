@@ -1,0 +1,29 @@
+Para este ejercicio necesitas instalar node js en tu sistema:
+https://nodejs.org/en/blog/release/v16.16.0/
+abrir consola nodes y ejecutar comandos
+Actualización: necesitarás ejecutar estos comandos para instalar gulp:
+npm install gulp-cli -g
+y luego:
+npm install gulp browser-sync
+
+visual studio code
+para omitir los 5k de archivos nuevos en la sincronización
+crear archivo .gitignore
+insertar codigo: 
+node_modules
+crear gulpfile.js en el mismo directorio
+insertar codigo: Código
+var gulp = require('gulp');
+var browserSync = require('browser-sync').create();
+var reload = browserSync.reload;
+gulp.task('serve', function() {
+  browserSync.init({
+    server: {
+      baseDir: "./"
+    }
+  });
+  gulp.watch("*.html").on("change", reload);
+});
+
+consola nodes ejecutar para abrir live server
+gulp serve
