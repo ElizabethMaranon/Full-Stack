@@ -1,13 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset='UTF-8'>
+  <title></title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .contenedor {
+      margin: 0;
+      height: calc(100vh - 20px);
+      width: calc(100vw - 20px);
+      border: 10px solid red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bloques {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+    }
+    .bloque {
+      background-color:cadetblue;
+      height: 200px;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    /* flex-basis dar diferente medida a los flex,
+    como grid-template-columns, pero en vez de fr usaremos px */
+    .bloque1 {
+        flex-basis: 400px;
+    }
+    .bloque2 {
+        flex-basis: 100px;
+    }
+    .bloque3 {
+        flex-basis: 200px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hi Flexbox</h1>
-
-    
+  <div class="contenedor">
+    <div class="bloques">
+      <div class="bloque bloque1">1</div>
+      <div class="bloque bloque2">2</div>
+      <div class="bloque bloque3">3</div>
+    </div>
+  </div>
 </body>
 </html>

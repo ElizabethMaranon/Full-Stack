@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex direction content</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            margin: 0;
+            /* calcular el 100% de la imagen y restarle 20px */
+            height: calc(100vh - 20px);
+            width: calc(100vw - 20px);
+            border: 10px solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contenedor>.bloque_imagenes {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="bloque_imagenes">
+            <img src="https://source.unsplash.com/150x150" alt="imagenes aleatorias">
+            <img src="https://source.unsplash.com/150x150" alt="imagenes aleatorias">
+            <img src="https://source.unsplash.com/150x150" alt="imagenes aleatorias">
+            <!-- <img src="https://source.unsplash.com/150x150" alt="imagenes aleatorias">
+            <img src="https://source.unsplash.com/150x150" alt="imagenes aleatorias">
+            <img src="https://source.unsplash.com/150x150" alt="imagenes aleatorias"> -->
+
+        </div>
+    </div>
+    
+</body>
+</html>
