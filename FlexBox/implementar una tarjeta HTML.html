@@ -15,7 +15,7 @@
         .contenedor {
             display:flex
         }
-        .contenedor .elementos {
+        .contenedor .elemento {
             display: flex;
             flex:1;
             justify-content: space-between;
@@ -23,18 +23,62 @@
             border-radius: 5px;
             margin: 10px;
         }
-        .contenedor .elementos .contenido {
+        .contenedor .elemento .contenido {
             display: flex;
+        }
+        .contenedor .elemento .contenido .metadatos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 20px;
+        }
+        .contenedor .elemento .contenido .metadatos .titulo {
+            margin: 0px;
+        }
+
+        .contenedor .elemento .botones {
+            display: flex;
+            align-items: flex-end;
+            align-items: center;
+        }
+
+        .contenedor .elemento .botones .boton {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 42px;
+            justify-content: center;
+            font-size: 2em;
+        }
+
+        .contenedor .elemento .botones .boton:hover {
+            background-color: lightslategray;
+            cursor: pointer;
+        }
+
+        .contenedor .elemento .botones .boton:hover a {
+            color:white;
+        }
+
+        .elemento .destacado {
+            flex: auto;
+        }
+
+        .elemento .asociado {
+            flex: initial;
         }
     </style>
 </head>
 <body>
     <div class="contenedor">
-        <div class="elementos">
+        <div class="elemento destacado">
             <div class="contenido">
                 <img src='https://d32xj74kbqkoqn.cloudfront.net/uploads/campsite/campsite_image/129/dissecting-rails-icon.jpg' width='200px'height='120px'>                <div class="metadatos">
-                    <h1 class="titulo">My amazing title</h1>
-                    <h3>And a subtitle</h3>
+                    <div class="metadatos">
+                        <h1 class="titulo">My amazing title</h1>
+                        <h3>And a subtitle</h3>
+                    </div>
                 </div>
             </div>
             <div class="botones">
@@ -50,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <div class="elementos">
+        <div class="elemento asociado">
             <div class="contenido">
                 <img src='https://d32xj74kbqkoqn.cloudfront.net/uploads/guide/video_image/43/foundations-video-thumb.jpg' width='200px' height='120px'>
                 <div class="metadatos">
