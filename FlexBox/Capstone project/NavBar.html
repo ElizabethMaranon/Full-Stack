@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🖤LOVE Metal🖤</title>
+
+    <script src="https://kit.fontawesome.com/e2e69b5406.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <style>
+        html {
+            font-family: "Protest Revolution", sans-serif;
+        }
+        body {
+            margin: 0px;
+        }
+        .navbar {
+            background: black;
+        }
+        .navbar div {
+            display: none;
+        }
+        .navbar .togle,
+        .navbar .marca {
+            display: inline-block;
+        }
+        .navbar .link {
+            display: block;
+            text-align: center;
+            padding: 1em;
+            text-decoration: none;
+            background: blueviolet;
+            color: black;
+        }
+        .navbar .link:hover,
+        .navbar .link:active {
+            color: blueviolet;
+            background: black;
+        }
+        .navbar .marca {
+            width: 10em;
+            text-align: center;
+            padding: 1em;
+            color: blueviolet;
+        }
+        .navbar a {
+            text-decoration: none;
+        }
+        .navbar .toggle {
+            padding: 1em;
+            color: blueviolet;
+        }
+        /* solo ocurre cuando el ancho no llegue a su minimo */
+        @media(min-width: 48em) {
+            .navbar {
+                display: flex;
+            }
+            .navbar .derecha,
+            .navbar .izquierda {
+                display: flex;
+                flex: 1;
+            }
+            .navbar .link {
+                width: auto;
+            }
+            .navbar .derecha {
+                justify-content: flex-end;
+            }
+            .navbar .toggle {
+                display: none;
+            }
+        }
+        @media (min-width: 48em) {
+            .navbar div {
+                display: flex;
+            }
+        }
+        /* solo ocurre cuando el ancho llegue a su minimo */
+        @media (max-width: 48em) {
+            .navbar.active .toggle {
+                background: blueviolet;
+                color: black;
+            }
+            .navbar .marca {
+                text-align: left;
+            }
+            .navbar.active div {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="toggle" id="navBarras">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <a href="#" class="marca">🖤LOVE Metal🖤</a>
+        <div class="izquierda">
+            <a href="#" class="link">Link1</a>
+            <a href="#" class="link">Link2</a>
+        </div>
+        <div class="derecha">
+            <a href="#" class="link">Link3</a>
+        </div>
+    </div>
+</body>
+<script>
+    const navBarras = document.querySelector('#navBarras');
+    navBarras.addEventListener('click', (e) => {
+        navBarras.parentElement.classList.toggle('active');
+    })
+</script>
+</html>
