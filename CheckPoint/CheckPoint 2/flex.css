@@ -61,3 +61,26 @@
     display: flex;
     flex-grow: 2;
 }
+
+/* Flex Six */
+.flexSix {
+    height: 400px;
+    width: 500px;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+.flexSix .one {
+    display: flex;
+    justify-content: space-around;
+}
+.flexSix .two {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background: #d6d6d6;
+}
+.flexSix .three {
+    display: flex;
+    justify-content: space-evenly;
+}
