@@ -7,3 +7,57 @@
 .flex {
     margin: 10px;
 }
+/* Flex One */
+.flexOne {
+    display: flex;
+    flex-direction: row;
+}
+.flexOne .square {
+    margin: 5px;
+}
+
+/* Flex Two */
+.flexTwo {
+    display: flex;
+    flex-direction: column;
+}
+.flexTwo .square {
+    margin: 2px;
+}
+
+/* Flex Three */
+.flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flexThree .square {
+    margin: 2px;
+}
+
+/* Flex Four */
+.flexFour {
+    display: flex;
+    flex-flow: wrap;
+    width: 350px;
+}
+.flexFour .square {
+    margin: 5px;
+    background: #3d8b6d;
+}
+
+/* Flex Five */
+.flexFive {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+}
+.flexFive .item {
+    background: #3d8b6d;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+#grow {
+    display: flex;
+    flex-grow: 2;
+}
