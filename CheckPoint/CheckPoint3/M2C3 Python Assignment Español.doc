@@ -1,0 +1,25 @@
+Asignación de Python M2C3
+
+Durante la primera sección del Módulo 2, aprendió todo sobre Python. Python es un poderoso lenguaje de programación que sirve para muchos propósitos. Para practicar lo que ha aprendido en esta sección, completará algunos ejercicios de Python. Puede utilizar Visual Studio Code, Repl.it u otro entorno/editor de texto de su elección. Complete la siguiente tarea y comuníquese con la aplicación de soporte para que un mentor revise su trabajo. Si tiene alguna pregunta o necesita ayuda, comuníquese con nosotros para que podamos ayudarlo. Esta tarea debe completarse para aprobar esta sección del trabajo del curso.
+
+*Conceptos incluidos
+
+Ejercicio 1: Cree una cadena, un número, una lista y un valor booleano, cada uno almacenado en su propia variable.
+
+Ejercicio 2: Utilice un índice para tomar las primeras 3 letras de su cadena y guárdelas en una variable.
+
+Ejercicio 3: Utilice un índice para tomar el primer elemento de su lista.
+
+Ejercicio 4: Crea una nueva variable numérica que sume 10 a tu número original.
+
+Ejercicio 5: Utilice un índice para obtener el último elemento de su lista.
+
+Ejercicio 6: Utilice dividir para transformar la siguiente cadena en una lista.
+	nombres = 'harry,alex,susie,jared,gail,conner'
+
+Ejercicio 7: Obtenga la primera palabra de su cadena usando índices. Utilice la función superior para transformar las letras en mayúsculas. Cree una nueva cadena que tome la palabra en mayúscula y el resto de la cadena original.
+
+Ejercicio 8: Utilice la interpolación de cadenas para imprimir una oración que contenga su variable numérica.
+
+Ejercicio 9: Imprime "hola mundo".
+
