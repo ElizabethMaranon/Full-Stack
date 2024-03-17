@@ -1,12 +1,14 @@
 import operator
 from functools import reduce
-#Entradas y salidas
-"""
-dynamic_reducer([1, 2, 3], '+') #6
+print("""import operator
+from functools import reduce
+""")
+print("""Entradas y salidas""")
+print("""dynamic_reducer([1, 2, 3], '+') #6
 dynamic_reducer([1, 2, 3], '-') #-4
 dynamic_reducer([1, 2, 3], '*') #6
-dynamic_reducer([1, 2, 3], '/') #0.16666666666666666
-"""
+dynamic_reducer([1, 2, 3], '/') #0.16666666666666666""")
+
 
 
 #Solucion
