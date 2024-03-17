@@ -5,7 +5,7 @@ Y por último, las preguntas teóricas son:
     - Numbers, números (numbers = 5)
     - Strings, cadena de texto (string = 'con letras, numeros, carácteres')
     - Bytes and byte arrays, bytes(secuencia inmutable de bytes, caracteres ascii) bytearrays (como byte pero modificables)
-    - None, ninguno o nulo 
+    - None, ninguno o nulo (Variable = None)
     - Lists, lista para almacenar datos mutables (list = [1, 2, 'tres', 'cuatro'])
     - Tuples, lista para almacenar datos inmutables (tuples = ('uno', 'dos', 3, 4))
     - Sets, lista para almacenar elementos unicos y no ordenados (sets = {1, 'b', 3, 'e'})
