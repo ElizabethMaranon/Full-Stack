@@ -1,16 +1,38 @@
 Y por último, las preguntas teóricas son:
 
-¿Cuáles son los tipos de Datos en Python?
+* ¿Cuáles son los tipos de Datos en Python?
+    - Booleans, verdadero o falso (booleans = true)
+    - Numbers, números (numbers = 5)
+    - Strings, cadena de texto (string = 'con letras, numeros, carácteres')
+    - Bytes and byte arrays, bytes(secuencia inmutable de bytes, caracteres ascii) bytearrays (como byte pero modificables)
+    - None, ninguno o nulo 
+    - Lists, lista para almacenar datos mutables (list = [1, 2, 'tres', 'cuatro'])
+    - Tuples, lista para almacenar datos inmutables (tuples = ('uno', 'dos', 3, 4))
+    - Sets, lista para almacenar elementos unicos y no ordenados (sets = {1, 'b', 3, 'e'})
+    - Dictionaries, lista para almacenar pares de clave-valor.(diccionario = {'nombre': 'Eli', 'edad': '43', 'mote': 'Mielma'})
 
-¿Qué tipo de convención de nomenclatura deberíamos utilizar para las variables en Python?
+* ¿Qué tipo de convención de nomenclatura deberíamos utilizar para las variables en Python?
+    - Serpiente: Cadena_separada_por_guiones_bajos
 
-¿Qué es un Heredoc en Python?
+* ¿Qué es un Heredoc en Python?
+    - Cadena de varias lineas """dobles comillas""" o '''comillas simples'''
 
-¿Qué es una interpolación de cadenas?
+* ¿Qué es una interpolación de cadenas?
+    - puede ejecutar codigos Python dentro de una cadena
+        nombre = 'eli'
+        apodo = 'mielma'
+		edad = 43
+		interpolacion =f'''
+		Soy {nombre},
+		con {edad} años,
+		mi apodo es {apodo}
+		'''
+    
+* ¿Cuándo deberíamos usar comentarios en Python?
+	- Sólo deberíamos usar los mas importantes, intentando poner el nombre mas a corde a la variable para evitar comentarios
 
-¿Cuándo deberíamos usar comentarios en Python?
-
-¿Cuáles son las diferencias entre aplicaciones monolíticas y de microservicios?
-
-Esta es toda la asignación, ¡mucha suerte!
-
+* ¿Cuáles son las diferencias entre aplicaciones monolíticas y de microservicios?
+	- Monolitico esta todo implementado en una sola aplicación.
+	  Si hay un error cae toda la aplicación
+	- Microservicios dividen los procesos y pueden probarse independientemente.
+	  Si hay un errpr se cae spñp el proceso en el que está el error, funcionando el resto de aplicación
