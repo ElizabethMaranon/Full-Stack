@@ -7,3 +7,4 @@ print(cadena)
 print(número)
 print(lista)
 print(valor_booleano)
+
