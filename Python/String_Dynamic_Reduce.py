@@ -1,3 +1,5 @@
+
+
 import operator
 from functools import reduce
 print("""import operator
