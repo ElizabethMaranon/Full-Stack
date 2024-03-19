@@ -1,6 +1,8 @@
 from decimal import Decimal
-print('''
-from decimal import Decimal''')
+libreria = '''
+libreria -> from decimal import Decimal
+'''
+print(libreria)
 entero = 10
 flot = 2.99
 print('''entero = 10

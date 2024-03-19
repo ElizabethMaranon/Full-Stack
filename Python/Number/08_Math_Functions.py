@@ -1,6 +1,7 @@
 import math
-print('')
-print('import math biblioteca para operaciones')
+libreria = '''
+libreria -> import math'''
+print(libreria)
 numeros ='''
 negativo = -20.25
 positivo = 89.99'''

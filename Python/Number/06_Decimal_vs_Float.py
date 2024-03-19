@@ -1,14 +1,7 @@
 from decimal import Decimal
-libreria_decimal = '''from decimal import Decimal
-libreria decimal función decimal 
-para importar librería'''
-decimal = '''
-Aunque decimal está dentro de Python,
-tendremos que llamarlo explícitamente
-porque no podemos usarlo simplemente
-de la misma manera que hemos usado otras funciones'''
-print(decimal)
-print(libreria_decimal)
+libreria = '''
+libreria -> from decimal import Decimal'''
+print(libreria)
 operación_float = '''
 coste = 88.40
 comisión = 0.08
