@@ -1,13 +1,11 @@
 
-numero = '''
+print('''
 Python encuentra el tipo de número que es
 integer = entero
 floating_point = punto_flotante, como decimal pero muy básico
 fractions = fracciones, imprimirá el resultado de la fracción
 pueden trabajar todos juntos e imprimera el tipo que resulte
-'''
-print(numero)
-
+''')
 print('''
 product_id = 123
 sale_price = 14.99
