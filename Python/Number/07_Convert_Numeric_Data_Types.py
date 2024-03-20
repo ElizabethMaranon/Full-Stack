@@ -1,15 +1,13 @@
 from decimal import Decimal
-libreria = '''
+print('''
 libreria -> from decimal import Decimal
-'''
-print(libreria)
+entero = 10
+flot = 2.99''')
+print('''
+-----''')
 entero = 10
 flot = 2.99
-print('''entero = 10
-flot = 2.99
-''')
-print(
-'''
+print('''
 Float -> Entero (eliminando float)''')
 flot_entero = int(flot)
 print('''flot_entero = int(flot)

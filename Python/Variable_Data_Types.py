@@ -64,7 +64,7 @@ conjunto = {'Nombre, html, texto...'}
 print(type(conjunto))
 print(conjunto)
 print('Dictionaries - diccionarios mutables y no ordenados')
-diccionario = {'Nombre, html, texto...'}
+diccionario = {'Nombre': 'eli', 'html':'love', 'texto':'music'}
 print(type(diccionario))
 print(diccionario)
 
