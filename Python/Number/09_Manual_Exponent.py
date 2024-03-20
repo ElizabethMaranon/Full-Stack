@@ -1,8 +1,8 @@
 from functools import reduce
 print('''
 libreria -> from functools import reduce ''')
-print('''
-exponente manual iterante
+print('-----')
+print('''exponente manual iterante
 def exp_man_ite(numero, exponente):
   contador = exponente -1
   total = numero
@@ -26,10 +26,8 @@ def exp_man_ite(numero, exponente):
 
 print(exp_man_ite(2, 3))
 print(exp_man_ite(3, 2))
-print('''
------''')
-print('''
-exponente manual funcional
+print('''-----''')
+print('''exponente manual funcional
 [numero3] * exponente2 (lista) -> [3, 3]
 def exp_man_fun(numero, exponente):
   lista_computada = [numero] * exponente
