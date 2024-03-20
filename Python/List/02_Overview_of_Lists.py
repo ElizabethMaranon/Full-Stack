@@ -22,7 +22,7 @@ print([usuarios[1]]) imprime lista''')
 print(usuarios[1])
 print([usuarios[1]])
 print('''-----''')
-print('''renombrar un componente de la lista
+print('''Reasignamos elemenpo de la lista
 usuarios[0] = 'Eiharne' ''')
 usuarios[0] = 'Eiharne'
 print(usuarios)
