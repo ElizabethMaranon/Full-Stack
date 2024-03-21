@@ -6,6 +6,7 @@ print(cantidad_lista)
 print(len(lista)) sin crear variable''')
 lista = ['Eli', 'Ivan', 'Hades', 'Gara', 'Elli']
 cantidad_lista = len(lista)
+print(len(lista))
 print(cantidad_lista)
 print('''-----''')
 print('''Negative Indexes -> ultimo elmento de la lista
