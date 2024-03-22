@@ -24,7 +24,7 @@ color_fav = diccionario['color']
 print(f'''No tiene index, sino key
 para saber el valor buscamos la clave,
 color_fav = diccionario['color] - > {color_fav}
-en caso de no estar la clave
-ortografia = diccionario['ortografia'] -> indica Key error''')
-ortografia = diccionario['ortografia']
-print(ortografia)
+Si la clave no está nos da error, distingue las mayusculas
+Color = diccionario['Color'] ->''')
+Color = diccionario['Color']
+print(Color)
