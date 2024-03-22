@@ -1,10 +1,6 @@
 import math
 print('''
-Tools:
-- math library
-- sorted function
-- list slicing
-- computations
+Tools: math library, sorted function, list slicing, computations
 lista = [100, 83, 220, 40, 100, 400, 10, 1, 3]
 -----''')
 lista = [100, 83, 220, 40, 100, 400, 10, 1, 3,]
@@ -19,4 +15,5 @@ print('media = sorted_lista[math.floor(len(sorted(lista))/2)]')
 media = sorted_lista[(math.floor(len(sorted(lista))/2))]
 print(media)
 print('''-----''')
+print('print(sorted(lista)[math.floor(len(sorted(lista))/2)])')
 print(sorted(lista)[math.floor(len(sorted(lista))/2)])
