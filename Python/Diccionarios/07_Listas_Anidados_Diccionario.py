@@ -1,18 +1,6 @@
 lista = [
-  {
-    'dic_primero': {
-        'uno' : 'bat',
-        'dos' : 'bi',
-        'tres' : 'tres'
-    }
-  },
-  {
-    'dic_segundo' : {
-        'diez' : 'hamar',
-        'veinte' : 'hogei',
-        'treinta' : 'hogeitahamar'
-    }
-  }
+  {'dic_primero': {'uno' : 'bat', 'dos' : 'bi', 'tres' : 'tres'}},
+  {'dic_segundo' : {'diez' : 'hamar','veinte' : 'hogei','treinta' : 'hogeitahamar'}}
 ]
 
 lista_dic_segundo = lista[1].get('dic_segundo', 'lista no encontrado')
