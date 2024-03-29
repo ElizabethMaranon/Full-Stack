@@ -1,10 +1,10 @@
 {
-    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.typeCheckingMode": "basic",
     "editor.fontSize": 16,
     "editor.fontVariations": false,
     "editor.fontLigatures": false,
     "editor.fontWeight": "normal",
-    "python.analysis.autoImportCompletions": false,
+    "python.analysis.autoImportCompletions": true,
     "debug.console.fontSize": 16,
     "scm.inputFontSize": 16,
     "terminal.integrated.fontSize": 16,
