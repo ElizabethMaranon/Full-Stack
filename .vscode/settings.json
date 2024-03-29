@@ -3,5 +3,6 @@
     "editor.fontSize": 20,
     "editor.fontVariations": false,
     "editor.fontLigatures": false,
-    "editor.fontWeight": "normal"
+    "editor.fontWeight": "normal",
+    "python.analysis.autoImportCompletions": true
 }
