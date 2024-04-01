@@ -1,6 +1,6 @@
 
 print(f'''
-Diccionario es un almacén de datos clave-valor,
+Diccionario es un almacén de datos pares clave-valor,
 ''')
 diccionario = {
     'key': 'value',
