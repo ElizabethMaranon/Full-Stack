@@ -1,25 +1,27 @@
 from decimal import Decimal
-print('''
-libreria -> from decimal import Decimal''')
-print('-----')
-print('''coste = 88.40
-comisión = 0.08
-cantidad = 450
-coste += (comisión * coste)
-print(coste * cantidad)''')
 coste = 88.40
 comisión = 0.08
 cantidad = 450
 coste += (comisión * coste)
-print(coste * cantidad)
-print('-----')
-print('''coste = Decimal(88.40)
-comisión = Decimal(0.08)
+print(f"""
+libreria -> from decimal import Decimal
+decimal es mucho mas preciso que float
+-----
+coste = 88.40
+comisión = 0.08
 cantidad = 450
 coste += (comisión * coste)
-print(coste * cantidad)''')
+print(coste * cantidad) -> {coste * cantidad}
+-----""")
 coste = Decimal(88.40)
 comisión = Decimal(0.08)
 cantidad = 450
 coste += (comisión * coste)
-print(coste * cantidad)
+print(f"""coste = Decimal(88.40)
+comisión = Decimal(0.08)
+cantidad = 450
+coste += (comisión * coste)
+print(coste * cantidad) -> {coste * cantidad}
+
+""")
+
