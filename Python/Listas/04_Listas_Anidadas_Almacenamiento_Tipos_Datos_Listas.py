@@ -1,25 +1,26 @@
-print('''
-diferentes listas
-listas combinadas son peligrosas por si hay funciones en bucle''')
-print('''-----''')
-print("cadena = ['Eli', 'Ivan', 'Hades', 'Gara', 'Elli']")
-cadena = ['Eli', 'Ivan', 'Hades', 'Gara', 'Elli']
-print(cadena)
-print('''-----''')
-print('numeros = [1, 2, 3, 4, 5]')
+cadena = ['uno', 'dos', 'tres', 'cuatro', 'cinco']
 numeros = [1, 2, 3, 4, 5]
-print(numeros)
-print('''-----''')
-print("combinada = ['eli', 43, 1.5]")
-combinada = ['eli', 43, 1.5]
-print(combinada)
-print('''-----''')
-print('''listas = [['Eli', 'Ivan', 'Hades', 'Gara', 'Elli'], [1, 2, 3, 4, 5], 'listas anidadas']
+combinada = ['uno', 43, 1.5]
+listas = [['uno', 'dos', 'tres', 'cuatro', 'cinco'], [1, 2, 3, 4, 5], 'listas anidadas']
 listas_anidadas = [cadena, numeros, 'listas anidadas']
-print(listas)
-print(listas_anidadas)''')
-listas = [['Eli', 'Ivan', 'Hades', 'Gara', 'Elli'], [1, 2, 3, 4, 5], 'listas anidadas']
+
+print(f"""
+diferentes listas
+listas combinadas son punogrosas por si hay funciones en bucle
+listas anidadas, pueden contener otras listas como elemento
+-----
+cadena = ['uno', 'dos', 'tres', 'cuatro', 'cinco']
+cadena -> {cadena}
+-----
+numeros = [1, 2, 3, 4, 5]
+numeros -> {numeros}
+-----
+combinada = ['uno', 43, 1.5]
+combinada -> {combinada}
+-----
+listas = [['uno', 'dos', 'tres', 'cuatro', 'cinco'], [1, 2, 3, 4, 5], 'listas anidadas']
+listas -> {listas}
+-----
 listas_anidadas = [cadena, numeros, 'listas anidadas']
-print(listas)
-print(listas_anidadas)
-print('''-----''')
+listas_anidadas -> {listas_anidadas}
+-----""")

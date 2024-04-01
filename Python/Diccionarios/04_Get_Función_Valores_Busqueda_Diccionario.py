@@ -6,9 +6,9 @@ Diccionario = {
     'añadir elemento': ['nueva', 'lista']
 }
 busqueda = Diccionario['añadir elemento']
-#Busqueda = Diccionario['buscar']
+
 Buscar = Diccionario.get('buscar', 'Introducir el texto deseado en caso de no estar la clave') 
-print(f'''
+print(f"""
 Buscamos la clave y nos devuelve el valor
 busqueda = Diccionario['añadir elemento'] -> {busqueda}
 -----
@@ -16,8 +16,4 @@ Si la clave no existe nos da keyError, distingue mayusculas,
 para evitarlos usar get function, y nos devuelve el texto deseado en caso de error
 Busqueda = Diccionario['Añadir elemento'] -> 
 Buscar = Diccionario.get('buscar', 'Introducir el texto deseado en caso de no estar la clave') -> {Buscar}
-
-
-
-
-''')
+""")

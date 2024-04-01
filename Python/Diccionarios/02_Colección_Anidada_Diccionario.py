@@ -9,7 +9,7 @@ diccionario = Diccionario['diccionario']
 numero = Diccionario['numero']
 string = Diccionario['string']
 
-print(f'''
+print(f"""
 Las claves pueden tener valor numerico, string, diccionario, lista, tupla....
 Diccionario ={{
     'lista': ['cero', 'uno', 'dos', 'tres'],
@@ -36,4 +36,4 @@ diccionario = Diccionario['diccionario'] -> {diccionario}
 numero = Diccionario['numero'] -> {numero}
 string = Diccionario['string]'] -> {string}
 
-''')
+""")

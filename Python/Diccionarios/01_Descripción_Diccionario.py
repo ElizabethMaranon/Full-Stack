@@ -1,7 +1,3 @@
-
-print(f'''
-Diccionario es un almacén de datos pares clave-valor,
-''')
 diccionario = {
     'key': 'value',
     'clave': 'valor',
@@ -9,7 +5,11 @@ diccionario = {
     'numero': 7,
     'musica': 'folk-metal'
 }
-print(f'''Creamos nuestro diccionario
+color_fav = diccionario['color']
+color = diccionario['color']
+print(f"""
+Diccionario es un almacén de datos pares clave-valor,
+
 diccionario = {{
     'key': 'value',
     'clave': 'valor',
@@ -18,13 +18,14 @@ diccionario = {{
     'musica': 'folk-metal'
 }}
 y así es como se queda guardada
-{diccionario}''')
-print('''-----''')
+{diccionario}
+-----
 color_fav = diccionario['color']
-print(f'''No tiene index, sino key
+No tiene index, sino key
 para saber el valor buscamos la clave,
 color_fav = diccionario['color] - > {color_fav}
 Si la clave no está nos da error, distingue las mayusculas
-Color = diccionario['Color'] ->''')
-Color = diccionario['Color']
-print(Color)
+color = diccionario['color'] -> {color}
+Color = diccionario['Color'] -> NameError: name 'Color' is not defined
+
+""")
