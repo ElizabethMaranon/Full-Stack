@@ -20,7 +20,7 @@ Diccionario ={{
 podemos imprimir el diccionario entero {{Diccionario}}
 {Diccionario}
 
-imprimir la clave  {{Diccionario['key_asinada']}}
+imprimir la clave  {{Diccionario['key_asignada']}}
 {Diccionario['lista']}
 {Diccionario['diccionario']}
 {Diccionario['numero']}
