@@ -6,6 +6,7 @@ listas = {listas}
 tuplas = {tuplas}
 -----
 for-in-loop
+Tiene principio y fin. Bucle acaba cuando acaban los elementos
 Python despues de : mayoritariamente sangría
 Consejo: si la colección está en plural, usar la variable bloque en singular,
 aunque podemos usar el nombre que queramos
