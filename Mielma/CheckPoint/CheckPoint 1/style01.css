@@ -1,0 +1,94 @@
+ .gridone, .gridTwo, .gridThree, .gridFour, .gridFive, .gridSix {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gridOneP1 {
+    padding-left: 10px;
+    color: black;
+    background-color: aqua;
+}
+
+.gridOneP2 {
+    padding-left: 10px;
+    color: blue;
+    background-color: aquamarine;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.gridTwoRed {
+    background-color: red;
+}
+
+.gridTwoBlue {
+    background-color: blue;
+}
+
+.gridTwoYellow {
+    background-color: yellow;
+}
+
+.gridThree {
+    width :500px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.gridThreeText { 
+    background-color: aqua;
+}
+
+.gridThreeImage { 
+    background-color: aquamarine;
+}
+.gridThreeImage img {
+    object-fit: cover;
+    width: 500px;
+    height: 225px;
+}
+
+.gridFour, .gridFive{
+    width: 500px;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#gridFourSecond  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.gridFive {
+    background-color: darkgray;
+}
+#gridFiveSecond {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#gridFiveSecond img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.gridSix { 
+    width: 500px;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.gridSix > .textSix {
+    font-family: 'Protest Revolution', sans-serif;
+}
