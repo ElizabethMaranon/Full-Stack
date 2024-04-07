@@ -8,7 +8,7 @@ print(cantidad_lista) -> {cantidad_lista}
 print(len(lista)) -> {len(lista)} -> sin crear variable
 -----""")
 ultimo_elemento = lista[-1]
-print(f"""Negative Indexes -> ultimo elmento de la lista
+print(f"""Negative Indexes -> ultimo elemento de la lista
 ultimo_elemento = lista[-1]
 print(ultimo_elemento) -> {ultimo_elemento}
 print(lista[-1]) {lista[-1]} sin crear variable
