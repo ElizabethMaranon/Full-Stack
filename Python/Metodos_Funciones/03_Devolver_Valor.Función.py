@@ -25,18 +25,22 @@ def nombre_completor(nombrer, apellidor):
 nombre_completor('Eli', 'Marañón')
 print(f"""
 Se Puede guardar en una variable para poder imprimirla después
-eli = nombre_completor('Eli', 'Marañón')
+mielma = nombre_completor('Eli', 'Marañón') # 
 def saludo(name):
-  print(f'¡hola {{name}}!')""")
-eli = nombre_completor('Eli', 'Marañón')
+  print(f'¡hola {{name}}!')
+saludo(mielma)""")
+mielma = nombre_completor('Eli', 'Marañón')
 def saludo(name):
   print(f'¡hola {name}!')
-saludo(eli)
+saludo(mielma)
 
 
 
-print(f"""Coding Exercise
-Create a function called sum_two_numbers that accepts two arguments. The function should 'return' the total of those two arguments added together.""")
+print(f"""-----
+Coding Exercise
+Create a function called sum_two_numbers that accepts two arguments. The function should 'return' the total of those two arguments added together.
+""")
+
 def sum_two_numbers(num1, num2):
   return(num1 + num2)
 print(sum_two_numbers(1, 2))
