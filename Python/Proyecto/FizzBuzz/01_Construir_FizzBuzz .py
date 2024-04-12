@@ -2,7 +2,7 @@
 Construir u programa que imprima números del 1 al 100, definiendo valor máximo.
 Multiplos de 3 imprimir Fizz.
 Multiplos de 5 imprimir Buzz.
-Multiplos de 3 imprimir FizzBuzz.     
+Multiplos de 3  y 5 imprimir FizzBuzz.     
       
 Usar Funciones - Bucle - Condicionales - Operaciones matemáticas"""
 
