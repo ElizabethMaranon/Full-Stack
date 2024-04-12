@@ -8,9 +8,9 @@ Crear un archivo => archivo.py
 Escribir la funcion o libreria allí
 Importar librería -> import Libreria_Mielma
 =>""")
-import Libreria_Mielma # No imprime, si no tiene en la def, solo importa
+import Libreria_Saludo # No imprime, si no tiene en la def, solo importa
 
-print(Libreria_Mielma.saludo('Mielma', 'Developer'))
+print(Libreria_Saludo.saludo('Mielma', 'Developer'))
 
 
 
