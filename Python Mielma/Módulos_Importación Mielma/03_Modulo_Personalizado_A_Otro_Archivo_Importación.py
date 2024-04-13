@@ -7,7 +7,7 @@ def Importada_Mismo_Directorio():
 Importada_Mismo_Directorio()
 """Cuando la librería esta en otro directorio"""
 import sys # importamos sistema
-sys.path.insert(0, './Libreria') # importamos directorio
+sys.path.insert(0, './Libreria Mielma') # importamos directorio
 import Otro_Directorio
 
 def Importada_Otro_Directorio():
