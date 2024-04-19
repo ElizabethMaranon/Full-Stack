@@ -7,4 +7,6 @@ descargar y ejecutar en el terminal -> python get-pip.py
 
 verificar si está instalada o saber version en la que está
 pip --version
+
+
 """

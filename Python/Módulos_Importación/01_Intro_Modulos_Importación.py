@@ -22,4 +22,6 @@ Hay una cantidad enorme de librerías,
 
 Para poder importarlos necesitamos una conexión,
   conector se llama "pip"
+
+
   """
