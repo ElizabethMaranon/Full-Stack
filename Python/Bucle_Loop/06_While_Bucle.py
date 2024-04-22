@@ -1,22 +1,18 @@
-print(f"""
+"""
 while
 bucle infinito, hay que decirle que se detenga
-se usa cuano no está claro el valor final
-valor centinela, establecer valor para fin bucle""")
+se usa cuando no está claro el valor final
+valor centinela, establecer valor para fin bucle"""
 nums = list(range(1, 100))
-print(f"""
-nums = list(range(1, 100)) -> {nums}
+print("""nums = list(range(1, 100)) #hace una lista desde, hasta
+      """)
+print(nums)
 
-for num in nums:
-  print(num)""")
-for num in nums:
-  print(num)
-print(f"""
+print("""-----""")
+"""
 Mientras la longitud de nums sea mayor que 0, imprimir.
 Pop eliminara del diccionario por lo que ira definiendo el centinela
-while len(nums) >0:
-  print(nums.pop())
-""")
+"""
 while len(nums) >0:
   print(nums.pop())
 print(f"""-----

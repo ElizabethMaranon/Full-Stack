@@ -1,11 +1,9 @@
-print(f"""
+"""
 Iterar rangos -> Cuando sepas que tienes un número determinado de veces
   que deseas recorrer un conjunto de datos específico.
-  Que no desea limitarlo a la cantidad de elementos que hay en la colección.
+  Que no desea limitarlo a la cantidad de elementos que hay en la colección."""
 
-for variable in range
-for num in range(desde, hasta no incluido, intervalo opcional):
-  print(num)
+print("""for num in range(desde, hasta no incluido, intervalo opcional):
 """)
 for num in range(1, 10, 2):
   print(num)
