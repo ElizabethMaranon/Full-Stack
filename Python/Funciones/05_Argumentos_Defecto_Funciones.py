@@ -14,7 +14,7 @@ saludo()
 saludo('Eli')
 
 print(f"""-----
-Mala práctica porner colección como argumento.
+Mala práctica poner colección como argumento.
 A volver a llamar la función, recuerda el valor anterior
       
 def some_function(collection = []):
