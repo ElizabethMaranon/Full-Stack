@@ -16,13 +16,7 @@ if palabra in frase:
   print('La palabra está en la frase')
 else:
   print('La palabra no esá en la frase')
-print(f"""
-palabra = 'dog'
-if palabra.lower() in frase.lower():
-  print('La palabra está en la frase')
-else:
-  print('La palabra no esá en la frase'))
-resultado""")
+
 frase = 'The quick brown fox jumped over the lazy Dog'
 palabra = 'dog'
 if palabra.lower() in frase.lower():
