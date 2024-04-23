@@ -14,7 +14,7 @@ import numpy as np
 y el número (cantidad) genera un rango con matriz (Similar a una lista)
 16, empieza desde 0 hasta 15"""
 rango_num = np.arange(16)
-#print(rango_num)
+print(rango_num)
 """Ya tenemos la matriz creada de 0 a 15"""
 """Reshape -> Pasa dos números a la vez
 obtenemos un conjunto anidado con cuatro matrices anidadas
