@@ -1,0 +1,46 @@
+/*Colores Logotipo
+circulo #006cb5
+raton #000000
+logo #556CEE
+Eliminado display:inline
+letter-spacing: -2.5px;*/
+
+body {
+    margin: 10% 15%;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+h1 {
+    font-size: 3.2rem;
+    line-height: 120%;
+    font-weight: 450;
+    color: #006cb5;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-size: 2.3rem;
+    line-height: 150%;
+    font-weight: 400;
+    color:#556CEE;
+}
+h3 {
+    font-size: 2.0rem;
+    font-weight: 350;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #000000;
+    text-align: justify;
+    line-height: 150%;
+}
+a {
+    text-decoration: none;
+    color: #006cb5;
+    font-weight: regular;
+}
+
