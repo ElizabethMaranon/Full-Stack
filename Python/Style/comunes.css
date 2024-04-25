@@ -38,9 +38,16 @@ p {
     text-align: justify;
     line-height: 150%;
 }
-a {
-    text-decoration: none;
-    color: #006cb5;
-    font-weight: regular;
+
+img { 
+    width: 100%;
+    height: 100%;
+}
+h2> a {
+    font-size: 2.3rem;
+    line-height: 150%;
+    font-weight: 400;
+    color:#556CEE;
+
 }
 
