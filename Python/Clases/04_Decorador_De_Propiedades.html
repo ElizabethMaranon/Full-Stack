@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo trabajar con decorador de propiedades de Python</title>
+    <link rel="stylesheet" href="../Style/comunes.css">
+</head>
+<body>
+
+    <h1>Cómo trabajar con decorador de propiedades de Python</h1>
+
+<h2>¿Qué es una función decoradora?</h2>
+
+<p>Una función decoradora ("decorator function" en inglés) es una función que agrega funcionalidad a otra 
+    función que recibe como argumento. Nos permite agregar funcionalidad a una función existente sin modificarla.</p>
+<p>Podremos solucionar todo el problema por el cual todos tienen acceso a todos los datos. 
+    Y entonces podemos tener una situación en la que queramos elegir y decir que está bien, 
+    algunos de los datos deberían ser accesibles</p>
+<p>Protected significa es que las clases secundarias tendrán acceso a estos datos. Y cuando quieras hacer eso, 
+    simplemente pon un guión bajo justo delante. Es muy importante tener en cuenta que no hay nada especial 
+    en el guión bajo: su código funcionará exactamente de la misma manera. El guión bajo es una pista para 
+    usted y para los futuros desarrolladores que trabajen en su programa de que este atributo de datos debe 
+    estar protegido.</p>
+<p>Privado, solo se debe poder acceder a él dentro de esta clase, ni siquiera a las clases secundarias que 
+    se denominan atributos privados. Y la convención común para usar esto es dos guiones bajos antes del 
+    nombre de la variable</p>
+
+<p>Creamos la función</p>
+<img src="imagenes/Decorador funciones funcion.png" alt="Decorador funciones funcion">
+
+<p>Creamos la instancia e imprimimos</p>
+<img src="imagenes/Decorador funciones instancia print.png" alt="Decorador funciones instancia print">
+
+<h2>Coding Exercise</h2>
+
+<p>We want to ensure that our size attribute can be retrieved, but not set. 
+    Use the appropriate syntax to protect the size attribute. 
+    Then, use the 'property' decorator to build a getter to return the protected data. 
+    You do not need to instantiate the class.</p>
+<img src="imagenes/Decorador funciones ejercicio.png" alt="">
+
+<h2>Links Informativos</h2>
+
+<p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-work-python-properties" target="_blank">DevCamp: Cómo trabajar con decoradores de propiedades de Python</a></p>
+
+</body>
+</html>
