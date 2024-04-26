@@ -7,14 +7,10 @@ class Garage:
     return "The door opens"
     
 home = Garage(2)
-# End of starter code
+print(home.cars)
 
-class Garage:
-  def __init__(self,out):
-    self.out = out
-    self.cars = ["Ram", "Model 3"]
+# Variable = nuevos datos
+home.cars = [] # en este caso ninguno
 
-  def formatter(self): 
-        return f'{self.cars}'
-get_cars = Garage(0)
-print(get_cars.cars)
+get_cars = home.cars
+print(get_cars)
