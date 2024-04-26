@@ -10,9 +10,7 @@
 
     <h1>Cómo obtener y configurar datos en una clase de Python</h1>
 
-<h2></h2>
-<p>Funciones getter y setter</p>
-
+<h2>Funciones getter y setter</h2>
 
 <p>Hay dos tipos de funciones, getter(fijadas) y seter(captadas), no hay que crear las funciones,
     Python lo hace por tí"</p>
@@ -26,7 +24,20 @@
 
 <h2>NOPE</h2>
 
-<p>El proceso que les voy a mostrar aquí puede estar mal visto porque les brinda demasiado acceso y esencialmente les permite hacer cualquier cosa que quieran.</p>
+<p>El proceso que les voy a mostrar aquí puede estar mal visto porque les brinda demasiado acceso y 
+    esencialmente les permite hacer cualquier cosa que quieran. Está perfectamente bien usarlo en ciertas 
+    circunstancias, sin embargo, los problemas que pueden surgir generalmente son un poco más avanzados y 
+    tienen que ver con la encapsulación de datos, lo que significa que imagina que estás creando esta clase 
+    y que se van a usar otros programas diferentes usándolo.
+
+<p>Si accidentalmente anulan algo a lo que ni siquiera deberían tener acceso, entonces podría romper todo el 
+    programa y esa es una razón por la cual simplemente dejar que todos los elementos de datos estén abiertos 
+    en todas las circunstancias puede ser malo. Ahora agregaré que hay muchas ocasiones en las que poder 
+    simplemente acceder a estos valores funciona perfectamente bien. Por lo general, cuando te encuentras 
+    con el problema al que me refiero y lo que voy a mostrarte cómo puedes solucionarlo, eso suele suceder 
+    cuando estás construyendo sistemas muy grandes y estás construyendo módulos auxiliares que otras personas 
+    están utilizando y ahí es cuando realmente hay que tener mucho cuidado.</p>
+
 <img src="Imagenes/Obtener datos clase funcion.png" alt="Obtener datos clase funcion">
 <p>Creamos una instancia y accedemos al valor porque se guardó como objeto</p>
 <img src="Imagenes/Obtener datos instancia.png" alt="Obtener datos instancia.png">
