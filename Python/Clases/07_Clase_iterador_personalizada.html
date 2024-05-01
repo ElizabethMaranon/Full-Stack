@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo crear una clase de iterador personalizada en Python</title>
+    <link rel="stylesheet" href="../Style/comunes.css">
+</head>
+<body>
+
+    <h1>Cómo crear una clase de iterador personalizada en Python</h1>
+
+<h2>¿Qué es la iteración?</h2>
+
+<p>La iteración consiste en repetir el mismo procedimiento varias veces hasta que se alcanza un punto final específico. La iteración a menudo se describe como un bucle, ya que es un proceso que se ejecuta de principio a fin, vuelve a comenzar de nuevo desde el principio una y otra vez, cientos o incluso miles de veces.</p>
+<p>Una forma de iteración en Python es la sentencia while que permite repetir la ejecución de un bloque de código siempre y cuando la condición del bucle sea verdadera. El código del cuerpo del bucle debe cambiar una o más variables hasta que la condición resulte falsa y el bucle termine.</p>
+
+<h2>Creamos nuestro propio iterador</h2>
+
+<p>Creamos un equipo [lista], compuesta por nueve jugadores</p>
+<p>Cada vez que haya salido un jugador, tendrá que salir el siguiente, cuando llegue al último jugador, volverá a salir el primero, ya que no sabemos cual va a ser el ultimo jugador en jugar</p>
+<p>Creamos una clase, la cual debe tener una función que será Dunder iter y se pasará a sí mismo y luego el otro se llamará Dunder next y eso será lo que nos permitirá llamar al siguiente elemento.</p>
+<img src="imagenes/Iterador class.png" alt="Iterador class">
+<p>Imprimimos el proceso => print(next(process)), nos devolverá el jugador tantas veces como imprimamos el proceso</p>
+
+<h2>Refactorizar el código, para eliminar alguna duplicación</h2>
+
+<img src="imagenes/Iterador class refactorizada.png" alt="Iterador class refactorizada">
+<p>Funciona igual, pero con mas claridad</p>
+
+
+
+<h2>Links Informativos</h2>
+
+<p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-build-custom-iterator-class-python" target="_blank">DevCamp: Cómo crear una clase de iterador personalizada en Python</a></p>
+
+</body>
+</html>
