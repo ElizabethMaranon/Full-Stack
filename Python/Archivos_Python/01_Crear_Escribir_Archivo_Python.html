@@ -10,22 +10,44 @@
 
     <h1>Cómo crear y escribir en un archivo en Python</h1>
 
-<h2></h2>
+<h2>Creamos archivo</h2>
+<h3>Visual Studio Code</h3>
+<p>Creamos un archivo python</p>
+<h3>En python</h3>
+<p>Creamos variable
+<br>&ensp;PrimerArchivo = open("Logger.txt", "w+")
+    <br>&emsp;w+ nos permite escribir en el archivo
+    <br>&emsp;open es una función integrada en el lenguaje principal de Python y abrirá el archivo, si no existe lo creará</p>
+<p>Escribimos en el arichivo, agregar contenido dinámicamente al archivo
+<br>&ensp;PrimerArchivo.write("Mi primer archivo")
+<br>&emsp;Función write() inserta la cadena en el archivo de texto en una sola línea.</p>
+<p>Cerramos el archivo
+<br>&ensp;PrimerArchivo.close()</p>
+<h3>En consola</h3>
+<p>Ejecutamos
+<br>&ensp;python primerarchivo.py y si no recibimos ningún error, todo está correcto</p>
+<p>Ejegutamos
+<br>&ensp;python logger.txt
+<br>&emsp;Nos imprime Mi primer archivo</p>
 
-<p></p>
 
-<!-- <h2>Coding Exercise</h2> -->
-
-<p></p>
-<!-- Imagen -->
+<h2>Construir un sistema de registro real</h2>
+<p>PrimerArchivo = open("logger.txt", "w+")
+<br>for i in range(100):
+<br>&emsp;PrimerArchivo.write(f"Estoy en línea {i + 1}\n")
+<br>PrimerArchivo.close()</p>
+<p>Agregar uno para incrementarlo y que no comience en 0. Cuando llamas al rango, comienza en 0.</p>
+<p>Agregar un retorno de carro, es después de que pasen las llaves. \n</p>
 
 <h1>Links Informativos</h1>
 
 <div class="link">
-<p><a href="http://127.0.0.1:5500/Full-Stack/Python/Archivos%20Python/01_Crear_Escribir_Archivo_Python.html" 
-    target="_blank">DevCamp</a></p>
+<p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-create-write-file-python" 
+    target="_blank">DevCamp Exclusivo Usuarios</a></p>
 <p><a href="https://github.com/ElizabethMaranon/Full-Stack/blob/8a855fa3b4e4b3c3c97948e006501b7e494274c9/Python/Archivos%20Python/01_Crear_Escribir_Archivo_Python.py" 
     target="_blank">Github</a></p>
+<p><a href="https://www.freecodecamp.org/espanol/news/lectura-y-escritura-de-archivos-en-python-como-crear-leer-y-escribir-archivos/" 
+    target="_blank">freeCodeCamp.org</a></p>
 </div>    
 
 </body>
