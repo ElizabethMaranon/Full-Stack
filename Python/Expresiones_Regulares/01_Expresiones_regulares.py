@@ -1,8 +1,9 @@
 import fnmatch #libreria Coincidencia de patrones de nombre de archivos Unix
+from fnmatch import fnmatchcase
 import os #librería sistema operativo 
 
 def lista_archivos():
-    for archivo in os.listdir('.'):
+    for archivo in os.listdir('D:\Eli\Documents\Full-Stack\Python\Expresiones_Regulares'): #'.' misma carpeta
         if fnmatch.fnmatch(archivo, "*.txt"):
             print("Archivo Texto:, ", archivo)
         if fnmatch.fnmatch(archivo, "*.rb"):
@@ -13,19 +14,14 @@ def lista_archivos():
             print("Archivo Python:, ", archivo)
             
 lista_archivos()
-def list_files():
-    for file in os.listdir('.'):
-        if fnmatch.fnmatch(file, '*.txt'):
-            print('Text files:', file)
 
-        if fnmatch.fnmatch(file, '*.rb'):
-            print('Ruby files:', file)
+equipos = [ # Creamos lista que contenga los equipos y los goles marcados
+    "Equipo X goles 1",
+    "Equipo Z goles 2",
+    "Equipo W goles 1",
+    "Equipo K goles 1"
+]
 
-        if fnmatch.fnmatch(file, '*.yml'):
-            print('Yaml files:', file)
+goles2 = [equipo for equipo in equipos if fnmatchcase(equipo, "* 2")] # For in para bucle de busqueda
 
-        if fnmatch.fnmatch(file, '*.py'):
-            print('Python files:', file)
-
-
-list_files()
+print(goles2)

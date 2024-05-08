@@ -17,8 +17,7 @@ h1 {
     line-height: 120%;
     font-weight: 450;
     color: #006cb5;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 h2 {
     font-size: 2.3rem;
