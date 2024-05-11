@@ -13,10 +13,32 @@
 
     <h1>Instalar dependencias<i class="fa-solid fa-arrow-right"></i> base de datos de Flask y funciones API</h1>
 
-<h2></h2>
+<h2>¿Qué es una dependencia?</h2>
+<p>Una dependencia de Python es cualquier paquete o distribución que no esté incluido en la instalación base de Apache Airflow para su versión de Apache Airflow en su entorno de Amazon Managed Workflows apra Apache Airflow</p>
 
+<h2>¿Qué es ORM?</h2>
+<p>Los ORM se utilizan en casi todos los lenguajes y marcos populares y lo que hace un ORM es brindarle la capacidad de comunicarse con la base de datos y hacerlo sin tener que escribir código SQL puro.</p>
+<p>Es una herramienta que permite mapear y convertir datos entre sistemas orientados a objetos y bases de datos relacionales. Actúa como un puente, permitiendo a los desarrolladores trabajar con objetos y clases en lugar de tablas y SQL directo.</p>
 
+<h2>¿Qué es Flask SQL Alchemy?</h2>
+<p>Es un ORM el cual nos permite trabajar con una base de datos sin tener que conocer y/o dominar SQL.</p>
+<p>Hay veces que no es necesario escribir código SQL desde cero, solamente hay que aplicar algunos métodos útiles para ejecutar esas consultas, eso es lo que alquimia SQL permite.</p>
+<p>Flask SQL alchemy es simplemente un contenedor de SQL alchemy, por lo que le permite integrar el ORM en la aplicación flask.</p>
 
+<h2>¿Qué es Flask-Marshmallow?</h2>
+<p>Renderizar json api y empaquetar el código. Hace que la representación de los datos de la API JSON sean más fácil para ver en la documentación algunas de las herramientas, para construir modelos propios y crear esquemas, que permiten estructurar esos datos y crear un punto final API</p>
+<p>Flask-Marshmallow es una capa de integración delgada para Flask (un marco web de Python) y marshmallow (una biblioteca de serialización o deserialización de objetos) que agrega características adicionales a marshmallow, incluidos campos de URL e hipervínculos para API listas para HATEOAS. También (opcionalmente) se integra con Flask-SQLAlchemy.</p>
+
+<h2>¿¿Qué es Marshmallow-SQLAlchemy?</h2>
+<p>Es una biblioteca ORM/ODM/framework-agnostic para convertir tipos de datos complejos, como objetos, hacia y desde tipos de datos nativos de Python. Serializa y des-serializa nuestros modelos SQLAlchemy de forma que podamos trabajar más fácilmente en formato JSON</p>
+<p>Conecta SQL Alchemy y Marshmallow, permitiendo conectarse a ambas herramientas para usarlas en conjunto.</p>
+
+<h2>Instalar dependencias</h2>
+<p>Desde el terminal ejecutar cada instalador
+<br>pipenv install Flask-SQLAlchemy
+<br>pipenv install flask-marshmallow
+<br>pipenv install marshmallow-sqlalchemy
+</p>
 <!-- <h2>Coding Exercise</h2> -->
 
 <p></p>
@@ -25,14 +47,18 @@
 <h1>Links Informativos</h1>
 
 <div class="link">
-<p><a href="" 
+<p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-install-dependencies-flask-database-api-features" 
     target="_blank">DevCamp Exclusivo Usuarios</a></p>
+<p><a href="http://flask-sqlalchemy.pocoo.org/2.3/" 
+    target="_blank"></a>Flask SQL Alchemy</p>
+<p><a href="http://flask-marshmallow.readthedocs.io/en/latest/" 
+    target="_blank">Flask Marshmallow</a></p>
 <!-- <p><a href="" 
     target="_blank"></a></p> -->
 <!-- <p><a href="" 
     target="_blank"></a></p> -->
 <!-- <p><a href="" 
-    target="_blank"></a></p> -->
+target="_blank"></a></p> -->
 </div>    
 
 </body>
