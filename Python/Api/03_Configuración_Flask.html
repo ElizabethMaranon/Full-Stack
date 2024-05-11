@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración del entorno para la aplicación Hello World Flask</title>
+    <link rel="stylesheet" href="../Style/comunes.css">
+</head>
+<body>
+
+    <h1>Configuración del entorno para la aplicación Hello World Flask</h1>
+
+<h2>¿Qué es Flask</h2>
+
+<p>Flask es un framework escrito en Python que permite crear aplicaciones de forma sencilla y rápida. Es decir, un acelerador de tareas que funciona con pocas líneas de código y que ejecuta las aplicaciones rápidamente.</p>
+<p>Flask está muy cerca de escribir en Python puro, es decir, se parece mucho al lenguaje de Python</p>
+<p>Mientras que los frameworks full-stack como Django proporcionan sus propias bibliotecas a los desarrolladores, Flask Python adopta un enfoque diferente. El framework web lanzado por el desarrollador austriaco Armin Ronacher en 2010, es más minimalista. Flask solo incluye el motor de plantillas Jinja y una biblioteca llamada “tool”. Sin embargo, ofrece la posibilidad de integrar funciones de terceros. El framework Flask está bajo una licencia BSD. Es gratuito y de código abierto. Como contrapunto a Django y otros frameworks, Flask Python no ha tardado en entusiasmar a una gran comunidad de fans.</p>
+
+<h2>¿Qué es ruta?</h2>
+<p>Es un punto final con el que podemos ingresar a nuestra aplicación</p>
+
+<h2>¿Qué es decorador?</h2>
+<p>Un decorador es una función que recibe otra función como parámetro, le añade cosas y retorna una función diferente. Son herramientas muy útiles. Nos permiten envolver una función dentro de otra y modificar el comportamiento de esta última sin modificarla permanentemente.</p>
+<p>Es un código que puede incluir métodos o clases.</p>
+<h2>Requisitos necesarios</h2>
+<p>Tener pipenv, postman y editor de texto instalados</p></h3>
+
+<h2>Construir entorno básico</h2>
+<p>Es bastante comun en todos los proyectos</p>
+<p>Crear la carpeta donde van a ir los proyectos
+<br>En el terminal
+<br>pipenv --python 3.7 (Crea Pipfile)
+<br>pipenv install flask (Instala Flask en Pipfile)</p>
+<p>Crear archivo "app.py" desde Visual Studio Code
+<br>Editar el archivo</p>
+<img src="imagenes/hola flask función.png" alt="hola flask función">
+
+<p>Crear ruta usando una herramienta que es se llama decorador, se usa comenzando con @</p>
+<p>Una vez editado el archivo, run y para finalizar la sesión del servidor CTRL+C</p>
+<img src="imagenes/hola flask run.png" alt="hola flask run">
+<p>Registro de depuración, dice que se está ejecutando en esta URL http://127.0.0.1:5000/ 
+<br>Es lo mismo que decir localhost:5000
+<br>Ir a localhost:5000 y te dice "Hola Flask", solo mientras la sesión del servidor esté abierta, sino tira error</p>
+<img src="imagenes/hola flask localhost.png" alt="hola flask localhost">
+<p>Creada primera aplicación</p>
+
+<!-- <h2>Coding Exercise</h2> -->
+
+<p></p>
+<!-- Imagen -->
+
+<h1>Links Informativos</h1>
+
+<div class="link">
+<p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/environment-setup-hello-world-flask-application" 
+    target="_blank">DevCamp Exclusivo Usuarios</a></p>
+<p><a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/flask/"
+    target="_blank">Flask Ionos</a></p>
+</body>
+</html>
