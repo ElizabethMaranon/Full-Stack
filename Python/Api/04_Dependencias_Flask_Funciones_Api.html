@@ -29,16 +29,28 @@
 <p>Renderizar json api y empaquetar el código. Hace que la representación de los datos de la API JSON sean más fácil para ver en la documentación algunas de las herramientas, para construir modelos propios y crear esquemas, que permiten estructurar esos datos y crear un punto final API</p>
 <p>Flask-Marshmallow es una capa de integración delgada para Flask (un marco web de Python) y marshmallow (una biblioteca de serialización o deserialización de objetos) que agrega características adicionales a marshmallow, incluidos campos de URL e hipervínculos para API listas para HATEOAS. También (opcionalmente) se integra con Flask-SQLAlchemy.</p>
 
-<h2>¿¿Qué es Marshmallow-SQLAlchemy?</h2>
+<h2>¿Qué es Marshmallow-SQLAlchemy?</h2>
 <p>Es una biblioteca ORM/ODM/framework-agnostic para convertir tipos de datos complejos, como objetos, hacia y desde tipos de datos nativos de Python. Serializa y des-serializa nuestros modelos SQLAlchemy de forma que podamos trabajar más fácilmente en formato JSON</p>
 <p>Conecta SQL Alchemy y Marshmallow, permitiendo conectarse a ambas herramientas para usarlas en conjunto.</p>
 
 <h2>Instalar dependencias</h2>
 <p>Desde el terminal ejecutar cada instalador
+<br>pipenv --python 3.7 (Crea Pipfile) # Instalado guía anterior
+<br>pipenv install flask (Instala Flask en Pipfile) # Instalado guía anterior
 <br>pipenv install Flask-SQLAlchemy
 <br>pipenv install flask-marshmallow
-<br>pipenv install marshmallow-sqlalchemy
-</p>
+<br>pipenv install marshmallow-sqlalchemy</p>
+
+<h2>Editar Archivo</h2>
+<p>Añadir las dependencias al archivo</p>
+<img src="imagenes/hola flask función2.png" alt="hola flask función2">
+<p>Una vez editado el archivo, run y para finalizar la sesión del servidor CTRL+C</p>
+<img src="imagenes/hola flask run2.png" alt="hola flask run2">
+<p>Registro de depuración, dice que se está ejecutando en esta URL http://127.0.0.1:5000/ 
+<br>Es lo mismo que decir localhost:5000
+<br>Ir a localhost:5000 y te dice "Hola Flask", solo mientras la sesión del servidor esté abierta, sino tira error</p>
+<img src="imagenes/hola flask localhost.png" alt="hola flask localhost">
+
 <!-- <h2>Coding Exercise</h2> -->
 
 <p></p>
@@ -53,10 +65,10 @@
     target="_blank"></a>Flask SQL Alchemy</p>
 <p><a href="http://flask-marshmallow.readthedocs.io/en/latest/" 
     target="_blank">Flask Marshmallow</a></p>
-<!-- <p><a href="" 
-    target="_blank"></a></p> -->
-<!-- <p><a href="" 
-    target="_blank"></a></p> -->
+<p><a href="https://marshmallow-sqlalchemy.readthedocs.io/en/latest/" 
+    target="_blank"></a>Marshmallow-SQLAlchemy</p>
+<p><a href="https://github.com/bottega-code-school/hello-flask/tree/0f210cc30c2a46bd4ed3a2cd2f8ff43b6e42a7a6" 
+    target="_blank">Código en esta etapa</a></p>
 <!-- <p><a href="" 
 target="_blank"></a></p> -->
 </div>    
