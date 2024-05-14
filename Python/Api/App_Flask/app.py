@@ -28,9 +28,10 @@ class GuíaEsquema(ma.Schema):
     class Meta:
         fields = ('título', 'contenido')
         
-Guía_Esquema = GuíaEsquema() # Crear instancia trabajando con una guía
-Guías_Esquema = GuíaEsquema(many=True) # Crear instancia trabajando con varias guías
+guía_esquema = GuíaEsquema() # Crear instancia trabajando con una guía
+guías_esquema = GuíaEsquema(many=True) # Crear instancia trabajando con varias guías
 
+# Crear punto final POST API en Flask
 @app.route('/guía', methods=["POST"]) # Primer punto final
 def añadir_guía(): # Crear función añadir guía
     título = request.json['título'] # Almacenar en variable el valor del título
@@ -43,7 +44,14 @@ def añadir_guía(): # Crear función añadir guía
     
     guía = Guía.query # Realizar consulta
     
-    return Guía_Esquema.jsonify(guía)
+    return guía_esquema.jsonify(guía)
+
+# Crear punto final API en Flask para devolver todos los registros con una solicitud GET
+@app.route("/guías", methods=["GET"])
+def get_guías():
+    todas_guías = Guía.query.all() # Usar esquema múltiple
+    result = guía_esquema.dump(todas_guías)
+    return jsonify(result.data)
 
 if __name__== '__main__': # Condición si el nombre es igual al principal
     app.run(debug=True) # Ejecutar aplicación
