@@ -44,6 +44,13 @@ def añadir_guía(): # Crear función nueva guía
     guía = Guía.query.get(nueva_guía.id)
     
     return guía_esquema.jsonify(guía)
+
+# Crear punto final todas las guías
+@app.route("/guías", methods=["GET"]) # Punto final
+def get_guías(): # Crear función
+    todas_guías = Guía.query.all() # Almacenar en variable 
+    resultado = guías_esquema.dump(todas_guías) # Uso esquema guía multiple
+    return jsonify(resultado)
     
 
     
