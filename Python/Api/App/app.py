@@ -51,6 +51,13 @@ def get_guías(): # Crear función
     todas_guías = Guía.query.all() # Almacenar en variable 
     resultado = guías_esquema.dump(todas_guías) # Uso esquema guía multiple
     return jsonify(resultado)
+
+# Punto final para consultar una única guía
+@app.route("/Guía/<id>", methods=["GET"]) # Punto final # <id> Flask atento a ruta donde comienza guía
+def get_guía(id): # Crear función
+    guía = Guía.query.get(id) # Almacenar variable
+    return guía_esquema.jsonify(guía) # Uso esquema guía única
+
     
 
     
