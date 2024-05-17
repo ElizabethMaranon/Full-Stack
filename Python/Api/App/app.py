@@ -53,12 +53,23 @@ def get_guías(): # Crear función
     return jsonify(resultado)
 
 # Punto final para consultar una única guía
-@app.route("/Guía/<id>", methods=["GET"]) # Punto final # <id> Flask atento a ruta donde comienza guía
+@app.route("/guía/<id>", methods=["GET"]) # Punto final # <id> Flask atento a ruta donde comienza guía
 def get_guía(id): # Crear función
     guía = Guía.query.get(id) # Almacenar variable
     return guía_esquema.jsonify(guía) # Uso esquema guía única
 
+# Punto final PUT Actualización guía
+@app.route("/guía/<id>", methods=["PUT"]) # Punto final
+def guía_update(id): # Crear función
+    guía = Guía.query.get(id) # Almacenar variable
+    título = request.json['título'] # Almacenar variable
+    contenido = request.json['contenido'] # Almacenar variable
     
+    guía.título = título 
+    guía.contenido = contenido
+
+    db.session.commit()
+    return guía_esquema.jsonify(guía)# Uso esquema guía única
 
     
 if __name__ == '__main__': # Condición si el nombre es igual al principal
