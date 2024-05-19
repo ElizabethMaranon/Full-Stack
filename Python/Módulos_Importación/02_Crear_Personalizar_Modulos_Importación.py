@@ -4,14 +4,14 @@ Organizar nuestro código y acceder a esas funciones adicionales
 Incluirlas en nuestros programas
 
 Crear una carpeta => mkdir carpeta
-Crear un archivo => archivo.py (Libreria_Mismo_Directorio.py)
-Escribir la funcion o libreria allí
-Importar librería -> import Libreria_Mismo_Directorio
-Para imprimir, llamarLibreria.def('datos necesarios')
+Crear un archivo => archivo.py (biblioteca_Mismo_Directorio.py)
+Escribir la funcion o biblioteca allí
+Importar biblioteca -> import biblioteca_Mismo_Directorio
+Para imprimir, llamarbiblioteca.def('datos necesarios')
 =>""")
-import Libreria_Mismo_Directorio # No imprime, si no tiene en la def, solo importa
+import biblioteca_Mismo_Directorio # No imprime, si no tiene en la def, solo importa
 
-print(Libreria_Mismo_Directorio.saludo('Mielma', 'Developer'))
+print(biblioteca_Mismo_Directorio.saludo('Mielma', 'Developer'))
 
 
 

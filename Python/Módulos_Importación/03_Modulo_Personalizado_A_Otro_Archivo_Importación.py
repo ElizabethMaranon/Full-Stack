@@ -1,13 +1,13 @@
 """
-Cuando la libreria esta en el mismo directorio"""
-import Libreria_Mismo_Directorio
+Cuando la biblioteca esta en el mismo directorio"""
+import biblioteca_Mismo_Directorio
 
 def Importada_Mismo_Directorio():
-  print(Libreria_Mismo_Directorio.saludo('E', 'm'))
+  print(biblioteca_Mismo_Directorio.saludo('E', 'm'))
 Importada_Mismo_Directorio()
-"""Cuando la librería esta en otro directorio"""
+"""Cuando la biblioteca esta en otro directorio"""
 import sys # importamos sistema
-sys.path.insert(0, './Libreria Mielma') # importamos directorio
+sys.path.insert(0, './biblioteca Mielma') # importamos directorio
 import Otro_Directorio
 
 def Importada_Otro_Directorio():

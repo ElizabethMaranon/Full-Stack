@@ -19,10 +19,10 @@ def dynamic_reducer(
     op):  #definimos la funcion con los parametros de entrada y salida
   #creamos diccionario
   operators = {
-      "+": operator.add,  #libreria.función
-      "-": operator.sub,  #libreria.función
-      "*": operator.mul,  #libreria.función
-      "/": operator.truediv,  #libreria.función
+      "+": operator.add,  #biblioteca.función
+      "-": operator.sub,  #biblioteca.función
+      "*": operator.mul,  #biblioteca.función
+      "/": operator.truediv,  #biblioteca.función
   }
   #return funcion ((dos argumentos 1lambda total, elemento: nombre de nuesto dicciona[op](total, element)) 2collection)
   #primer elemento de lamdba es el total, el segundo es el elemento, le puedes llamar como tu quieras

@@ -4,7 +4,7 @@ positivo = 89.99
 
 
 print(f"""
-libreria -> import math
+biblioteca -> import math
 negativo = -20.25
 positivo = 89.99
 -----

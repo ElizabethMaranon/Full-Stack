@@ -1,7 +1,7 @@
 """
-Cuando solo vamos a necesitar una función, sin necesidad del resto de librería
+Cuando solo vamos a necesitar una función, sin necesidad del resto de biblioteca
 """
-from Libreria_Mismo_Directorio import saludo
+from biblioteca_Mismo_Directorio import saludo
 
 def Saludo():
   print(saludo('Mielma', 'Developer'))
@@ -9,7 +9,7 @@ def Saludo():
 Saludo()
 print('-----')
 import sys
-sys.path.insert(0, './Libreria Mielma')
+sys.path.insert(0, './biblioteca Mielma')
 from Otro_Directorio import agurra
 
 def Agurra():

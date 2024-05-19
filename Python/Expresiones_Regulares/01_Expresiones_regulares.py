@@ -1,6 +1,6 @@
-import fnmatch #libreria Coincidencia de patrones de nombre de archivos Unix
+import fnmatch #biblioteca Coincidencia de patrones de nombre de archivos Unix
 from fnmatch import fnmatchcase
-import os #librería sistema operativo 
+import os #biblioteca sistema operativo 
 
 def lista_archivos():
     for archivo in os.listdir('D:\Eli\Documents\Full-Stack\Python\Expresiones_Regulares'): #'.' misma carpeta

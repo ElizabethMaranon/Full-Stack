@@ -1,5 +1,5 @@
 # Agregar las dependencias instaladas, Diferencia mayúsculas de minúsculas
-from flask import Flask, request, jsonify # Agregar librería
+from flask import Flask, request, jsonify # Agregar biblioteca
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 import os

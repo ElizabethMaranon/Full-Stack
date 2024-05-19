@@ -1,6 +1,6 @@
 import numpy as np
 print(f'''
-Libreria -> import numpy as np
+biblioteca -> import numpy as np
 Sistema de juego para que la casa gane la mayoría de las veces''')
 def loteria(resultado):
     lista_resultado =[]

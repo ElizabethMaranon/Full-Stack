@@ -1,6 +1,6 @@
 from functools import reduce
 print('''
-libreria -> from functools import reduce ''')
+biblioteca -> from functools import reduce ''')
 print('-----')
 print('''exponente manual iterante
 def exp_man_ite(numero, exponente):

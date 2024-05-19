@@ -6,7 +6,7 @@ entero_flot = float(entero)
 flot_dec = Decimal(flot)
 flot_complejo = complex(flot)
 print(f"""
-libreria -> from decimal import Decimal
+biblioteca -> from decimal import Decimal
 entero = 10
 flot = 2.99
 -----
