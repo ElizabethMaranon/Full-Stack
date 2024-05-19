@@ -30,7 +30,7 @@ class GuíaEsquema(ma.Schema):
 guía_esquema = GuíaEsquema() # Crear instancia trabajando con una guía
 guías_esquema = GuíaEsquema(many=True) # Crear instancia trabajando con varias guías   
 
-# Crear punto final POST API en Flask
+# Punto final POST API en Flask
 @app.route('/guía', methods=["POST"]) # Primer punto final
 def añadir_guía(): # Crear función nueva guía
     título = request.json['título'] # Almacenar en variable valor título
@@ -45,7 +45,7 @@ def añadir_guía(): # Crear función nueva guía
     
     return guía_esquema.jsonify(guía)
 
-# Crear punto final todas las guías
+# Punto final todas las guías
 @app.route("/guías", methods=["GET"]) # Punto final
 def get_guías(): # Crear función
     todas_guías = Guía.query.all() # Almacenar en variable 
@@ -71,6 +71,16 @@ def guía_update(id): # Crear función
     db.session.commit()
     return guía_esquema.jsonify(guía)# Uso esquema guía única
 
+# Punto final Delete Eliminar registros
+@app.route("/guía/<id>", methods=["DELETE"]) # Punto final
+def guía_delete(id): # Crear función
+    guía = Guía.query.get(id) # Almacenar variable
+  
+    db.session.delete(guía) # Comunicarse con db
+    db.session.commit() # Confirmar
+
+    # return guía_esquema.jsonify(guía) # Uso esquema guía única
+    return "Guía eliminada correctamente" # Devuelve string
     
 if __name__ == '__main__': # Condición si el nombre es igual al principal
     app.run(debug=True)  #Ejecutar aplicación
