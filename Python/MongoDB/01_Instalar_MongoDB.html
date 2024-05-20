@@ -36,8 +36,8 @@
         <br>&emsp;a. Setup tipo: Completo
         <br>&emsp;b. Instalar como servicio: No
         <br>&emsp;c. Copiar dirección Instalación: 
-        C:\Program Files\MongoDB\Server\7.0\data\
-        C:\Program Files\MongoDB\Server\7.0\bin\
+        <br>&emsp;&emsp;C:\Program Files\MongoDB\Server\7.0\data\
+        <br>&emsp;&emsp;C:\Program Files\MongoDB\Server\7.0\bin\
         <br>&emsp;d. Instalar MongoDB Compass: Si
     </p>
     <h2>Instalar MongoDB Shell (mongosh)</h2>
@@ -47,16 +47,34 @@
         <br>&emsp;c. Package: msi</p>
     <p>2. Instalación
         <br>&emsp;a. Copiar dirección Instalación: 
-        C:\Users\eliza\AppData\Local\Programs\mongosh\
+        <br>&emsp;&emsp;C:\Users\eliza\AppData\Local\Programs\mongosh\
     </p>
 
     <h2>Crear directorio DB, si no ha sido creado</h2>
-    <p>cd c:\
-    <br>md "\data\db"
+    <p>&emsp;cd c:\
+    <br>&emsp;md "\data\db"
     </p>
     
     <h2>Ejecutar</h2>
-    <p>Abrir Variable de entorno search</p>
+    <p>1. Abrir Variable de entorno search
+    <br>2. Click Variable de entorno
+    <br>3. Seleccionar Path
+    <br>4. Click Edit
+    <br>5. Click New
+    <br>6. Pegar dirección instalación mongod
+    <br>&emsp;C:\Program Files\MongoDB\Server\7.0\data\
+    <br>&emsp;C:\Program Files\MongoDB\Server\7.0\bin\
+    <br>7. Pegar dirección instalación mongosh
+    <br>8. Click OK, OK, OK
+    <br>9. Cerrar el terminal y reabrir con el nuevo variable de entorno
+    </p>
+    <p>En el terminal ejecutar
+        <br>mongod
+    </p>
+    <p>En nueva ventana separada ejecutar
+        <br>mongosh
+    </p>
+
  
 </div>
 
@@ -71,6 +89,7 @@
         target="_blank">Instalar MongoDB en Windows</a></p>
     <p><a href="https://www.mongodb.com/try/download/community" 
         target="_blank">Instalador MongoDB</a></p>
+    
     </div>
 </div>    
 
