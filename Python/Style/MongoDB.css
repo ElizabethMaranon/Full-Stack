@@ -6,7 +6,7 @@ Eliminado display:inline
 letter-spacing: -2.5px;*/
 
 body {
-    
+    margin: 5% 5%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -60,6 +60,7 @@ a {
 }
 
 .link {
+    margin: 0% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +77,6 @@ a {
 }
 
 .encabezado> .logo img{
-    margin: 10px;
     width: 250px;
     height: 100%;
 }
@@ -90,14 +90,13 @@ a {
     text-align: justify;
 }
 
-.contenido{
-    margin: 0% 15%;
+.contenido { 
+    margin: 0% 10%;
 }
 
-.pie{
-    margin: 5% 15%;
- 
-}
+
+
+
 
 
 
