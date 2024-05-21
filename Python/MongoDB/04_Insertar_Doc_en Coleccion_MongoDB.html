@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Insertar documentos en una colección MongoDB</title>
     <!-- Estilos -->
     <link rel="stylesheet" href="../Style/MongoDB.css"> 
     <!-- Iconos -->
@@ -24,16 +24,30 @@
 </div>
 
 <div class="contenido">
-    <h1></h1>
+    <h1>Insertar documentos en una colección MongoDB</h1>
+    <p>Siempre que se trabaje con Mongo se usara db.objeto, que hace referencia a la base de datos</p>
+    <p>Mongo no usa esquema, no importan los nombres de las columnas o los nombres de las claves, se puede escribir y hacer que cada documento sea tan único como sea necesario.</p>
+    <p>Nivel de responsabilidad: Mongo no se preocupa por los datos, pero cuando quieres hacer una consulta y se han cambiado los nombres o claves, los datos pueden ser incorrectos.</p>
+    
+    <h2>Inserción de documento</h2>
+    <p>Nuevo documento en la base de datos lovemetal y la colección música</p>
+    <p>Al ser un objeto se pasará entre llaves y será un conjunto de pares clave-valor</p>
+    <p>Añadiremos el nombre del grupo y la fecha publicación</p>
+    <p>Se puede pasar colección dentro del documento, hay que pasarla como matriz, pasamos canciones
+        <br><img src="imagenes/insertone saurom lovemetal.png" alt="insertone saurom lovemetal">
+    </p>
+    <p>Se puede eliminar una de las canciones y sigue sin haber problema, agrega documento
+        <br><img src="imagenes/insertone  saurom lovemetal 2.png" alt="insertone  saurom lovemetal 2">
+    </p>
+    <p>Se cambia fecha de publicación por fecha de inicio y sigue funcionando, agrega documento
+        <br><img src="imagenes/insertone  saurom lovemetal 3.png" alt="insertone  saurom lovemetal 3">
+    </p>
+    <p>Consultar los documentos de una colección
+        <br>db.nombre_colección.find({})
+        <br><img src="imagenes/find() lovemetal.png" alt="find() lovemetal">
+    </p>
 
-    <h2></h2>
 
-    <p></p>
-
-    <!-- <h2>Coding Exercise</h2> -->
-
-    <p></p>
-    <!-- Imagen -->
 </div>
 
 <div class="pie">
@@ -41,10 +55,10 @@
     <h1>Links Informativos</h1>
 
     <div class="link">
-    <p><a href="" 
+    <p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/guide-inserting-documents-mongodb-collection" 
         target="_blank">DevCamp Exclusivo Usuarios</a></p>
-    <!-- <p><a href="" 
-        target="_blank">Código python</a></p> -->
+    <p><a href="https://github.com/ElizabethMaranon/Full-Stack/blob/d4d732197799a7f72f84555424ad9bf7e1b48c47/Python/MongoDB/04_Insertar_Doc_en%20Coleccion_MongoDB.js" 
+        target="_blank">Código insertar documento</a></p>
     <!-- <p><a href="" 
         target="_blank"></a></p> -->
     </div>
