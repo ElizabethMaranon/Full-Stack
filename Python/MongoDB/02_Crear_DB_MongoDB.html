@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Crear una base de datos MongoDB junto con los usuarios de la base de datos administrativa</title>
     <!-- Estilos -->
     <link rel="stylesheet" href="../Style/MongoDB.css"> 
     <!-- Iconos -->
@@ -24,11 +24,45 @@
 </div>
 
 <div class="contenido">
-    <h1>Título</h1>
+    <h1>Crear una base de datos MongoDB junto con los usuarios de la base de datos administrativa</h1>
+    <h2>¿Qué son Roles en MongoDB?</h2>
+    <p>MongoDB utiliza un modelo de seguridad basado en roles, lo que significa que puede asignar roles específicos a usuarios específicos. Cada rol tiene un conjunto específico de privilegios que determinan lo que el usuario puede hacer. Este comando crea un nuevo usuario que tiene permiso para leer y escribir datos.</p>
+    <p>Los roles esperan una serie de elementos y estos elementos tienen que ser muy específicos, por lo que tendrán un formato de objeto, por lo que tendrán más llaves y esperarán un rol como clave y luego un conjunto de cadenas.</p>
+    <p><a href="https://www.mongodb.com/docs/manual/core/authorization/#roles" target="_blank" rel="noopener noreferrer">Rol</a> 
+    Otorga privilegios para realizar lo especificado Comportamiento en Recurso. Cada privilegio se especifica explícitamente en el rol o heredado de otro rol o ambos.</p>
+    <p><a href="https://www.mongodb.com/docs/manual/reference/built-in-roles/#mongodb-authrole-clusterAdmin" target="_blank" rel="noopener noreferrer">clusterAdmin</a> 
+    Proporciona el mayor acceso a la gestión de clústeres. Este rol combina la privilegios otorgados por el clusterManager, clusterMonitor, y hostManager roles. Además, el rol proporciona la dropDatabase acción.</p>
+    <p><a href="https://www.mongodb.com/docs/manual/reference/built-in-roles/#mongodb-authrole-read" target="_blank" rel="noopener noreferrer">read</a> 
+    Proporciona la capacidad de leer datos en todas las colecciones non-system y el system.js Recopilación.</p>
+    <p><a href="https://www.mongodb.com/docs/manual/reference/built-in-roles/#mongodb-authrole-readWrite" target="_blank" rel="noopener noreferrer">readWrite</a> 
+    Proporciona todos los privilegios del read rol más capacidad para modificar datos en las colecciones non-system y system.js </p>
 
-    <h2>Subtítulos</h2>
+    <h2>Ejecutar MongoDB</h2>
 
-    <p>párrafos</p>
+    <p>En primer terminal: mongod (Mongo)</p>
+    <p>En segundo terminal: mongosh (Mongo Shell)</p>
+    
+    <h2>Mongo Shell</h2>
+    <p>Los comandos de mongoShell son de varias líneas y es mejor escribirlos en un editor de texto, para facilitar su escritura</p>
+
+    <p>Ver base datos que hay en el sistema, ejecutar show dbs
+        <br><img src="imagenes/show dbs.png" alt="show dbs"></p>
+    <p>Crear base datos, use nombrequequieras, no se agrega a la lista hasta comenzar a agregar registros
+        <br><img src="imagenes/use crear db.png" alt="use crear db"> 
+    </p>
+    <p>Crear nuevo usuario
+        <br><img src="imagenes/createUsers().png" alt="createUsers()"> 
+    </p>
+    <p>Ver usuarios de la db
+        <br><img src="imagenes/getUsers() Ver.png" alt="getUsers() Ver">
+    </p>
+    <p>Eliminar usuario de la db
+        <br><img src="imagenes/dropUser() Eliminar.png" alt="dropUser() Eliminar">
+    </p>
+    <p>Comentarios de los códigos
+        <br><img src="imagenes/createUsers() Comentarios.png" alt="createUsers() Comentarios">
+    </p>
+
 
     <!-- <h2>Coding Exercise</h2> -->
 
@@ -41,10 +75,10 @@
     <h1>Links Informativos</h1>
 
     <div class="link">
-    <p><a href="" 
+    <p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/guide-creating-mongodb-database-along-admin-database-users" 
         target="_blank">DevCamp Exclusivo Usuarios</a></p>
-    <p><a href="" 
-        target="_blank">Código python</a></p>
+    <p><a href="https://www.mongodb.com/docs/manual/reference/built-in-roles/" 
+        target="_blank">Roles de MongoDB</a></p>
     <!-- <p><a href="" 
         target="_blank"></a></p> -->
     </div>
