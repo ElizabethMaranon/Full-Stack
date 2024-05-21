@@ -14,7 +14,7 @@ db.createUser({ // Crear función y argumentos en pares clave-valor
       
 db.getUsers() // Ver usuarios base de datos
 db.dropUser('jon') // Eliminar usuario
-
+//base datos
 db.createUser({
   user: 'Mielma', 
   pwd: 'Contraseña',
@@ -27,14 +27,16 @@ db.createUser({
 })
 
 
-use admin
+//use admin
 db.createUser(
-  {
-    user: "Mielma",
-    pwd: "contraseña",
-    roles: [ { role: "userAdminAnyDatabase", db: "admin" }, 
-    "readWriteAnyDatabase" ]
-  }
-)
+   {
+     user: "Mielma",
+     pwd: "contraseña",
+     roles: [
+       { role: "userAdminAnyDatabase", db: "admin" },
+       { role:  "readWriteAnyDatabase", db: "admin"},
+     "readWriteAnyDatabase" ]
+   }
+ )
 
       
