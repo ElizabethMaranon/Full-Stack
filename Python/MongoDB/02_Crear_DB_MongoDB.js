@@ -25,4 +25,16 @@ db.createUser({
     'readWrite'
   ]
 })
+
+
+use admin
+db.createUser(
+  {
+    user: "Mielma",
+    pwd: "contraseña",
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" }, 
+    "readWriteAnyDatabase" ]
+  }
+)
+
       
