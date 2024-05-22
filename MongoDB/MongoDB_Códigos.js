@@ -133,6 +133,31 @@ db.música.find(
     }
 ).pretty()
 
-// Consultar un sólo elemento, aunque haya más
-db.música.findOne({nombre: "Saurom"})
+// 12. Consultar un sólo elemento, aunque haya más
+db.música.findOne({ nombre: "Saurom" })
+
+// 13. Consultar String Documento
+db.música.insertOne({
+    "nombre": "Legado de una tragedia",
+    "fecha": new Date(),
+    "canciones": [
+        { "nombre": "La bestia de los ojos dentados" }
+    ]
+})
+
+db.música.findOne({ nombre: /.*una tragedia.*/i })
+
+// 14. Comprobar si existe campo en documento
+db.música.insertOne({
+    "nombre": "Legado de una tragedia",
+    "fecha": new Date(),
+    "reseñas": 100,
+    "canciones": [
+        { "nombre": "La bestia de los ojos dentados" }
+    ]
+})
+
+db.música.find({ reseñas: { $exists: true } })
+db.música.find({ reseñas: { $exists: false } })
+
 

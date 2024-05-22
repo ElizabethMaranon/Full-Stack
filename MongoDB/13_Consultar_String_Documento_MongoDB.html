@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Cómo consultar una parte de una cadena en un documento MongoDB</title>
     <!-- Estilos -->
     <link rel="stylesheet" href="Style/MongoDB.css"> 
     <!-- Iconos -->
@@ -24,16 +24,27 @@
 </div>
 
 <div class="contenido">
-    <h1></h1>
+    <h1>Cómo consultar una parte de una cadena en un documento MongoDB</h1>
 
-    <h2></h2>
+    <h2>¿Que son las expresiones regulares?</h2>
+    <p>Las expresiones regulares son patrones utilizados para encontrar una determinada combinación de caracteres dentro de una cadena de texto. Las expresiones regulares proporcionan una manera muy flexible de buscar o reconocer cadenas de texto.</p>
+    <p>En el área de la programación, las expresiones regulares son un método por medio del cual se pueden realizar búsquedas dentro de cadenas de caracteres. Sin importar la amplitud de la búsqueda requerida de un patrón definido de caracteres, las expresiones regulares proporcionan una solución práctica al problema. Adicionalmente, un uso derivado de la búsqueda de patrones es la validación de un formato específico en una cadena de caracteres dada, como por ejemplo fechas o identificadores.
+        <br>Para poder utilizar las expresiones regulares al programar es necesario tener acceso a un motor de búsqueda con la capacidad de utilizarlas.</p>
 
-    <p></p>
+    <h2>Consultar una parte de la cadena</h2>
+    <p>Insertar un nuevo documento con un nombre largo
+        <br>Para que reconozca una string, debemos escribir /.*string.*/i de lo contrario no reconocerá que se busca una parte de string
+        <br>.*  *. Indica que no importa en que lugar de la string se encuentre la parte que buscamos, principio, medio o final
+        <br>i Indica que no importa si está escrito en mayúsculas o en minúsculas
+        <br>db.música.insertOne(......) Legado de una tragedia
+        <br><img src="imagenes/db.música.insertOne -  Legado de una tragedia.png" alt="db.música.insertOne -  Legado de una tragedia">
+    </p>
+    <p>Consultar un sólo documento con una parte de string
+        <br>db.música.findOne(....) /.*una tragedia.*/i
+        <br><img src="imagenes/db.música.findOne - una tragedia.png" alt="db.música.findOne - una tragedia">
+    </p>
 
-    <!-- <h2>Coding Exercise</h2> -->
 
-    <p></p>
-    <!-- Imagen -->
 </div>
 
 <div class="pie">
@@ -45,8 +56,8 @@
         target="_blank">DevCamp Exclusivo Usuarios</a></p>
     <p><a href="https://github.com/ElizabethMaranon/Full-Stack/blob/da263986bef5ecf9ea043553ab7602c14f43ce5a/MongoDB/MongoDB_C%C3%B3digos.js" 
         target="_blank">Códigos MongoDB</a></p>
-    <!-- <p><a href="" 
-        target="_blank"></a></p> -->
+    <p><a href="https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular" 
+        target="_blank">Expresiones regulares Wikipedia</a></p>
     </div>
 </div>    
 

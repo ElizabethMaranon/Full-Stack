@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo comprobar si existe un campo en un documento MongoDB</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="Style/MongoDB.css"> 
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/e2e69b5406.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="encabezado">
+    <div class="logo">
+        <img src="Logo/Fullstack.png" alt="Fullstack">
+    </div>  
+    <div class="mielma">
+        Mielma Full Stack Developer
+    </div>
+    <div class="logo">
+        <img src="Logo/Fullstack.png" alt="Fullstack">
+    </div>  
+</div>
+
+<div class="contenido">
+    <h1>Cómo comprobar si existe un campo en un documento MongoDB</h1>
+    <p>Esto es algo necesario debido a lo flexible que es la base de datos Mongo, se pueden añadir documentos con diferentes atributos o campos.</p>
+
+    <h2>Verificar campo en documento</h2>
+    <p>Añadir documento nuevo con atributo nuevo
+        <br>db.música.insertOne(...) Reseñas
+        <br><img src="imagenes/db.música.insertOne -  reseñas .png" alt="db.música.insertOne -  reseñas ">
+    </p>
+    <p>Para verificar las que <b>SI</b> tengan el atributo
+        <br>db.música.find({ reseñas: { $exists: true } })
+        <br><img src="imagenes/db.música.find -  reseñas  si.png" alt="db.música.find -  reseñas  si">
+    </p>
+    <p>Para verificar las que <b>NO</b> tengan el atributo
+        <br>db.música.find({ reseñas: { $exists: false } })
+        <br><img src="imagenes/db.música.find -  reseñas  no.png" alt="db.música.find -  reseñas  no">
+    </p>
+
+
+</div>
+
+<div class="pie">
+
+    <h1>Links Informativos</h1>
+
+    <div class="link">
+    <p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-check-field-exists-mongodb-document" 
+        target="_blank">DevCamp Exclusivo Usuarios</a></p>
+    <p><a href="https://github.com/ElizabethMaranon/Full-Stack/blob/da263986bef5ecf9ea043553ab7602c14f43ce5a/MongoDB/MongoDB_C%C3%B3digos.js" 
+        target="_blank">Códigos MongoDB</a></p>
+    <!-- <p><a href="" 
+        target="_blank"></a></p> -->
+    </div>
+</div>    
+
+</body>
+</html>
