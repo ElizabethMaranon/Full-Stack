@@ -1,4 +1,7 @@
-//Crear Usuario Admin
+// 01. Crear base de datos
+"use lovemetal"
+
+// Crear Usuario Admin
 db.createUser({ // Crear función y argumentos en pares clave-valor
         user: 'Eli', // Argumento Usuario 
         pwd: 'Contraseña', // Argumento Contraseña
@@ -12,8 +15,6 @@ db.createUser({ // Crear función y argumentos en pares clave-valor
           'readWrite'
         ]
       })
-// Crear base de datos
-"use lovemetal"
 
 // Crear usuario
 db.createUser({//base datos
@@ -33,13 +34,13 @@ db.dropUser('usuario a eliminar')
 // Ver usuarios base de datos
 db.getUsers() 
 
-// Crear Colección
+// 03. Crear Colección
 db.createCollection('nombre_colección') 
 
 //Eliminar colección
 db.nombre_colección.drop() 
 
-// Insertar documento
+// 04. Insertar documento
 db.cantantes.insertOne({ 
   "nombre": "Saurom", 
   "publishedDate": new Date(),
@@ -49,7 +50,7 @@ db.cantantes.insertOne({
   ]
 })
 
-// Insertar muchos documentos
+// 05. Insertar muchos documentos
 db.música.insertMany([
   {
       "nombre": "Saurom",
@@ -74,16 +75,16 @@ db.música.insertMany([
   }
 ])
 
-// Consultar documentos
+// 06. Consultar documentos
 db.música.find()
 db.música.find().pretty()
 
-// Consultar documento en concreto
+// 07. Consultar documento en concreto
 db.música.find({nombre: "Sylvania"})
 db.música.find({nombre: "Sylvania"}).pretty()
 
 
-// Consultar Proyección
+// 08. Consultar Proyección
 db.música.find(
   {
       nombre: "Lepoka"
@@ -94,7 +95,7 @@ db.música.find(
   }
 ).pretty()
 
-// Consultar parte elemento {$Slice: num} 1 primero; 2 dos primeros; -1 último; ....
+// 09. Consultar parte elemento {$Slice: num} 1 primero; 2 dos primeros; -1 último; ....
 
 db.cantantes.find(
   {
@@ -106,3 +107,5 @@ db.cantantes.find(
     canciones: {$slice: 1}
   }
 )
+
+// 10. Eliminar documentos
