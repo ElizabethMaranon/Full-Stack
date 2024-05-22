@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Uso del método findOne en MongoDB para consultar un solo documento</title>
     <!-- Estilos -->
     <link rel="stylesheet" href="Style/MongoDB.css"> 
     <!-- Iconos -->
@@ -24,16 +24,22 @@
 </div>
 
 <div class="contenido">
-    <h1></h1>
+    <h1>Uso del método findOne en MongoDB para consultar un solo documento</h1>
 
-    <h2></h2>
+    <h2>Método findOne() vs find()</h2>
+    <p>Consultar find para obtener todos los documentos con esos atributos que haya en la colección
+        <br>Consultar findOne para obtener sólo un elemento con esos atributos aunque haya más en la colección
+    </p>
+    <p>Consultar Saurom con add.música.find(...) devuelve todos los documentos con nombre de Saurom, que son 2
+        <br><img src="imagenes/db.música.find - saurom.png" alt="música.find - saurom">
+    </p>
+    <p>Consultar Saurom con add.música.findOne(...) devuelve sólo un documento con nombre Saurom aunque haya 2
+        <br><img src="imagenes/db.música.findOne - saurom.png" alt="db.música.findOne - saurom">
+    </p>
+
 
     <p></p>
 
-    <!-- <h2>Coding Exercise</h2> -->
-
-    <p></p>
-    <!-- Imagen -->
 </div>
 
 <div class="pie">
@@ -44,8 +50,8 @@
     <p><a href="" 
         target="_blank">DevCamp Exclusivo Usuarios</a></p>
     <p><a href="https://github.com/ElizabethMaranon/Full-Stack/blob/da263986bef5ecf9ea043553ab7602c14f43ce5a/MongoDB/MongoDB_C%C3%B3digos.js" 
-        target="_blank">Códigos MongoDB</a></p>
-    <!-- <p><a href="" 
+            target="_blank">Códigos MongoDB</a></p>
+        <!-- <p><a href="" 
         target="_blank"></a></p> -->
     </div>
 </div>    
