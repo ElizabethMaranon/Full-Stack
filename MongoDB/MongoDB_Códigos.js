@@ -13,7 +13,7 @@ db.createUser({ // Crear función y argumentos en pares clave-valor
         ]
       })
 // Crear base de datos
-use lovemetal
+"use lovemetal"
 
 // Crear usuario
 db.createUser({//base datos
