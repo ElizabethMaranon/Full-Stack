@@ -40,7 +40,7 @@ db.createCollection('nombre_colección')
 db.nombre_colección.drop() 
 
 // Insertar documento
-db.música.insertOne({ 
+db.cantantes.insertOne({ 
   "nombre": "Saurom", 
   "publishedDate": new Date(),
   "canciones": [
@@ -93,3 +93,5 @@ db.música.find(
       canciones: 1
   }
 ).pretty()
+
+// Consultar parte elemento Slice
