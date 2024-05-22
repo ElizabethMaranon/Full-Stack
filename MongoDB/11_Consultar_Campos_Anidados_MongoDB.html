@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cómo eliminar documentos en MongoDB</title>
+    <title>Cómo incluir campos anidados en una consulta de búsqueda</title>
     <!-- Estilos -->
     <link rel="stylesheet" href="Style/MongoDB.css"> 
     <!-- Iconos -->
@@ -24,18 +24,20 @@
 </div>
 
 <div class="contenido">
-    <h1>Cómo eliminar documentos en MongoDB</h1>
-
-    <h2>Eliminar documento por nombre</h2>
-    <p>db.nombre_colección.remove(.....)</p>
-    <p>Elimina los documentos que encuentre con ese nombre, en este caso 5
-        <br><img src="imagenes/db.música.remove - Saurom - Lovemetal.png" alt="db.música.remove - Saurom - Lovemetal">
+    <h1>Cómo incluir campos anidados en una consulta de búsqueda</h1>
+    <p>Mongo porque tiene la flexibilidad y también la capacidad de anidar tantos elementos como desee..</p>
+    <h2>Consulta campos anidados</h2>
+    <p>Añadir nuevo documento
+        <br>db.música.insertOne(.....)
+        <br><img src="imagenes/db.música.insertOne -  Saurom - Lovemetal.png" alt="db.música.insertOne -  Saurom - Lovemetal">
     </p>
-    <p>Elimina los documentos que encuentre con ese nombre, en este caso 1
-        <br><img src="imagenes/db.música.remove - Lepoka - Lovemetal.png" alt="db.música.remove - Lepoka - Lovemetal.png">
+    <p>Consultar con campos anidados
+        <br>db.música.find(......)
+        <br><img src="imagenes/db.música.find - anidados.png" alt="db.música.find - anidados.png">
     </p>
-    <p>Hacer consulta para verificar que los documentos están eliminados
-        <br><img src="imagenes/db.música.find - after remove.png" alt="db.música.find - after remove">
+    <p>Consultar sin campos anidados
+        <br>db.música.find(....)
+        <br><img src="imagenes/db.música.find - sin anidados.png" alt="db.música.find - sin anidados">
     </p>
 
 </div>
@@ -45,7 +47,7 @@
     <h1>Links Informativos</h1>
 
     <div class="link">
-    <p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-delete-documents-mongodb" 
+    <p><a href="" 
         target="_blank">DevCamp Exclusivo Usuarios</a></p>
     <p><a href="https://github.com/ElizabethMaranon/Full-Stack/blob/da263986bef5ecf9ea043553ab7602c14f43ce5a/MongoDB/MongoDB_C%C3%B3digos.js" 
             target="_blank">Códigos MongoDB</a></p>

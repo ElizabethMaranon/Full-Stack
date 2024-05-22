@@ -96,7 +96,6 @@ db.música.find(
 ).pretty()
 
 // 09. Consultar parte elemento {$Slice: num} 1 primero; 2 dos primeros; -1 último; ....
-
 db.cantantes.find(
   {
     nombre: "Saurom"
@@ -109,3 +108,27 @@ db.cantantes.find(
 )
 
 // 10. Eliminar documentos
+db.música.remove({nombre: "Saurom"}, 1)
+
+db.música.remove({nombre: "Lepoka"}, 1)
+
+// 11. Consultar Campos Anidados
+db.música.insertOne({
+  "nombre": "Saurom",
+  "fecha": new Date(),
+  "canciones": [
+    {"nombre": "Pájaro Fantasma", "active": "True"},
+    {"nombre": "Fuego", "active": "True"}
+  ]
+})
+
+db.música.find(
+  {
+    nombre: "Saurom"
+  },
+  {
+    nombre: 1,
+    fecha: 1,
+    "canciones.nombre": 1
+  }
+).pretty()
