@@ -28,7 +28,7 @@
 
     <h2>Consulta un documento en específico</h2>
     <p>Para buscar uno en específico usar la clave-valor, en este caso {nombre: "Sylvania"} que al ser un objeto tiene que ir entre llaves.
-        <br>db.música.find({nombre: "Sylvania"}) (SELECT * from colección WHERE name = "documento" en SQL)
+        <br>db.música.find({nombre: "Sylvania"}) 
         <br><img src="imagenes/find Sylvania lovemetal.png" alt="find Sylvania lovemetal">
         <br>Para que la búsqueda ofrezca visualización bonita usar pretty()
         <br>db.música.find({nombre: "Sylvania"}).pretty()
@@ -36,7 +36,8 @@
     </p>
     <p>Si la colección tiene varios documentos con el mismo nombre, te devolverá todos los que coincidan con la búsqueda>
         <br><img src="imagenes/find Saurom lovemetal.png" alt="find Saurom lovemetal">
-    
+        <h2>Equivalente a SQL</h2>
+        <p>SELECT * from colección WHERE name = "documento"</p>
 </div>
 
 <div class="pie">
