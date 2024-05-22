@@ -94,4 +94,15 @@ db.música.find(
   }
 ).pretty()
 
-// Consultar parte elemento Slice
+// Consultar parte elemento {$Slice: num} 1 primero; 2 dos primeros; -1 último; ....
+
+db.cantantes.find(
+  {
+    nombre: "Saurom"
+  },
+  {
+    fecha: 1,
+    nombre: 1,
+    canciones: {$slice: 1}
+  }
+)
