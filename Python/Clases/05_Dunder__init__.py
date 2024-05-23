@@ -6,7 +6,7 @@
 
 # print(str(fact))
 
-class Factura: 
+"""class Factura: 
     def __init__(self, cliente, total): 
         self.cliente = cliente 
         self.total = total 
@@ -16,5 +16,13 @@ class Factura:
 
 fact = Factura('Mielma', 150)
 
-print(str(fact))
+print(str(fact))"""
 
+class Usuario: 
+    def __init__(self, usuario, contraseña): 
+        self.usuario = usuario 
+        self.contraseña = contraseña
+        
+acceso = Usuario('Mielma', 'contraseña')
+
+print(acceso)

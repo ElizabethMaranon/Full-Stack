@@ -25,13 +25,14 @@
 
 <div class="contenido">
     <h1>CheckPoint 6 Teoría</h1>
-    <div class="clases_python">
-        <h2>¿Para qué usamos Clases en Python?</h2>
+        
+    <h2>¿Para qué usamos Clases en Python?</h2>
         <p>Una clase en Python es una estructura de programación que permite definir un conjunto de métodos y atributos que describen un objeto o entidad. Las clases son un concepto fundamental en la programación orientada a objetos, que se utilizan para modelar entidades del mundo real o abstracto en un programa de computadora. Las clases proveen una forma de empaquetar datos y funcionalidad juntos. Al crear una nueva clase, se crea un nuevo tipo de objeto, permitiendo crear nuevas instancias de ese tipo. Cada instancia de clase puede tener atributos adjuntos para mantener su estado.</p>
         <p>Las clases se componen de datos y después de comportamiento.</p>
         <p>El comportamiento se cuida con funciones.</p>
         <p>Se usan para crear empaquetar datos y funcionalidad, creando un tipo de objeto, permitiendo crear nuevas instancias</p>
         <p>Un método de instancia es un método que modifica o accede al estado del objeto al que hace referencia. Recibe self como primer parámetro, el cual se convierte en el propio objeto sobre el que estamos trabajando. Python envía este argumento de forma transparente: no hay que pasarlo como argumento.</p>
+        
         <h3>Ejemplo explicativo</h3>
         <p>Crear una clase
             <br><img src="imagenes/class saludo - Crear clase.png" alt="class saludo - Crear clase">
@@ -45,16 +46,15 @@
         <p>print(instancia.presentación()) # Nos devuelve return
             <br><img src="imagenes/print(instancia.presentación()).png" alt="print(instancia.presentación())">
         </p>
-    </div>
-
-    <div class="función_constructora">
-        <h2>¿Qué método se ejecuta automáticamente cuando se crea una instancia de una clase?</h2>
+    
+    <h2>¿Qué método se ejecuta automáticamente cuando se crea una instancia de una clase?</h2>
         <p>Las funciones constructoras en Python son métodos especiales que se utilizan para crear e inicializar objetos de una clase. Estas funciones se llaman automáticamente cuando se crea una nueva instancia de la clase y permiten definir el estado inicial del objeto.</p>
         <p>Es un método especial y que equivale más o menos a lo que se conoce como constructor en otros lenguajes.</p>
         <p>Este método nos permite definir los valores iniciales del objeto que será creado a partir de la clase. La función init es el constructor de la clase. El constructor siempre se ejecuta cuando se crea el objeto.</p>
         <p>Su principal función es establecer un estado inicial en el objeto nada más instanciarlo, es decir, inicializar los atributos.</p>
         <p>¿Qué es un constructor en Python?<a href="https://keepcoding.io/blog/como-definir-un-constructor-en-python/" 
             target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link" style="color: #556CEE;"></i></a></p>
+        
         <h3>¿Qué hace una función constructora __init__?</h3>
         <p>Este método es un método especial que se llama cada vez que se instancia una clase y sirve para inicializar el objeto que se crea. Este método crea los atributos que deben tener todos los objetos de la clase y por tanto contiene los parámetros necesarios para su creación, pero no devuelve nada.</p>
         
@@ -73,10 +73,10 @@
         <p>Ejecutar archivo o Run
             <br><img src="imagenes/class Música - init run.png" alt="">
         </p>
-    </div>  
+  
     
-    <div class="verbos_API">
-        <h2>¿Cuáles son los tres verbos de API?</h2>
+    
+    <h2>¿Cuáles son los tres verbos de API?</h2>
         <h3><b>Get</b> - para obtener (leer) datos (por ejemplo, una lista de usuarios).
             <a href="https://github.com/ElizabethMaranon/Full-Stack/blob/0f0d99511ba7903e0a0ff373bda6bdae8ead666c/Python/Api/07_Punto_Final_Get_Api_Flask.html" 
             target="_blank" rel="noopener noreferrer">
@@ -132,33 +132,25 @@
             <br><img src="imagenes/api del código.png" alt="api del código">
         </p>   
         
-        
-
-    </div>
-
-    <div class="MongoDB_db">
-        <h2>¿Es MongoDB una base de datos SQL o NoSQL?</h2>
+    <h2>¿Es MongoDB una base de datos SQL o NoSQL?</h2>
         <p>MongoDB es una base de datos NoSQL orientada a documentos que apareció a mediados de la década de 2000. Se utiliza para almacenar volúmenes masivos de datos. A diferencia de una base de datos relacional SQL tradicional, MongoDB no se basa en tablas y columnas. Los datos se almacenan como colecciones y documentos.</p>
         <p>Una <a href="https://www.mongodb.com/docs/manual/core/databases-and-collections/#databases" target="_blank" rel="noopener noreferrer">Base de datos</a> 
             es una recopilación organizada de información o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático
             <br>En MongoDB, las bases de datos contienen una o más colecciones de documentos</p>
             <p>Las <a href="https://www.mongodb.com/docs/manual/core/databases-and-collections/#collections">Colecciones</a>
-            son agrupaciones de documentos. Son equivalentes a las tablas en bases de datos relacionales pero NO nos imponen un esquema o estructura rígida para guardar información. Los Documentos son registros dentro de las colecciones.
+            son agrupaciones de documentos. Son equivalentes a las tablas en bases de datos relacionales pero NO Imponen un esquema o estructura rígida para guardar información. Los Documentos son registros dentro de las colecciones.
             <br>MongoDB almacena documentos en colecciones. Las colecciones son análogas a tablas en bases de datos relacionales.</p>
+
         <h3><a href="https://github.com/ElizabethMaranon/Full-Stack/tree/0f0d99511ba7903e0a0ff373bda6bdae8ead666c/MongoDB" 
             target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-link" style="color: #556CEE;"></i>Guía MongoDB Mielma</a></h3>
-    </div>
 
-    <div class="Api">
-        <h2>¿Qué es una API?</h2>
+    <h2>¿Qué es una API?</h2>
         <p>API significa interfaz de programación de aplicaciones y es un gran acrónimo que en realidad simplemente significa que es una forma en la que podemos comunicarnos con una aplicación y podemos hacerlo sin implementar algo como un raspador o algo como esto.</p>
         <p>Nos brinda un conjunto de comandos que podemos usar y podemos hacer que nuestra aplicación se comunique con otro servidor en otra aplicación</p>
         <p>Lo que una API le brinda es un conjunto de puntos finales.
             <br>Un punto final es solo una URL que nos devolverá datos JSON
             <br>JavaScript Object Notation, es un formato ligero de intercambio de datos. Es de fácil lectura y escritura para los usuarios y fácil de analizar y generar por parte de las máquinas. Se basa en un subconjunto del lenguaje de programación JavaScript, Estándar ECMA-262 3a Edición - Diciembre de 1999.</p>
-    
-        </p>
         <p>Una API es un servicio parecido a un sitio web o servidor con el que puedes comunicarte, pero en lugar de recuperar una página web, obtienes datos.</p>
         <p>Esta es una forma muy útil de crear aplicaciones y pasar datos de un lado a otro y no es específico de un lenguaje de programación ni de un marco ni nada por el estilo</p>
         <p>Postman es una popular herramienta utilizada para probar APIs, permitiendo a los desarrolladores enviar peticiones a servicios web y ver respuestas.</p>
@@ -180,19 +172,13 @@
         <p>Resultado de la consulta de la URL
             <br><img src="imagenes/datos api consulta url resultado.png" alt="datos api consulta url resultado">
         </p>
-
-            
-       
         
-        
-    </div>
-        
-    <div class="Postman">
-        <h2>¿Qué es Postman?</h2>
+    <h2>¿Qué es Postman?</h2>
         <p>Postman es una popular herramienta utilizada para probar APIs, permitiendo a los desarrolladores enviar peticiones a servicios web y ver respuestas.</p> 
         <p>Postman, es una aplicación muy útil que te permite comunicarte con API externas. Una API es un servicio parecido a un sitio web o servidor con el que puedes comunicarte, pero en lugar de recuperar una página web, obtienes datos.</p>
         <p>Postman es una popular herramienta utilizada para probar APIs, permitiendo a los desarrolladores enviar peticiones a servicios web y ver respuestas.</p>
         <p>Se usan los verbos api, después de crear los códigos</p>
+
         <h3><b>Get</b> - para obtener (leer) datos (por ejemplo, una lista de usuarios).
             <a href="https://github.com/ElizabethMaranon/Full-Stack/blob/0f0d99511ba7903e0a0ff373bda6bdae8ead666c/Python/Api/07_Punto_Final_Get_Api_Flask.html" 
             target="_blank" rel="noopener noreferrer">
@@ -251,10 +237,7 @@
             <br><img src="imagenes/api del1.png" alt="api del1">
         </p>
 
-    </div>
-        
-    <div class="polimorfismo">
-        <h2>¿Qué es un polimorfismo?</h2>
+    <h2>¿Qué es un polimorfismo?</h2>
         <p>El polimorfismo es la capacidad de objetos de diferentes clases para responder al mismo mensaje. En otras palabras, dos objetos de diferentes clases pueden tener métodos con el mismo nombre, y ambos métodos pueden ser llamados con el mismo código, dando respuestas diferentes.</p>
         <p>Definición: polimorfismo (en POO) es la capacidad que tienen ciertos lenguajes para hacer que, al enviar el mismo mensaje (o, en otras palabras, invocar al mismo método) desde distintos objetos, cada uno de esos objetos pueda responder a ese mensaje (o a esa invocación) de forma distinta.</p>
         <p>La herencia es muy util, pero generalmente va acompañada por polimorfismo</p>
@@ -263,57 +246,80 @@
             <img src="imagenes/Herencia polimorfismo.png" alt="Herencia polimorfismo">
             <p>Imprime objetos y elementos solicitados</p>
             <img src="imagenes/Herencia polimorfismo print.png" alt="Herencia polimorfismo print">
+
             <h3>Ejercicio</h3>
-
-            <p>Tendremos una clase de encabezado y una clase de división y serán clases independientes. No heredan de nada y simplemente serán sus propias clases.</p>
-            <img src="imagenes/Polimorfismo clase.png" alt="Polimorfismo clase">
-            
-            <p>Almacenar las variables, cada uno en sus propias variables.</p>
-            <img src="imagenes/Polimorfismo variables.png" alt="Polimorfismo variables">
-            
-            <p>Crear una función y aquí será donde ocurrirá el polimorfismo. Y tomará un objeto de etiqueta, por lo que este objeto de etiqueta será un div, será un encabezado u otro div, será cualquier cosa que tenga una función de render, ese será el único requisito.</p>
-            <img src="imagenes/Polimorfismo función.png" alt="Polimorfismo función">
-            
-            <p>Ahora podemos imprimir y también regresar, solo voy a decir imprimir (tag_object.render())</p>
-            <img src="imagenes/Polimorfismo print.png" alt="Polimorfismo print">
-    </div>
+            <p>Tendremos una clase de encabezado y una clase de división y serán clases independientes. No heredan de nada y simplemente serán sus propias clases.
+                <br><img src="imagenes/Polimorfismo clase.png" alt="Polimorfismo clase"></p>
+            <p>Almacenar las variables, cada uno en sus propias variables.
+                <br><img src="imagenes/Polimorfismo variables.png" alt="Polimorfismo variables"></p>
+            <p>Crear una función y aquí será donde ocurrirá el polimorfismo. Y tomará un objeto de etiqueta, por lo que este objeto de etiqueta será un div, será un encabezado u otro div, será cualquier cosa que tenga una función de render, ese será el único requisito.
+                <br><img src="imagenes/Polimorfismo función.png" alt="Polimorfismo función"></p>
+            <p>Ahora podemos imprimir y también regresar, solo voy a decir imprimir (tag_object.render())
+                <br><img src="imagenes/Polimorfismo print.png" alt="Polimorfismo print"></p>
         
-    <div class="dunder">
-        <h2>¿Qué es un método dunder?</h2>
-            <p>Son los métodos mágicos en Python?</p>
-            <p>En Python, los métodos dunder (abreviatura de «double underscore methods», también conocidos como «métodos mágicos» o «métodos especiales») son métodos especiales que tienen un doble guion bajo (__) al principio y al final de su nombre</p>
 
-            <h3>Dunder str => __str__</h3>
-            <p>El objetivo de la cadena de Dunder una vez más es brindar un resultado atractivo para los valores y los detalles con nuestra clase.</p>
-            <p>Python busca que se defina este método str y, si está definido en una clase, busca lo que se devuelve. Entonces, en este caso decimos que solo quiero que devuelva esta cadena diciendo que esta es la clase de factura. Y entonces, el objetivo del método str cada vez que lo usas en una clase es ayudarte a obtener cierta visibilidad de cada una de las instancias que hayas creado desde esa clase..</p>
-            <p>Creamos la función que queramos</p>
-            <img src="imagenes/Dunder str.png" alt="">
-            <p>Nos imprime => Esta es la clase de factura</p>
+    <h2>¿Qué es un método dunder?</h2>
+        <p>Son los métodos mágicos en Python?</p>
+        <p>En Python, los métodos dunder (abreviatura de «double underscore methods», también conocidos como «métodos mágicos» o «métodos especiales») son métodos especiales que tienen un doble guion bajo (__) al principio y al final de su nombre</p>
 
-            <h3>Dunder init => __init__</h3>
-            <p>Creamos la función, la instancia e imprimimos</p>
-            <img src="imagenes/Dunder init.png" alt="">
-            <p>Nos imprime => La factura de Mielma asciende a 150 €</p>
+        <h3>Dunder str => __str__</h3>
+        <p>El objetivo de la cadena de Dunder una vez más es brindar un resultado atractivo para los valores y los detalles con nuestra clase.</p>
+        <p>Python busca que se defina este método str y, si está definido en una clase, busca lo que se devuelve. Entonces, en este caso decimos que solo quiero que devuelva esta cadena diciendo que esta es la clase de factura. Y entonces, el objetivo del método str cada vez que lo usas en una clase es ayudarte a obtener cierta visibilidad de cada una de las instancias que hayas creado desde esa clase..</p>
+        <p>Crear la función que queramos
+            <br><img src="imagenes/Dunder str.png" alt=""></p>
+        <p>Imprime => Esta es la clase de factura</p>
 
-            <h3><a href="https://github.com/ElizabethMaranon/Full-Stack/tree/0f0d99511ba7903e0a0ff373bda6bdae8ead666c/MongoDB" 
-                target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-link" style="color: #556CEE;"></i>Guía MongoDB Mielma</a></h3>
+        <h3>Dunder init => __init__</h3>
+        <p>Crear la función, la instancia e imprimir
+            <br><img src="imagenes/Dunder init.png" alt=""></p>
+        <p>Imprime => La factura de Mielma asciende a 150 €</p>
 
-    </div>
-        
-    <div class="decorador">
-        <h2>¿Qué es un decorador de python</h2>
-        <p></p>
-    </div>
-        
-    <h1>CheckPoint 6 Ejercicio Práctico</h1>
+        <h3>¿Qué es dunder repr?</h3>
+        <p>Es muy similar a la cadena Dunder con la diferencia clave de que generalmente Dunder repr se usa más para la salida sin formato, por lo que generalmente no lo formatea bien. Es algo que le gustaría enviar a sus registros o a un registro de errores</p>
+        <p>Crear la función
+            <br><img src="imagenes/Dunder repr.png" alt=""></p>
+        <p>No hay ninguna diferencia con respecto a la implementación. La única diferencia es el nombre y cambiar lo que representa y ese es el patrón común que encontrará en Python es que usa una cadena para su salida agradable, tal vez algo que sea fácil de leer. y luego con Repr. Estos son los verdaderos datos sin procesar de la instancia de la clase.
+            <br><img src="imagenes/Dunder repr print.png" alt=""></p>
+
+        <h3><a href="https://github.com/ElizabethMaranon/Full-Stack/tree/0226fca18007411d4f760a1b68d85ecfdb0e6fca/Python/Clases" 
+            target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-link" style="color: #556CEE;"></i>Guía Clases 05 - 06 Mielma</a></h3>
+
+        <h2>¿Qué es un decorador de python?</h2>
+        <p>Un decorador es una función que recibe otra función como parámetro, le añade cosas y retorna una función diferente. Son herramientas muy útiles. Nos permiten envolver una función dentro de otra y modificar el comportamiento de esta última sin modificarla permanentemente.</p>
+        <p>Es un código que puede incluir métodos o clases.</p>
+
+        <h3>¿Qué es una función decoradora?</h3>
+
+        <p>Una función decoradora ("decorator function" en inglés) es una función que agrega funcionalidad a otra 
+            función que recibe como argumento. Nos permite agregar funcionalidad a una función existente sin modificarla.</p>
+        <p>Podremos solucionar todo el problema por el cual todos tienen acceso a todos los datos. 
+            Y entonces podemos tener una situación en la que queramos elegir y decir que está bien, 
+            algunos de los datos deberían ser accesibles</p>
+        <p>Protected significa es que las clases secundarias tendrán acceso a estos datos. Y cuando quieras hacer eso, 
+            simplemente pon un guión bajo justo delante. Es muy importante tener en cuenta que no hay nada especial 
+            en el guión bajo: su código funcionará exactamente de la misma manera. El guión bajo es una pista para 
+            usted y para los futuros desarrolladores que trabajen en su programa de que este atributo de datos debe 
+            estar protegido.</p>
+        <p>Privado, solo se debe poder acceder a él dentro de esta clase, ni siquiera a las clases secundarias que 
+            se denominan atributos privados. Y la convención común para usar esto es dos guiones bajos antes del 
+            nombre de la variable</p>
+        <p>Creamos la función
+            <br><img src="imagenes/Decorador funciones funcion.png" alt="Decorador funciones funcion"></p>
+        <p>Creamos la instancia e imprimimos
+            <br><img src="imagenes/Decorador funciones instancia print.png" alt="Decorador funciones instancia print"></p>
+                
+    <h1>CheckPoint 6 Ejercicio Práctico
+        <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+    </h1>
+    
     <h2>Cree una clase de Python llamada Usuario que use el método init y cree un nombre de usuario y una contraseña. Crea un objeto usando la clase.</h2>
-    <p></p>
-
-    <!-- <h2>Coding Exercise</h2> -->
-
-    <p></p>
-    <!-- Imagen -->
+    <p>Crear función
+        <br><img src="imagenes/Ejercicio práctico código.png" alt="Ejercicio práctico código">
+    </p>
+    <p>Ejecutar archivo python y devuelve
+        <br><img src="imagenes/Ejercicio práctico run.png" alt="Ejercicio práctico run">
+    </p>
 </div>
 
 <div class="pie">
