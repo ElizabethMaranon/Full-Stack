@@ -1,20 +1,20 @@
 
-class Factura: # Creamos una clase
-    def __init__(self, cliente, total): #Creamos una función
-        self.cliente = cliente # Asignamos argumentos al objeto
-        self.total = total # Asignamos argumentos al objeto
+class Música: # Creamos una clase
+    def __init__(self, cantante, album): #Creamos una función
+        self.cantante = cantante # Asignamos argumentos al objeto
+        self.album = album # Asignamos argumentos al objeto
     def formatter(self): # Función básica de formatter
-        return f'{self.cliente} debe: {self.total}€' # ·devuelve una string con los datos
+        return f'El último album de {self.cantante} se titula {self.album}' # devuelve una string con los datos
     
 """Creamos las instancias"""
 
-Mielma = Factura('Mielma', 100)
-Developer = Factura('Developer', 200)
-FullStack = Factura('FullStack', 150)
+Saurom = Música('Saurom', 'Pájaro Fantasma')
+Debler = Música('Debler Eternia', 'Perverso')
+Lepoka = Música('Lepoka', 'El baile de los caídos')
 
-print(Mielma.formatter())
-print(FullStack.formatter())
-print(Developer.formatter())
+print(Saurom.formatter())
+print(Debler.formatter())
+print(Lepoka.formatter())
 
 "Ejercicio"
 class Garage:

@@ -45,9 +45,9 @@ p {
     text-align: justify;
     line-height: 150%;
 }
-
-p> i {
-    font-size: 1.3rem
+/* <i class="fa-solid fa-link" style="color: #556CEE;"></i> */
+a> i {
+    font-size: 1.2rem
 }
 
 a {
@@ -99,6 +99,10 @@ a {
 .pie> .link a{
     color: #556CEE;
 }
+
+
+
+
 
 
 
