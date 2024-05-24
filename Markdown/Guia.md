@@ -16,8 +16,7 @@ Para realizar un salto de línea y empezar una frase en una línea siguiente den
 
 Las # almohadillas son uno de los métodos utilizados en Markdown para crear encabezados.   
 Debes usarlos añadiendo uno por cada nivel, tantos niveles como sean necesarios
-# H1
-## H2
+
 ~~~
 # H1 
 ## H2 
