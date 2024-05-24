@@ -57,6 +57,7 @@ a {
     line-height: 150%;
     font-weight: 300;
     color:#006cb5;
+    text-align: center;
 }
 
 .link {
@@ -67,6 +68,7 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     justify-items: center;
+    text-align: center;
 }
 
 

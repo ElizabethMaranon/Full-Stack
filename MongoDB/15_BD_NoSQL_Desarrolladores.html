@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de bases de datos NoSQL para desarrolladores</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="Style/MongoDB.css"> 
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/e2e69b5406.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="encabezado">
+    <div class="logo">
+        <img src="Logo/Fullstack.png" alt="Fullstack">
+    </div>  
+    <div class="mielma">
+        Mielma Full Stack Developer
+    </div>
+    <div class="logo">
+        <img src="Logo/Fullstack.png" alt="Fullstack">
+    </div>  
+</div>
+
+<div class="contenido">
+    <h1>Guía de bases de datos NoSQL para desarrolladores</h1>
+
+    <h2>¿qué son las bases de datos NoSQL y por qué deberían preocuparme por ellas?</h2>
+    <p>La forma más sencilla de entender la definición es que las bases de datos NoSQL no son bases de 
+        datos SQL. Las bases de datos SQL relacionales estándar, como el servidor SQL de Oracle o MySQL, 
+        tienen una estructura tabular, similar a la que vería en una hoja de cálculo de Excel. Mientras que 
+        las bases de datos NoSQL tienen varios tipos de formatos y, por lo tanto, pueden ser más flexibles.</p>
+    <p>Importante, la flexibilidad NoSQL es su mayor fortaleza pero también su mayor desafió.</p>
+    <p>¿Como decidir cual usar? Todo se reduce a cuáles son los requisitos de la aplicación.</p>
+    <p>SQL vs NoSQL, son herramientas y son las más efectivas cuando se usan en una aplicación que funciona bien con sus puntos fuertes.</p>
+    <p>Una buena regla general es simplemente seguir las pautas dadas por los propios nombres.:
+        <br>Si tiene datos que dependen en gran medida de las relaciones, 
+        entonces probablemente sea mejor utilizar una base de datos SQL relacional.
+        <br>Si tiene un conjunto de datos no estructurados que necesita flexibilidad, 
+        entonces puede ser la mejor opción optar por una base de datos NoSQL.</p>
+    <p>Vista fragmento de DB NoSQL
+        <br><img src="imagenes/vista NoSQL.png" alt="vista NoSQL">
+        <br>Se parece a los datos JSON , ya que usa una forma llamada BSON (Binary JSON) y en realidad es solo un conjunto de almacenes de datos de pares clave-valor que se pueden estructurar según las necesidades de su aplicación.
+    </p>
+    <p>Esto es en comparación con esta tabla SQL relacional; observe cómo las bases de datos NoSQL encapsulan todos los datos en un solo objeto, mientras que la estructura SQL se construye alrededor de relaciones.?</p>
+    <p>Vista fragmento de DB SQL relacional
+        <br><img src="imagenes/vista SQL.png" alt="">
+    </p>
+    <p>Esa es realmente la diferencia clave para entender cómo funcionan</p>
+    <p>Si está interesado en crear aplicaciones con bases de datos NoSQL, es importante comprender que no existe una base de datos NoSQL estándar, sino que existen muchas variaciones diferentes. Hay almacenes de pares clave/valor, almacenes familiares de columnas anchas, bases de datos de documentos y bases de datos de gráficos.</p>
+    <h3>Por ejemplo</h3>
+    <p>Imagine que tiene que crear una aplicación en la que los usuarios puedan definir sus propios campos, como una aplicación de encuestas en la que un usuario puede crear una encuesta con dos campos y otro puede crear una encuesta con cien campos, y necesita tener la capacidad de ser nombrado sobre la marcha. Técnicamente sería posible implementar esto con una base de datos relacional, sin embargo, sería muy complicado. Sin embargo, las bases de datos NoSQL podrían manejar esto fácilmente, permitiendo que los campos se creen dinámicamente y luego cada registro se almacene con sus características únicas..</p>
+    <p>Imagine que está creando una aplicación de inventario que tiene campos que deben conectarse a otras tablas, como una tabla de usuario para el empleado que ingresa la información, una tabla de proveedores y una tabla de impuestos para calcular la depreciación. Si intentara implementar una base de datos NoSQL para esta opción de inventario, terminaría teniendo que trabajar muy duro para asignar los valores entre los modelos y también haría que la aplicación fuera muy difícil de mantener. En este caso de estudio, una base de datos relacional (rdms) funcionaría perfectamente.</p>
+    
+
+</div>
+
+<div class="pie">
+
+    <h1>Links Informativos</h1>
+
+    <div class="link">
+    <p><a href="https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/guide-nosql-databases-developers" 
+        target="_blank">DevCamp Exclusivo Usuarios</a></p>
+    <p><a href="https://www.mongodb.com/" 
+        target="_blank">Base de datos del almacén de documentos MongoDB</a></p>
+    <p><a href="https://redis.io/" 
+        target="_blank" rel="noopener noreferrer">Redis en el almacén de datos de la memoria</a></p>
+    <p><a href="https://cloud.google.com/bigtable/?hl=es_419" 
+        target="_blank" rel="noopener noreferrer">Base de datos NoSQL de Google BigTable</a></p>
+    
+    </div>
+</div>    
+
+</body>
+</html>
