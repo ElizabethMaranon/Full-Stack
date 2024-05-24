@@ -7,7 +7,7 @@ Usar CodePen para escritura JS, se puede usar desde el navegador.
 ![Herramienta_para_desarrolladores](image/Herramienta_para_desarrolladores.png)
 
 Esta será su consola donde podrá ir y ejecutar el código Javascript.
-![Herramienta_para_desarrolladores_consola](image/Herramienta_para_desarrolladores_consola.png)
+
 
 Ahora, dependiendo de la página en la que lo abras, es posible que recibas algunos pequeños mensajes de error.
 
@@ -45,10 +45,12 @@ Si simplemente hace clic en Unirse a CodePen gratis, podrá escribir toda su inf
 
 ![Codepen hola-mundo](image/Codepen_hola_mundo.png)
 
-[Archivo Codepen](https://codepen.io/ElizabethMaranon/pen/PovGNvp)
+
 
 
 
 # <b><font color="#556CEE">Links</font></b>
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-run-javascript-programs)
+
+[Codepen hola_mundo](https://codepen.io/ElizabethMaranon/pen/PovGNvp)
