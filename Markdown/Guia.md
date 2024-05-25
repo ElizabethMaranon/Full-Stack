@@ -6,7 +6,9 @@
 # <b><font color="#556CEE">h1</font></b>
 ## <b><font color="#006cb5">h2</font></b>
 ### <font color="#556CEE">h3</font>
-#### <font color="#006cb5">h4</font> -->
+#### <font color="#006cb5">h4</font>
+-->
+<!-- 🔗 -->
 # Sintaxis Markdown
 
 En el lenguaje Markdown encontrarás tres tipos de elementos básicos que a su vez engloban el resto de la sintaxis.

@@ -31,7 +31,7 @@ Comentarios de más de una línea
 comentario
 comentario */
 ~~~
-## <b><font color="#006cb5">Coding Exercise</font></b>
+<!-- ## <b><font color="#006cb5">Coding Exercise</font></b> -->
 
 # <b><font color="#556CEE">Links</font></b>
 
