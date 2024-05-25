@@ -20,7 +20,7 @@ Eso significa esencialmente todos los navegadores excepto algunas de las version
 6 está parcialmente soportado. No me he encontrado con demasiados problemas en los que el navegador no pudiera interpretar elementos como módulos y clases..
 
 7 como se dijo, Chrome, Internet Explorer, Firefox, Opera no son compatibles, todos ellos tienen diferentes formas de poder analizar algunos de los elementos disponibles en ECMAScript 7.
-# <b><font color="#556CEE">Links</font></b>
+# <b><font color="#556CEE">Links🔗</font></b>
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/analyzing-various-versions-javascript)
 

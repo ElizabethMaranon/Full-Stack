@@ -29,6 +29,6 @@ Eso significa que puedes crear una aplicación que pueda usar la cámara, que pu
 JavaScript es una de las herramientas más poderosas que puedes tener en tu arsenal para automatizar tu flujo de trabajo diario. Esto es algo que resulta muy útil.  
 JavaScript en realidad te permite automatizar, Es genial para trabajar con automatización
 
-# <b><font color="#556CEE">Links</font></b>
+# <b><font color="#556CEE">Links🔗</font></b>
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/reasons-learning-javascript)

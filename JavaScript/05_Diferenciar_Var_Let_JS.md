@@ -31,7 +31,7 @@ Cambiar el 10 por el 5
 let number = 10;
 ~~~
 
-# <b><font color="#556CEE">Links</font></b>
+# <b><font color="#556CEE">Links🔗</font></b>
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/understanding-key-difference-between-var-let-variables-types)
 

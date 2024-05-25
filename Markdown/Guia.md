@@ -8,7 +8,8 @@
 ### <font color="#556CEE">h3</font>
 #### <font color="#006cb5">h4</font>
 -->
-<!-- 🔗 -->
+<!-- Símbolos o iconos
+🔗 ™ -->
 # Sintaxis Markdown
 
 En el lenguaje Markdown encontrarás tres tipos de elementos básicos que a su vez engloban el resto de la sintaxis.

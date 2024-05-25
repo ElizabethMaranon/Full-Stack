@@ -55,11 +55,15 @@ Los Symbols se utilizan a menudo para añadir claves de propiedades únicas a un
 
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
+Assign the variable a string
+~~~
+var string = "string"
+~~~
 
-# <b><font color="#556CEE">Links</font></b>
+# <b><font color="#556CEE">Links🔗</font></b>
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/comprehensive-list-javascript-data-types)  
 
-[Código DevCamp]()
+[Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_b_09_data_types.js)
 
-<!-- [Código Mielma]() -->
+[Código Mielma](https://github.com/ElizabethMaranon/Full-Stack/blob/0c29d2c7025551caea604b8cad4750cfb14248b5/JavaScript/08_Tipos_Datos_JS.js)
