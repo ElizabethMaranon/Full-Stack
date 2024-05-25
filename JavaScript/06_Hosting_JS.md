@@ -28,3 +28,5 @@ var name = "Jordan";
 # <b><font color="#556CEE">Links</font></b>
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/guide-javascript-hoisting)
+
+[Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/179cd0b3441bc8b69a0770c0bc8c42f102325770/section_b_08_comments.js)
