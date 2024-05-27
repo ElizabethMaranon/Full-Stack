@@ -40,8 +40,7 @@ Determina si una cadena de texto puede ser encontrada dentro de otra cadena de t
 <b>Diferencia mayúsculas y minúsculas</b>
 ![ Funciones String .includes()](image/Funciones_String_.includes().png)
 
-### <font color="#556CEE">Función .startsWith()
-[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)</font>
+### <font color="#556CEE">Función .startsWith()[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)</font>
 
 El método startsWith() indica si una cadena de texto comienza con los caracteres de una cadena de texto concreta, devolviendo true o false según corresponda.
 <b>Diferencia mayúsculas y minúsculas</b>
@@ -70,8 +69,8 @@ string.startsWith('Hello,')
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/working-string-functions-part-1)  
 
 
-<!-- [Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_b_13_string_functions.js) -->
+[Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_b_13_string_functions.js)
 
-<!-- [Código Mielma]() -->
+[Lista completa de funciones de cadena](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
 [The quick brown fox jumps over the lazy dog](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog)
