@@ -21,7 +21,36 @@ El método trim( ) elimina los espacios en blanco en ambos extremos del string. 
 El toUpperCase() método devuelve el valor convertido en mayúsculas de la cadena que realiza la llamada.
 ![Funciones String .toUpperCase](image/Funciones_String_.toUpperCase().png)
 
-<!-- ## <b><font color="#006cb5">Coding Exercise</font></b> -->
+## <b><font color="#006cb5">Coding Exercise</font></b>
+Fill in the return below with some of the string function syntax you just learned!
+~~~
+//We have given you the sentences already, please fill in the returns to make the test pass
+// EXAMPLE "return (str.toUpperCase());"
+
+function strings() {
+    
+    // Use slice to return from the "w" to the end of the sentence
+    var str = "The five boxing wizards jump quickly";
+    return (  <--Delete-this-and-write-your-string-function-->  );
+    
+}
+
+strings();
+~~~
+~~~
+//We have given you the sentences already, please fill in the returns to make the test pass
+// EXAMPLE "return (str.toUpperCase());"
+
+function strings() {
+    
+    // Use slice to return from the "w" to the end of the sentence
+    var str = "The five boxing wizards jump quickly";
+    return (  str.slice(16) );
+    
+}
+
+strings();
+~~~
 
 # <b><font color="#556CEE">Links🔗</font></b>
 
