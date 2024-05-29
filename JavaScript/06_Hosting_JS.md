@@ -13,17 +13,17 @@ Hoisting es un término que no encontrará utilizado en ninguna especificación 
 ### <font color="#556CEE">¿Qué caracteriza al hoisting en relación con la palabra clave var?</font>
 
 La principal diferencia entre las variables declaradas con let y var en relación al hoisting es el alcance. Mientras que las variables declaradas con var son elevadas al principio de su ámbito de función, las variables declaradas con let no son elevadas y permanecen en la posición en la que se definen.
-~~~
+```js
 console.log(edad);
 var edad = 44
-~~~
+```
 Imprime indefinido, podría provocar algunos errores extraños, por lo que hay que declarar las variables en la parte de superior.
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 Create a variable called name and its value must be set to "Jordan".
-~~~
+```js
 var name = "Jordan";
-~~~
+```
 
 # <b><font color="#556CEE">Links🔗</font></b>
 

@@ -20,13 +20,13 @@ Para que no se ejecute automáticamente
 String entre comillas, números no</b>
 
 Crear la variable, enter  
-~~~
+```js
 var nombre = "Mielma";
-~~~
+```
 Llamarla desde la consola, enter
-~~~
+```js
 nombre;
-~~~
+```
 
 Hay que poner en el código para que devuelva en la consola y dar run para que ejecute código
 ![Codepen Mielma Run](image/Codepen_Mielma_run.png)
@@ -42,10 +42,10 @@ Let variable = "Let <b>no</b> permite modificar"
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 Create 2 variables, called cat, and dog respectively, and set their values to something.
-~~~
+```js
 var cat = "Brownie";
 var dog = "Hades";
-~~~
+```
 
 # <b><font color="#556CEE">Links🔗</font></b>
 

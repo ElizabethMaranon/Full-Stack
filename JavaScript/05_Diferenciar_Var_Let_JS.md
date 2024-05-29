@@ -23,13 +23,13 @@ Intentar cambiar una variable let por una variable var o una variable let, y nos
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 Reassign the let variable below so it equals 10
-~~~
+```js
 let number = 5;
-~~~
+```
 Cambiar el 10 por el 5
-~~~
+```js
 let number = 10;
-~~~
+```
 
 # <b><font color="#556CEE">Links🔗</font></b>
 

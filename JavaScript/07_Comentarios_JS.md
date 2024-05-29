@@ -16,21 +16,21 @@ La mejor manera es poner un nombre que represente a la variable, función.... qu
 Comentarios de una sola línea, pueden ir solos, o detrás del código.
 
 Se expresan colocando // antes del comentario
-~~~
+```js
 // Comentario
 
 var nombre = "Mielma" // Comentario
-~~~
+```
 
 #### <font color="#006cb5">Multi-line</font>
 Comentarios de más de una línea  
 /*para empezar  
 */ para terminar
-~~~
+```js
 /*comentario
 comentario
 comentario */
-~~~
+```
 <!-- ## <b><font color="#006cb5">Coding Exercise</font></b> -->
 
 # <b><font color="#556CEE">Links🔗</font></b>

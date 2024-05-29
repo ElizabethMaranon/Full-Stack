@@ -11,7 +11,7 @@ Es increíblemente importante porque necesitas poder saber con qué tipo de obje
 El operador typeof devuelve una cadena que indica el tipo del operando sin evaluarlo (operando es la cadena, variable, palabra clave u objeto para el que se devolverá su tipo)
 
 Desde la consola pasar y ejecutar,
-~~~
+```js
 typeof 12; // "number"
 
 typeof 'Mielma'; // "string"
@@ -25,7 +25,7 @@ typeof edad; // "undefined"
 
 edad = null; 
 typeof edad; // "object"
-~~~
+```
 
 
 <!-- ## <b><font color="#006cb5">Coding Exercise</font></b> -->

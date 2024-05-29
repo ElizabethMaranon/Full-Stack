@@ -55,11 +55,11 @@ El método endsWith() determina si una cadena de texto termina con los caractere
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 Call these two functions on the provided string and have them return true. The two functions are endsWith and startsWith.
-~~~
+```js
 string = "Hello, what happened to all the pie?"
 string.endsWith('?');
 string.startsWith('Hello,')
-~~~
+```
 
 
 

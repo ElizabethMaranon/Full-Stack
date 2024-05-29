@@ -40,11 +40,11 @@ En cambio, la coerción explícita es el proceso mediante el cual el programador
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 Give myNumber a value of 12 as an integer.
 Then, change it to a string, saving it to myNewString.
-~~~
+```js
 let myNumber = 12;
 
 let myNewString = '12';
-~~~
+```
 
 # <b><font color="#556CEE">Links🔗</font></b>
 

@@ -20,7 +20,7 @@ Se puede agregar o modificar los datos de los valores de los objetos
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 update the user grades to add an english grade that is 87
-~~~ 
+``` js
 var user = {
   name: 'Kristine',
   age: 12,
@@ -31,10 +31,10 @@ var user = {
     languageArts: 100
   }
 };
-~~~
-~~~
+```
+```js
 user.grades.english = 87;
-~~~ 
+``` 
 
 # <b><font color="#556CEE">Links🔗</font></b>
 

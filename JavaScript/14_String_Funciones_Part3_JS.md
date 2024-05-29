@@ -23,7 +23,7 @@ El toUpperCase() método devuelve el valor convertido en mayúsculas de la caden
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 Fill in the return below with some of the string function syntax you just learned!
-~~~
+```js
 //We have given you the sentences already, please fill in the returns to make the test pass
 // EXAMPLE "return (str.toUpperCase());"
 
@@ -36,8 +36,8 @@ function strings() {
 }
 
 strings();
-~~~
-~~~
+```
+```js
 //We have given you the sentences already, please fill in the returns to make the test pass
 // EXAMPLE "return (str.toUpperCase());"
 
@@ -50,7 +50,7 @@ function strings() {
 }
 
 strings();
-~~~
+```
 
 # <b><font color="#556CEE">Links🔗</font></b>
 

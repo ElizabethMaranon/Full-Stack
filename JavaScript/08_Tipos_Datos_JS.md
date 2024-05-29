@@ -12,11 +12,11 @@ poner un ejemplo de algo.
 
 ### <font color="#556CEE">[Boolean🔗](https://www.w3schools.com/js/js_booleans.asp)</font>
 Muy a menudo, en programación, necesitará un tipo de datos que sólo pueda tener un de dos valores, como
-~~~
+```js
 SÍ / NO
 ENCENDIDO / APAGADO
 VERDADERO / FALSO
-~~~
+```
 Para esto, JavaScript tiene un booleano tipo de datos. Sólo puede toma los valores Verdadero o Falso.
 ![Codepen Boolean](image/Codepen_Boolean.png)
 
@@ -56,9 +56,9 @@ Los Symbols se utilizan a menudo para añadir claves de propiedades únicas a un
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 Assign the variable a string
-~~~
+```js
 var string = "string"
-~~~
+```
 
 # <b><font color="#556CEE">Links🔗</font></b>
 

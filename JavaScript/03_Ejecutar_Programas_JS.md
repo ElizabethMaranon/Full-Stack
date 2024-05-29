@@ -15,21 +15,21 @@ Despejamos consola `Control+L` o desde la consola con el botón
 ![espejar_consola](image/Despejar_consola.png)
 
 Crear una variable super básica
-~~~
+```js
 var hola_mundo = "Hola mundo, Mielma está aquí"
-~~~
+```
 Pulsar enter y devuelve:
-~~~
+```js
 undefined
-~~~
+```
 Escribe la variable creada y pulsa enter
-~~~
+```js
 hola_mundo
-~~~
+```
 Regresa
-~~~
+```js
 'Hola mundo, Mielma está aquí'
-~~~
+```
 
 ![var_hola_mundo](image/var_hola_mundo.png)
 

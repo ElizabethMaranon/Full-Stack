@@ -36,7 +36,7 @@ El método lastIndexOf() devuelve la posición (indice) en la que se encuentra e
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>
 For this submission, replace dog with cat, find the index of over, and find the last index of never.
-~~~
+```js
 stringOne = "The dog meows"  
 
 replacedString =  // replace the word dog with cat
@@ -48,8 +48,8 @@ indexOfOver =  // get the index of over
 stringThree = "Never gonna give you up never gonna let you down"
 
 lastIndex = // get the last index of never 
-~~~
-~~~
+```
+```js
 stringOne = "The dog meows"
 
 replacedString = stringOne.replace("dog", "cat") // replace the word dog with cat
@@ -61,7 +61,7 @@ indexOfOver =  stringTwo.indexOf("over")// get the index of over
 stringThree = "Never gonna give you up never gonna let you down"
 
 lastIndex = stringThree.lastIndexOf("never") // get the last index of never 
-~~~
+```
 
 
 # <b><font color="#556CEE">Links🔗</font></b>
