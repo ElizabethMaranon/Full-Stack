@@ -10,6 +10,8 @@
 -->
 <!-- Símbolos o iconos
 🔗 ™ -->
+<!-- flechas ↑ ↓ → ← ?
+ izquierda -->
 # Sintaxis Markdown
 
 En el lenguaje Markdown encontrarás tres tipos de elementos básicos que a su vez engloban el resto de la sintaxis.
