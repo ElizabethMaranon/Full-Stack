@@ -31,7 +31,7 @@ Para realizar un salto de línea y empezar una frase en una línea siguiente den
 Las # almohadillas son uno de los métodos utilizados en Markdown para crear encabezados.   
 Debes usarlos añadiendo uno por cada nivel, tantos niveles como sean necesarios
 
-~~~
+~~~md
 # H1 
 ## H2 
 ### h3 
@@ -65,16 +65,23 @@ Para generar listas anidadas dentro de otras, simplemente tendrás que añadir *
 
 #### Listas ordenadas `<li>`
 
-Para crear listas ordenadas debes utilizar la sintaxis de tipo: «número.» 1.. Al igual que ocurre con las listas desordenadas, también podrás anidar o combinar.
+Para crear listas ordenadas debes utilizar la sintaxis de tipo: «número.» 1.  
+Al igual que ocurre con las listas desordenadas, también podrás anidar o combinar.
 
 ### Códigos de bloque
-Si quieres crear un bloque entero que contenga código. Lo único que tienes que hacer es encerrar dicho párrafo entre dos líneas formadas por tres ~ virgulillas.
+Si quieres crear un bloque entero que contenga código. Lo único que tienes que hacer es encerrar dicho párrafo entre dos líneas formadas por  tres virgulillas (~~~) o tres comillas invertidas (```)
 ~~~
-Al empezar ~~~
+Al empezar ~~~ o ```
 texto deseado
 y lineas necesarias
 al terminar ~~~
 ~~~
+Resaltado de sintaxis
+```js
+Usar el lenguaje que quieras después de ```
+md, js, html, ruby, python
+Solo recuerda, no todos los motores de Markdown aplicarán el resaltado de sintaxis.
+```
 
 ### Reglas horizontales
 Las reglas horizontales se utilizan para separar secciones de una manera visual. Las estás viendo constantemente en este artículo ya que las estoy utilizando para separar los diferentes elementos de sintaxis de Markdown.
@@ -107,10 +114,10 @@ Añadir enlaces a una publicación, más que común, hoy en día es algo casi ob
 Son los enlaces de toda la vida. Como su nombre indica, se encuentran en línea con el texto.
 
 Se crean escribiendo la palabra o texto enlazada entre [ ] corchetes, y el link en cuestión entre ( ) paréntesis.
-~~~
+~~~md
 [enlace en línea](http://www.limni.net)
 ~~~
-[enlace en línea](http://www.limni.net)
+
 
 #### Links y enlaces como referencia
 La desventaja del método anterior, es que si utilizas links demasiado complejos o largos pueden dificultarte la lectura de tu texto.
@@ -118,12 +125,11 @@ La desventaja del método anterior, es que si utilizas links demasiado complejos
 Para solucionarlo y crear tu contenido de una manera más ordenada puedes generar enlaces de referencia.
 
 Esto quiere decir que en tu texto enlazarás palabras o códigos concretos (formados por letras y/o números), que en otro lugar más apartado de tu documento tendrás definidos como determinadas URL.
-~~~
-[nombre para mostrar][nombre referencia]
-~~~
+~~~md
 [nombre para mostrar][nombre referencia]
 ~~~
 El nombre de referencia y el link puedes añadirlos en cualquier lugar. En los links, por ejemplo, esos no se visualizan
+
 [nombre referencia]: https://github.com/ElizabethMaranon
 ~~~
 [nombre referencia]: https://github.com/ElizabethMaranon
@@ -145,6 +151,7 @@ https://github.com/ElizabethMaranon
 
 En según que tipo de publicaciones (sobre todo las de carácter técnico), necesitarás añadir pequeñas secciones donde mostrar código de otro lenguaje, atajos de teclado, o demás contenido que no debería ser tratado como tal.
 Para ello tienes disponible dos alternativas.
+Resaltado de sintaxis:
 
 #### Código puro - Código HTML: `code`
 
