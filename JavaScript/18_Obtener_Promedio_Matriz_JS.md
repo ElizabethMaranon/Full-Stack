@@ -44,4 +44,6 @@ average(lista);
 
 [Código DevCamp](https://github.com/bottega-code-school/javascript-code-exercises/blob/master/data-structures/get-average.js)
 
-<!-- [Código Mielma](https://github.com/ElizabethMaranon/Full-Stack/blob/525628f54f0d932e1abaf49ff8fa343e33153f96/JavaScript/18_Obtener_Promedio_Matriz_JS.js) -->
+[Código Mielma](https://github.com/ElizabethMaranon/Full-Stack/blob/525628f54f0d932e1abaf49ff8fa343e33153f96/JavaScript/18_Obtener_Promedio_Matriz_JS.js)
+
+[Referencia de Mozilla sobre reductores de Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
