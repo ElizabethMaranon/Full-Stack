@@ -1,4 +1,4 @@
-const average = lista => {
+const promedio = lista => {
     // Sumar los valores
     const reducer = (total, valores) => total + valores;
     // Obtener longitud   
@@ -9,4 +9,6 @@ const average = lista => {
 
 const lista = [1, 2, 3, 4, 5, 6]
 
-getAverage(lista);
+promedio(lista);
+
+// 3.5

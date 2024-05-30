@@ -15,16 +15,19 @@ Todas las consideraciones acerca de la " zona muerta temporal " se aplican tanto
 
 ## <b><font color="#006cb5">Obtener promedio de matriz</font></b>
 
-
-
 ```js
-const average = lista => {
+const promedio = lista => {
     // Sumar los valores
     const reducer = (total, valores) => total + valores;
     // Obtener longitud   
     const total = lista.reduce(reducer)
     // Dividir suma entre longitud
     return total / lista.length;
+};
+
+const lista = [1, 2, 3, 4, 5, 6]
+
+promedio(lista); // Resultado 3.5
 };
 
 const lista = [1, 2, 3, 4, 5, 6]
@@ -39,6 +42,6 @@ average(lista);
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/how-to-get-average-array-javascript)  
 
-<!-- [Código DevCamp]() -->
+[Código DevCamp](https://github.com/bottega-code-school/javascript-code-exercises/blob/master/data-structures/get-average.js)
 
-<!-- [Código Mielma]() -->
+<!-- [Código Mielma](https://github.com/ElizabethMaranon/Full-Stack/blob/525628f54f0d932e1abaf49ff8fa343e33153f96/JavaScript/18_Obtener_Promedio_Matriz_JS.js) -->
