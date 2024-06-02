@@ -37,4 +37,4 @@ let number = 10;
 
 [Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_b_06_difference_var_let.js)
 
-[Código Mielma](https://github.com/ElizabethMaranon/Full-Stack/blob/e7133eda5d145d4329d4456d0f1dbb32d524eede/JavaScript/05_Diferenciar_Var_Let_JS.js)
+[Código Mielma](https://codepen.io/ElizabethMaranon/pen/YzbZEJP)

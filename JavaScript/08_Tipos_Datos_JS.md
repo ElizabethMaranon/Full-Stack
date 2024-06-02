@@ -66,4 +66,4 @@ var string = "string"
 
 [Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_b_09_data_types.js)
 
-[Código Mielma](https://github.com/ElizabethMaranon/Full-Stack/blob/0c29d2c7025551caea604b8cad4750cfb14248b5/JavaScript/08_Tipos_Datos_JS.js)
+[Código Mielma](https://codepen.io/ElizabethMaranon/pen/rNgyYZZ)

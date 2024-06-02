@@ -27,7 +27,7 @@ if (edad === edadDos) {
   console.log("Tenéis la misma edad");
 }
 
-// Imprime → "Teneis la misma edad"
+// Imprime → "Tenéis la misma edad"
 ```
 |if|Var|Signo|Descripción          
 |-|-|-|-

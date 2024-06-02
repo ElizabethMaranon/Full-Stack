@@ -70,6 +70,7 @@ function watermelonParty() {
 
 watermelonParty();
 ```
+Resultado:
 ```js
 function watermelonParty() {
     
