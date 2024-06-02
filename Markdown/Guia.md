@@ -1,34 +1,46 @@
-<!-- Colores
-<font color="#006cb5">Círculo #006cb5</font>  
-<font color="#000000">Ratón #000000</font>  
-<font color="#556CEE">Logo #556CEE</font>   -->
-<!-- h1, h2, h3, h4
+# Colores
++ <font color="#006cb5">Círculo #006cb5</font>  
++ <font color="#000000">Ratón #000000</font>  
++ <font color="#556CEE">Logo #556CEE</font>  
+
 # <b><font color="#556CEE">h1</font></b>
 ## <b><font color="#006cb5">h2</font></b>
 ### <font color="#556CEE">h3</font>
 #### <font color="#006cb5">h4</font>
--->
-<!-- Símbolos o iconos
-🔗 ™ -->
-<!-- flechas ↑ ↓ → ← ?
- izquierda -->
+
+# <b><font color="#556CEE">Símbolos o iconos</font></b>
++ 🔗
++ ™
+  
+# <b><font color="#556CEE">Flechas</font></b>
+  |Arriba|Abajo| Derecha | Izquierda
+  |-|-|-|-|
+  |↑|↓|→|←
+  
 # Sintaxis Markdown
 
 En el lenguaje Markdown encontrarás tres tipos de elementos básicos que a su vez engloban el resto de la sintaxis.
 
+# Alinear
+<center>centra</center>
+<p style="text-align: justify;">Justifica párrafo</p>
+
 ## Tablas
 Tablas
 Markdown permite dibujar tablas mediante plecas (|). Cada celda está separada por uno de estos caracteres. Para crear encabezados que se distingan visualmente del resto del contenido, se subrayan las celdas correspondientes con guiones.
+
 ```md
-|Columna 1|Columna 2|
-|-|-|
+|Columna 1|Columna 2|Columna 3|
+|:-|:-:|-:|
 |ancho|según necesite|
 |se adapta cada columna|al de mayor longitud|
+|align izq| centrar| align der|
 ```
-|Columna 1|Columna 2|
-|-|-|
+|Columna 1|Columna 2|Columna 3|
+|:-|:-:|-:|
 |ancho|según necesite|
 |se adapta cada columna|al de mayor longitud|
+|align izq| centrar| align der|
 
 ## Párrafos `<p>` y saltos de línea `<br>`
 
@@ -55,7 +67,8 @@ Debes usarlos añadiendo uno por cada nivel, tantos niveles como sean necesarios
 -- Para el nivel 2
 
 ## Citas `<q>`
-Las citas se generar utilizando el carácter mayor que > al comienzo del bloque de texto.  
+Las citas se generar utilizando el carácter mayor que > al comienzo del bloque de texto. 
+
 Si la cita en cuestión se compone de varios párrafos, deberás añadir el mismo símbolo > al comienzo de cada uno de ellos.  
 Incluso puedes concatenar varios >> para crear citas anidadas.  
 Recuerda separar los saltos de línea con >, o >> si te encuentras dentro de la cita anidada; para crear párrafos dentro del mismo bloque de cita.
@@ -175,6 +188,7 @@ Se visualiza:
 ```html
 Code: línea código entre comillas simples
 ```
+
 ## Texto pre-formateado - Código HTML: `pre`
 La otra manera de añadir código en Markdown es comenzar el párrafo con cuatro espacios en blanco.
 ```md
@@ -273,3 +287,7 @@ https://docs.github.com/es/get-started/writing-on-github/getting-started-with-wr
 https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/tutorial-de-markdown/
 
 https://daringfireball.net/projects/markdown/syntax#precode
+
+https://tutorialmarkdown.com/
+
+Párrafo con un texto lorem3sdf  lkjsdf osiduf lksdfoisdf lsdkfoisdfj askldjfoisdf sldfuoa ilsidfjosidjf sdifjois lisdjfo sodfj lsdifu 
