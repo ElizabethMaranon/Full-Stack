@@ -7,7 +7,7 @@
 ## <b><font color="#006cb5">Subtítulo</font></b>
 ### <font color="#556CEE">Ejercicio</font>
 #### <font color="#006cb5">Otros varios</font>
-
+`<p style="text-align: justify">`
 <p style="text-align: justify;">
 
 # <b><font color="#556CEE">Símbolos o iconos</font></b>
