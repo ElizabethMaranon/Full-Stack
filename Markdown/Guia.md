@@ -1,3 +1,4 @@
+![Logo Mielma](logo/Logo%20Encabezado.png)
 # Colores Mielma
 + <font color="#006cb5">Círculo #006cb5</font>  
 + <font color="#000000">Ratón #000000</font>  
