@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo%20Encabezado.png)
+![Logo Mielma](logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Lista completa de tipos de datos de JavaScript</font></b>
 

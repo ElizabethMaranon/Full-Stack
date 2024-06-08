@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo%20Encabezado.png)
+![Logo Mielma](logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Título</font></b>
 

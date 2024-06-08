@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo%20Encabezado.png)
+![Logo Mielma](logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Cómo obtener el promedio de una matriz en JavaScript</font></b>
 

@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo%20Encabezado.png)
+![Logo Mielma](logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Introducción a las secuencias de comandos HTML con funciones JavaScript integradas</font></b>
 

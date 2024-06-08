@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo%20Encabezado.png)
+![Logo Mielma](logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Operadores aritméticos de JavaScript</font></b>
 

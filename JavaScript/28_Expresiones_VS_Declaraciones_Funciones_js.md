@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo%20Encabezado.png)
+![Logo Mielma](logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Diferencias entre expresiones de funciones y declaraciones de funciones</font></b>
 <p style="text-align: justify;">
