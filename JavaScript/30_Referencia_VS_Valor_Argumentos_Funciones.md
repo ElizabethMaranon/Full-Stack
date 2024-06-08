@@ -87,4 +87,4 @@ changeName(someUser);
 
 [Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_d_05_reference_vs_value.js)
 
-<!-- [Código Mielma]() -->
+[Código Mielma](https://codepen.io/ElizabethMaranon/pen/vYwZGyJ)
