@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo_Encabezado.png)
+![Logo Mielma](Logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Cómo funciona el alcance variable en JavaScript</font></b>
 <p style="text-align: justify;">

@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo_Encabezado.png)
+![Logo Mielma](Logo/Logo_Encabezado.png)
 # <b><font color="#556CEE">Razones para aprender JavaScript</font></b>
 Cuatro razones clave por la que es importante aprender JavaScript.
 ## <b><font color="#006cb5">Primera Razón</font></b>

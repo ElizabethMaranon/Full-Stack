@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo_Encabezado.png)
+![Logo Mielma](Logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Análisis de las distintas versiones de JavaScript</font></b>
 Todas las versiones desde ECMAScript 1 hasta el final ECMAScript 7.

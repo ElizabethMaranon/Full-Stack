@@ -1,4 +1,4 @@
-![Logo Mielma](logo/Logo_Encabezado.png)
+![Logo Mielma](Logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Guía de condicionales If/Else en JavaScript</font></b>
 
