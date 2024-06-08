@@ -43,12 +43,19 @@ Es muy útil cuando creamos programas que necesitan cambiar su contenido sobre l
 
 
 <p style="text-align: justify;">
-<!-- ## <center><b><font color="#006cb5">Coding Exercise</font></b>
+
+## <center><b><font color="#006cb5">Coding Exercise</font></b>
+Grab the below paragraph tag by its class name and change the inner HTML of the tag to Wizards don't jump they float.
 ```js
+var weirdSentence = //Write your code here!
 ```
 Resultado:
 ```js
-``` -->
+var weirdSentence = document.getElementsByClassName("p > grabThis")
+weirdSentence.innerHTML = "Wizards don't jump they float";
+
+console.log(weirdSentence.innerHTML);
+```
 
 
 # <center><b><font color="#556CEE">🔗Links🔗</font></b>
@@ -58,3 +65,4 @@ Resultado:
 [Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_d_97_built_in_functions.js)
 
 <!-- [Código Mielma]() -->
+[Cómo cambiar texto html con javascript, seleccionado una clase y cambiando la etiqueta adentro](https://es.stackoverflow.com/questions/339708/c%C3%B3mo-cambiar-texto-html-con-javascript-seleccionado-una-clase-y-cambiando-la-et)
