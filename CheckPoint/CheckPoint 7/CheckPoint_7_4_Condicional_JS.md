@@ -102,7 +102,6 @@ else { // Condición
 ```
 Devuelve → El menú adulto es tu opción
 
-
 # <center><b><font color="#556CEE">🔗Links🔗</font></b>
 
 [DevCamp Exclusivo Usuarios Condicionales](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/javascript-conditional-section-introduction)

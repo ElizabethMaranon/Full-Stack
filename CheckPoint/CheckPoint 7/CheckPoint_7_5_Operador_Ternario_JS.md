@@ -1,6 +1,6 @@
 ![Logo Mielma](Logo/Logo_Encabezado.png)
 
-# <b><font color="#556CEE">Descripción general del operador ternario de JavaScript</font></b>
+# <center><b><font color="#556CEE">CheckPoint 7- ¿Qué es un operador ternario? </font></b>
 
 ## <b><font color="#006cb5">¿Qué es operador ternario[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/switch#default)?</font></b>
 El operador condicional (ternario) es el único operador en JavaScript que tiene tres operandos. Este operador se usa con frecuencia como atajo para la instrucción if.
@@ -95,6 +95,7 @@ permiso_ternario(Mielma) // "Registrado y autorizado, ternario"
 permiso_ternario(mielma) // "Registrado pero no autorizado, ternario"
 permiso_ternario(eli) // "No estas registrado, ternario"
 ```
+
 
 # <center><b><font color="#556CEE">🔗Links🔗</font></b>
 
