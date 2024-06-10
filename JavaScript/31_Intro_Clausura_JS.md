@@ -3,15 +3,15 @@
 # <center><b><font color="#556CEE">Introducción a los clausura de JavaScript</font></b>
 
 ## <b><font color="#006cb5">¿Qué es un método[🔗](https://developer.Mielma.org/es/docs/Web/JavaScript/Closures)?</font></b>
-<p style="text-align: justify;">
+
 Siempre que tenga un objeto y tenga funciones declaradas o definidas dentro de ese objeto javascript, esas funciones se denominan técnicamente métodos.
-<p style="text-align: justify;">
+
 Un método es una función la cual es propiedad de un Objeto. Existen dos tipos de métodos: Métodos de Instancia los cuales son tareas integradas realizadas por la instancia de un objeto, y los Métodos Estáticos que son tareas que pueden ser llamadas directamente en el constructor de un objeto.
-<p style="text-align: justify;">
+
 En el mundo de la programación, un método es una función que pertenece a una clase específica. Cuando se trata de JavaScript, un método es una función puesta en un objeto o una serie de instrucciones para completar una tarea única
 
 ## <b><font color="#006cb5">¿Qué es una clausura o  closure[🔗](https://developer.Mielma.org/es/docs/Web/JavaScript/Closures)?</font></b>
-<p style="text-align: justify;">
+
 Un closure es la combinación de una función agrupada (dentro de otra) con referencias a su estado adyacente (el entorno léxico). En otras palabras, un closure te da acceso al alcance de una función externa desde una función interna. En JavaScript, los closure se crean cada vez que se crea una función, en el momento de la creación de la función.
 
 ```js

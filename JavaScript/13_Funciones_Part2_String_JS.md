@@ -9,10 +9,12 @@ Las expresiones regulares son patrones que se utilizan para hacer coincidir comb
 ## <b><font color="#006cb5">Funciones de datos</font></b>
 
 ### <font color="#556CEE">Función repeat()[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)</font>
-El método repeat() construye y devuelve una nueva cadena que contiene el número especificado de copias de la cadena en la cual fue llamada, concatenados.
+
+El método repeat() construye y devuelve una nueva cadena que contiene el número especificado de copias de la cadena en la cual fue llamada, concatenados.  
 ![Funciones String Repeat()](image/Funciones_String_.repeat().png)
 
 ### <font color="#556CEE">Función match()[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/match)</font>
+
 El método match() devuelve todas las ocurrencias de una expresión regular dentro de una cadena.
 ![Funciones String Match()Tel](image/Funciones_String_.match()tel.png)
 
@@ -24,14 +26,18 @@ No cambia la variable
 
 ### <font color="#556CEE">Función Search()[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/search)</font>
 El método search() ejecuta una búsqueda que encaje entre una expresión regular y el objeto String desde el que se llama.
+
 ![Funciones String .search()](image/Funciones_String_.search()tel.png)
 
 ### <font color="#556CEE">Función indexOf()[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)</font>
 El método indexOf() devuelve el índice, dentro del objeto String que realiza la llamada, de la primera ocurrencia del valor especificado, comenzando la búsqueda desde indiceDesde ; o -1 si no se encuentra dicho valor.
-¡[Funciones String .indexOf()](image/Funciones_String_.indexOf().png)
+
+![Funciones String .indexOf()](image/Funciones_String_.indexOf().png)
 
 ### <font color="#556CEE">Función lastIndexOf()[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf)</font>
+
 El método lastIndexOf() devuelve la posición (indice) en la que se encuentra el valor, dentro del objeto String que realiza la llamada, de la última ocurrencia del valor especificado; o -1 si no se halla.
+
 ![Funciones String lastIndexOf()](image/Funciones_String_.lastIndexOf().png)
 
 ## <b><font color="#006cb5">Coding Exercise</font></b>

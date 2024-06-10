@@ -1,17 +1,17 @@
 ![Logo Mielma](Logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Cómo funciona el alcance variable en JavaScript</font></b>
-<p style="text-align: justify;">
+
 Es muy importante comprender exactamente cómo funciona el alcance variable en JavaScript para que podamos utilizarlo correctamente, podamos organizar nuestro código de la manera correcta y también para no encontrarnos con un comportamiento extraño en el que tenemos un valor que es disponible y podría ser llamado accidentalmente o incluso anulado más adelante en un programa.
 
 ## <b><font color="#006cb5">¿Qué es el alcance de una variable?</font></b>
-<p style="text-align: justify;">
+
 El alcance define en que partes del código se puede acceder o utilizar una variable, ya que mientras algunas variables pueden ser accedidas en cualquier parte del programa, otras solo pueden ser utilizadas en ciertas partes del código.
 
 ## <b><font color="#006cb5">¿Qué es Scope[🔗](https://developer.mozilla.org/es/docs/Glossary/Scope)?</font></b>
-<p style="text-align: justify;">
+
 El contexto actual de ejecución. El contexto en el que los valores y las expresiones son "visibles" o pueden ser referenciados. Si una variable u otra expresión no está "en el Scope- alcance actual", entonces no está disponible para su uso. Los Scope también se pueden superponer en una jerarquía, de modo que los Scope secundarios tengan acceso a los ámbitos primarios, pero no al revés.
-<p style="text-align: justify;">
+
 Una función sirve como un cierre en JavaScript y, por lo tanto, crea un ámbito, de modo que (por ejemplo) no se puede acceder a una variable definida exclusivamente dentro de la función desde fuera de la función o dentro de otras funciones.
 
 ### <font color="#556CEE">Ejercicio</font>

@@ -7,7 +7,7 @@
 
 ### <font color="#556CEE">Ejercicio</font>
 
-<p style="text-align: justify;">
+
 
 <!-- ## <center><b><font color="#006cb5">Coding Exercise</font></b>
 ```js

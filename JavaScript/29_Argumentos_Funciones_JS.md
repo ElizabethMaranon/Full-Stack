@@ -3,9 +3,9 @@
 # <center><b><font color="#556CEE">Cómo trabajar con argumentos de funciones en JavaScript</font></b>
 
 ## <b><font color="#006cb5">¿Qué son los argumentos en Javascript?</font></b>
-<p style="text-align: justify;">
+
 Una función puede tener cero o más parámetros. Así, los parámetros son los nombres que aparecen en la definición de una función. Por su parte, los argumentos son los valores que le pasamos (y que, por tanto, recibe) una función.
-<p style="text-align: justify;">
+
 El término parámetro, se usa a menudo para referirse a la variable en la declaración del método, mientras que argumento, se refiere al valor que se envía. Para evitar confusiones, es común ver a un parámetro como una variable y un argumento como un valor.
 
 ### <font color="#556CEE">Declaración de función con dos argumentos</font>

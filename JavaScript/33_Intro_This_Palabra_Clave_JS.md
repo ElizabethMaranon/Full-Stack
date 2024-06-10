@@ -3,11 +3,11 @@
 # <center><b><font color="#556CEE">Introducción a la palabra clave 'this' en JavaScript</font></b>
 
 ## <b><font color="#006cb5">¿Qué significa palabra clave "this"[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/this)?</font></b>
-<p style="text-align: justify;">
+
 This en JavaScript es una palabra clave muy utilizada dentro de funciones y clases, pues tiene un valor flexible. This significa esto en español y, como su nombre indica, hace referencia al objeto en cuestión.
-<p style="text-align: justify;">
+
 La palabra clave this de una función se comporta un poco diferente en Javascript en comparación con otros lenguajes. Además tiene algunas diferencias entre el modo estricto y el modo no estricto.
-<p style="text-align: justify;">
+
 En general, el valor de this está determinado por cómo se invoca a la función. No puede ser establecida mediante una asignación en tiempo de ejecución, y puede ser diferente cada vez que la función es invocada.
 
 ```js

@@ -3,7 +3,7 @@
 # <center><b><font color="#556CEE">Eliminar el primer y último elemento de una matriz de JavaScript</font></b>
 
 ## <b><font color="#006cb5">¿Qué es const[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/const)?</font></b>
-<p style="text-align: justify;">
+
 Las variables constantes presentan un ámbito de bloque (block scope) tal y como lo hacen las variables definidas usando la instrucción let, con la particularidad de que el valor de una constante no puede cambiarse a través de la reasignación. Las constantes no se pueden redeclarar.
 
 ## <b><font color="#006cb5">Crear una función de recorte para matrices</font></b>
@@ -30,7 +30,7 @@ console.log(eliminasPrimerUltimo(["Some content", "</h1>"]));
 
 ### <font color="#556CEE">Ejercicio</font>
 
-<p style="text-align: justify;">
+
 
 <!-- ## <center><b><font color="#006cb5">Coding Exercise</font></b>
 ```js

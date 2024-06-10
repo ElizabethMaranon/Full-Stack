@@ -3,15 +3,15 @@
 # <center><b><font color="#556CEE">Cómo utilizar la palabra clave 'this' en programas JavaScript</font></b>
 
 ## <b><font color="#006cb5">Forma más común</font></b>
-<p style="text-align: justify;">
+
 Una de las formas más comunes de usar `this` es dentro de un objeto.
-<p style="text-align: justify;">
+
 Podemos llamar a un método indicando a qué objeto this se referirá la palabra clave. 
-<p style="text-align: justify;">
+
 Necesitamos decir `this.` porque necesita saber la instancia exacta a la que nos referimos.
-<p style="text-align: justify;">
+
 Pero cuando decimos `this.`, sabe que estamos haciendo referencia a estos objetos visibles para usar o al método, esa es la clave. Estamos haciendo referencia a esta instancia específica de este objeto porque, en un tipo de aplicación tradicional, lo que normalmente sucederá es que tendrás cientos o miles de estas instancias de guía. Si acaba de llamar a una forma genérica al método, no sabrá a cuál está haciendo referencia, debemos decirle que estamos haciendo referencia a este para este caso. 
-<p style="text-align: justify;">
+
 Puedes usar this tanto para métodos como para datos.
 
 ```js
@@ -43,7 +43,7 @@ música.ofrecerContenido(Eli.role); // "Saurom - "
 ```
 
 ### <font color="#556CEE">Ejercicio</font>
-<p style="text-align: justify;">
+
 
 ## <center><b><font color="#006cb5">Coding Exercise</font></b>
 Use `this` to run the code and determine how many seats are left.

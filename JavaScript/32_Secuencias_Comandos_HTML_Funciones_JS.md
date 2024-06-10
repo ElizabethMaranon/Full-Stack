@@ -4,12 +4,12 @@
 
 ## <b><font color="#006cb5">¿Qué son las secuencias de comandos?</font></b>
 
-<p style="text-align: justify;">
+
 Las secuencias de comandos permiten calcular valores, intercambiar datos entre las diversas tareas del proceso y ejecutar operaciones específicas utilizando llamadas SOAP. Las secuencias de comandos son ubicuas en los diagramas de flujo de trabajo: Todas las actividades tienen secuencias de comandos de inicialización.
 
 ## <b><font color="#006cb5">Cómo aprovechar las funciones de JavaScript integradas para modificar el contenido de un sitio web</font></b>
 
-<p style="text-align: justify;">
+
 Dado que javascript se procesa dentro del navegador, muchas de las funciones que proporciona también funcionan con el propio navegador.
 
 ### <font color="#556CEE">Ejercicio</font>
@@ -38,11 +38,11 @@ length: 1
 ```
 ![Cambiar datos HTML](image/Cambias_Datos_HTML.png)
 
-<p style="text-align: justify;">
+
 Es muy útil cuando creamos programas que necesitan cambiar su contenido sobre la marcha.
 
 
-<p style="text-align: justify;">
+
 
 ## <center><b><font color="#006cb5">Coding Exercise</font></b>
 Grab the below paragraph tag by its class name and change the inner HTML of the tag to Wizards don't jump they float.

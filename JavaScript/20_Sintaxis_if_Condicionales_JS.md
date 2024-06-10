@@ -61,4 +61,6 @@ if (answer === false) {
 
 [Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_c_01_comparison_operators.js)
 
+[Código Mielma](https://codepen.io/ElizabethMaranon/pen/MWdJxaO)
+
 [Documentación del operador de comparación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
