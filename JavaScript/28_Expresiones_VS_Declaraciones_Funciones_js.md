@@ -68,10 +68,7 @@ Ahora tenemos un error que dice que las declaraciones de funciones no deben colo
 
 Entonces dice que no se debe colocar en bloques, usarlo e incluso nos dice aquí lo cual es bueno. Utilice una expresión de función o mueva la declaración a la parte superior de la función externa. Entonces esto es algo muy importante y esto va a comenzar a cerrarse. Esto está empezando a acercarnos a la creación de aplicaciones de tipo dinámico porque en muchas ocasiones será necesario crear funciones sobre la marcha. Es posible que desee almacenar una función dentro de un objeto y todas esas cosas no son lo que haría con un tipo estándar de declaración de función. Esto es lo que usaría para funciones listas para usar, mientras que las expresiones de funciones son más modulares.
 
-Esa es la forma más fácil de intentar recordar esto si tienes algo que necesitas poder mover o una función que necesitas poder crear en cualquier momento dado. Para eso están las expresiones de función, mientras que una declaración como esta es solo cuando la tienes fuera de ese bloque. Entonces tendrías algo como esto y luego funcionaría exactamente de la manera para la que fue diseñado, pero no en la forma en que intentamos hacerlo aquí. Así es como puedes trabajar con expresiones de función o funciones anónimas en javascript tal como lo tenemos aquí y también un tutorial sobre la diferencia entre expresiones de función y declaraciones de función..
-
-
-
+Esa es la forma más fácil de intentar recordar esto si tienes algo que necesitas poder mover o una función que necesitas poder crear en cualquier momento dado. Para eso están las expresiones de función, mientras que una declaración como esta es solo cuando la tienes fuera de ese bloque. Entonces tendrías algo como esto y luego funcionaría exactamente de la manera para la que fue diseñado, pero no en la forma en que intentamos hacerlo aquí. Así es como puedes trabajar con expresiones de función o funciones anónimas en javascript tal como lo tenemos aquí y también un tutorial sobre la diferencia entre expresiones de función y declaraciones de función.
 
 ## <center><b><font color="#006cb5">Coding Exercise</font></b>
 Build a function expression called myFunction and have it return true
@@ -85,7 +82,6 @@ var myFunction  = function () {
  return "true";
 };
 ```
-
 
 # <center><b><font color="#556CEE">🔗Links🔗</font></b>
 
