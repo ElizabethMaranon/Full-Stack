@@ -9,8 +9,28 @@ Las matrices se describen como "objetos tipo lista"; básicamente son objetos in
 
 Si no tuvieramos matrices, tendríamos que almacenar cada elemento en una variable separada, luego llamar al código que hace la impresión y agregarlo por separado para cada artículo. Esto sería mucho más largo de escribir, menos eficiente y más propenso a errores.
 
+## <b><font color="#006cb5">¿Qué es operador new[🔗](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Arrays])?</font></b>
 
-### <font color="#556CEE">Ejercicio</font>
+El operador new permite a los desarrolladores crear una instancia de un tipo de objeto definido por el usuario o de uno de los tipos de objeto integrados que tiene un función constructora.
+
+### <font color="#556CEE">Sintáxis</font>
+
+```js
+new constructor [([arguments])]
+```
+#### <font color='#006cb5'>Parámetros</font>
+
+`constructor`
+Una clase o función que especifica el tipo de instancia del objeto.
+
+`arguments`
+Una lista de valores con los que se llamará al constructor
+
+
+
+## <font color="#006cb5">Ejercicio Primero</font>
+Sintaxis generada dondecreamos un objeto
+
 
 
 
@@ -20,6 +40,7 @@ Si no tuvieramos matrices, tendríamos que almacenar cada elemento en una variab
 Resultado:
 ```js
 ``` -->
+
 
 # <center><b><font color="#556CEE">🔗Links🔗</font></b>
 
