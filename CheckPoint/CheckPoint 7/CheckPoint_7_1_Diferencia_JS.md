@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">CheckPoint 7 - ¿Qué diferencia a `Javascript` de cualquier otro lenguaje de programación?</font></b>
 

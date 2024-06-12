@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Cómo crear una declaración de cambio en JavaScript para verificar tipos de datos (switch)</font></b>
 

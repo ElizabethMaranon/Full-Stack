@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Guía de operadores de asignación compuestos en JavaScript</font></b>
 

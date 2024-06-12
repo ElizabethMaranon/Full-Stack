@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Argumentos de función: referencia frente a valor</font></b>
 Si le pasamos un objeto,  se comporta de manera muy diferente que si le pasara una variable.

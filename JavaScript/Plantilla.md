@@ -1,13 +1,12 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">título</font></b>
 
 ## <b><font color="#006cb5">Subtítulo</font></b>
+<!-- ### <font color="#556CEE">H3</font> -->
+<!-- #### <font color="#006cb5">H4</font> -->
 
-
-### <font color="#556CEE">Ejercicio</font>
-
-
+## <b><font color="#006cb5">Ejercicio</font></b>
 
 <!-- ## <center><b><font color="#006cb5">Coding Exercise</font></b>
 ```js

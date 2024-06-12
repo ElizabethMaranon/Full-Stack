@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Descripción general del operador ternario de JavaScript</font></b>
 

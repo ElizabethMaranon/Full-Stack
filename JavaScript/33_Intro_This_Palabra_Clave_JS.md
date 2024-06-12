@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Introducción a la palabra clave 'this' en JavaScript</font></b>
 

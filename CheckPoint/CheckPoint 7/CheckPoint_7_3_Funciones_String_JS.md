@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">CheckPoint 7 - ¿Cuáles son las tres funciones de String en JS?</font></b>
 

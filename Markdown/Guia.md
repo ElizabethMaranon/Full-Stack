@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 # Colores Mielma
 + <font color="#006cb5">Círculo #006cb5</font>  
 + <font color="#000000">Ratón #000000</font>  
@@ -6,15 +6,17 @@
 
 # <b><font color="#556CEE">Título</font></b>
 ## <b><font color="#006cb5">Subtítulo</font></b>
-### <font color="#556CEE">Ejercicio</font>
-#### <font color="#006cb5">Otros varios</font>
+### <font color="#556CEE">H3</font>
+#### <font color="#006cb5">H4</font>
 `<p style="text-align: justify">`
 <p style="text-align: justify;">
 
 # <b><font color="#556CEE">Símbolos o iconos</font></b>
 + Iconos, emojis, símbolos https://es.piliapp.com/symbol/
-+ 🔗
++ Link: 🔗
 + ™
++ Advertencia: ⚠️
++ Nota: 🗒️
   
 # <b><font color="#556CEE">Flechas</font></b>
   |Arriba|Abajo| Derecha | Izquierda

@@ -1,4 +1,4 @@
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Cómo ejecutar programas JavaScript</font></b>
 Usar CodePen para escritura JS, se puede usar desde el navegador.

@@ -1,5 +1,5 @@
 
-![Logo Mielma](Logo/Logo_Encabezado.png)
+![Logo Mielma](/Logo/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Comprender la diferencia clave entre los tipos de variables Var y Let</font></b>
 Las variables pueden almacenarse con var o con let, conociendo sus diferencias para no crear errores
