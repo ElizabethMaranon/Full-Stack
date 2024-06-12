@@ -1,4 +1,4 @@
-![Logo Mielma](/Logo/Logo_Encabezado.png)
+![Logo Mielma](image/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Sintaxis básica para crear funciones en JavaScript</font></b>
 

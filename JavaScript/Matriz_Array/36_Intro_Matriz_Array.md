@@ -1,4 +1,4 @@
-![Logo Mielma](/Logo/Logo_Encabezado.png)
+![Logo Mielma](image/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Introducción a la sección: Introducción a las matrices de JavaScript</font></b>
 ## <b><font color="#006cb5">¿Qué es una matriz / array[🔗](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Arrays)?</font></b>

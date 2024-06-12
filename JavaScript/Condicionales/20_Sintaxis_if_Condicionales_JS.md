@@ -1,4 +1,4 @@
-![Logo Mielma](/Logo/Logo_Encabezado.png)
+![Logo Mielma](image/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Sintaxis básica para usar condicionales en JavaScript</font></b>
 Los condicionales nos dan la posibilidad de mirar un par de valores o incluso varios. Tres, cuatro o cinco, dependiendo de lo que necesite comparar y ver cómo se relacionan entre sí. Podemos ver si son iguales entre sí si uno es mayor que el otro..

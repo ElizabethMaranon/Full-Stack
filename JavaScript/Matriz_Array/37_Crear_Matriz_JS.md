@@ -1,4 +1,4 @@
-![Logo Mielma](/Logo/Logo_Encabezado.png)
+![Logo Mielma](image/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Cómo crear matrices en JavaScript</font></b>
 
@@ -11,21 +11,29 @@ Las matrices se construyen con corchetes, que contiene una lista de elementos se
     let compra = ["pan", "leche", "queso", "tomate", "macarrones"];
     compra;
     ```
-
+    ![Crear_Matriz_Lista_Compra](image/Crear_Matriz_Lista_Compra.png)
 2. En este caso, cada elemento de la matriz es una cadena, pero ten en cuenta que puedes almacenar cualquier elemento en una matriz — cadena, número, objeto, otra variable, incluso otro matriz. También puedes mezclar y combinar tipos de elementos — no todos tienen que ser números, cadenas, etc. Prueba estos:
     ```js
     let sequence = [1, 1, 2, 3, 5, 8, 13];
     let random = ["tree", 795, [0, 1, 2]];
     ```
-    ![Crear_Matriz_Lista_Compra](image/Crear_Matriz_Lista_Compra.png)
+    ![Crear_Matriz_Combinada](image/Crear_Matriz_Combinada.png)
+
 
 ## <b><font color="#006cb5">Hay dos formas principales de crear una matriz</font></b>
 
-Usaremos la primera sintaxis, es una sintaxis generada donde creamos un nuevo objeto de matriz.
+Usaremos la primera sintaxis, es una sintaxis generada donde creamos un nuevo objeto de matriz. Se usa generalmente cuando no se sabe cuales son los valores pero si cuantos elementos hay.
 1. Almacenar en una variable `CrearMatriz`, sintaxis `new`, luego una matriz y cantidad de elementos. Se creará la matriz
     ```js
     var CrearMatriz = new Array(3);
     ```
+    Tenemos 3 elementos no definidos
+    ![Crear_Matriz](image/Crear_Matriz.png)
+
+2. Crear matriz, en este caso de tres string
+   ```js
+   var CrearMatriz = new Array ('Mielma', 'Eli', 'Marañón')
+   ```    
 
 
 

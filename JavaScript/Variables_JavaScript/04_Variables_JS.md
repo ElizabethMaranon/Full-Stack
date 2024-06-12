@@ -1,4 +1,4 @@
-![Logo Mielma](/Logo/Logo_Encabezado.png)
+![Logo Mielma](image/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Cómo trabajar con variables en JavaScript</font></b>
 ## <b><font color="#006cb5">¿Qué son las variables JS</font></b>

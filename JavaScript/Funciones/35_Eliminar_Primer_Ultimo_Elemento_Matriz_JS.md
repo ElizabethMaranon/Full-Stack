@@ -1,4 +1,4 @@
-![Logo Mielma](/Logo/Logo_Encabezado.png)
+![Logo Mielma](image/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Eliminar el primer y último elemento de una matriz de JavaScript</font></b>
 
