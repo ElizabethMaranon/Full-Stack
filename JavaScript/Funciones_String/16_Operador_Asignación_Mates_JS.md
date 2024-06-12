@@ -17,9 +17,9 @@ Sumar elementos que están asignados, cambia el valor de la variable, con el res
 
 Si tuviéramos 100 números, simplemente podríamos agregarlos así.
 
-Básicamente, esto equivale a una abreviatura de decir algo como <font color="#006cb5">suma = suma + lo que sea que diga el siguiente</font>, que tuviéramos un grado tres, sería lo mismo que hacer eso. Entonces está realizando una tarea, pero también está realizando una operación. Esa es la razón por la que se llama operador de asignación compuesta..
-![Operadores Asignación Compuesta +=](image/
-Operadores_Asignación_Compuesta_+=.png)
+Básicamente, esto equivale a una abreviatura de decir algo como **suma = suma + lo que sea que diga el siguiente**, que tuviéramos un grado tres, sería lo mismo que hacer eso. Entonces está realizando una tarea, pero también está realizando una operación. Esa es la razón por la que se llama operador de asignación compuesta.
+![Operadores_Asignación_Compuesta_+=](image/Operadores_Asignación_Compuesta_+=.png)
+
 Ahora, además de tener la posibilidad de resumir elementos, también puedes hacer lo mismo con los demás operadores. De hecho, literalmente, cada uno de los operadores que acabamos de ver puede usarlos para realizar esta tarea compuesta. 
 ```js
 suma *= ochenta; // 14400
