@@ -22,7 +22,8 @@ Las matrices se construyen con corchetes, que contiene una lista de elementos se
 
 ## <b><font color="#006cb5">Hay dos formas principales de crear una matriz</font></b>
 
-Usaremos la primera sintaxis, es una sintaxis generada donde creamos un nuevo objeto de matriz. Se usa generalmente cuando no se sabe cuales son los valores pero si cuantos elementos hay.
+### <font color="#556CEE">La primera sintaxis</font>
+Es una sintaxis generada donde creamos un nuevo objeto de matriz. Se usa generalmente cuando no se sabe cuales son los valores pero si cuantos elementos hay.
 1. Almacenar en una variable `CrearMatriz`, sintaxis `new`, luego una matriz y cantidad de elementos. Se creará la matriz
     ```js
     var CrearMatriz = new Array(3);
