@@ -17,6 +17,7 @@
 + ™
 + Advertencia: ⚠️
 + Nota: 🗒️
++ Admiración: ❕❗
   
 # <b><font color="#556CEE">Flechas</font></b>
   |Arriba|Abajo| Derecha | Izquierda
