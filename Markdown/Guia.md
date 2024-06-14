@@ -1,5 +1,4 @@
 ![Logo Mielma](image/Logo_Encabezado.png)
-# Colores Mielma
 + <font color="#006cb5">Círculo #006cb5</font>  
 + <font color="#000000">Ratón #000000</font>  
 + <font color="#556CEE">Logo #556CEE</font>  
@@ -8,8 +7,6 @@
 ## <b><font color="#006cb5">Subtítulo</font></b>
 ### <font color="#556CEE">H3</font>
 #### <font color="#006cb5">H4</font>
-`<p style="text-align: justify">`
-<p style="text-align: justify;">
 
 # <b><font color="#556CEE">Símbolos o iconos</font></b>
 + Iconos, emojis, símbolos https://es.piliapp.com/symbol/
@@ -28,10 +25,6 @@
 # Sintaxis Markdown
 
 En el lenguaje Markdown encontrarás tres tipos de elementos básicos que a su vez engloban el resto de la sintaxis.
-
-# Alinear
-<center>centra</center>
-<p style="text-align: justify;">Justifica párrafo</p>
 
 ## Tablas
 Tablas
