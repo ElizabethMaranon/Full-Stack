@@ -107,27 +107,44 @@ console.log(matriz);// [object Array] (5) ["Mielma","Developer","Full Stack","El
 
 
 
-
-
-
-<!-- ## <b><font color="#006cb5">Ejercicio</font></b> -->
-<!-- ### <font color="#556CEE">H3</font> -->
-<!-- #### <font color="#006cb5">H4</font> -->
-<!-- ## <center><b><font color="#006cb5">Coding Exercise</font></b>
+## <center><b><font color="#006cb5">Coding Exercise</font></b>
 ```js
 ```
 Resultado:
 ```js
-``` -->
+```
 
+## <b><font color="#006cb5">Ejercicio agregar y eliminar elementos de matriz</font></b>
+```js
+var matriz = ['Mielma', 'Developer', 'Full Stack', 'Eli'] // Crear Matriz Longitud 4
+console.log(matriz.pop()); // "Eli" (Devuelve y elimina el último elemento)
+console.log(matriz); // [object Array] (3) ["Mielma","Developer","Full Stack"]
+console.log(matriz.push('Marañón')); // 4 (devuelve length)
+console.log(matriz);// [object Array] (4) ["Mielma","Developer","Full Stack","Marañón"]
+console.log(matriz.shift()) // "Mielma" (Devuelve y elimina el primer elemento)
+console.log(matriz) // [object Array] (3) ["Developer","Full Stack","Marañón"]
+console.log(matriz.push('Eli')); // 4 (devuelve length)
+console.log(matriz);// [object Array] (4) ["Developer","Full Stack","Marañón","Eli"]
+```
+![Ejercicio_Añadir_Eliminar_Elemento_Matriz][ejercicio]
+
+## <center><b><font color="#006cb5">Coding Exercise</font></b>
+```js
+let array = //Write your code here
+```
+Resultado:
+```js
+let array = ['Mielma', 'Full Stack', 'Developer', 'Eli']
+array.push("Bagels");
+```
 
 # <center><b><font color="#556CEE">🔗Links🔗</font></b>
 
-[DevCamp Exclusivo Usuarios]()  
+[DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/guide-adding-removing-array-elements-javascript)  
 
-<!-- [Código DevCamp]() -->
+[Código DevCamp](https://github.com/rails-camp/javascript-programming/blob/master/section_e_02_adding_removing.js)
 
-<!-- [Código Mielma]() -->
+[Código Mielma](https://codepen.io/ElizabethMaranon/pen/GRayQaj)
 
 <!-- Ordenar enlaces -->
 [pop]: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/pop#descripci%C3%B3n
@@ -141,3 +158,5 @@ Resultado:
 
 [unshift]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
 [unshift image]: image/Unshift_Añadir_Elemento_0_Matriz.png
+
+[ejercicio]: image/Ejercicio_Añadir_Eliminar_Elemento_Matriz.png
