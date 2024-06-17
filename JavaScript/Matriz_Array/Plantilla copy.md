@@ -2,7 +2,7 @@
 
 # <center><b><font color="#556CEE">Título</font></b>
 
-## <b><font color="#006cb5">nombre</font></b>
+## <b><font color="#006cb5">Nombre</font></b>
 ### <font color="#556CEE">Sintaxis</font>
 #### <font color="#006cb5">Parámetros </font>
 #### <font color="#006cb5">Valor devuelto </font>
