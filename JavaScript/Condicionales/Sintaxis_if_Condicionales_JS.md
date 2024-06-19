@@ -1,11 +1,11 @@
 ![Logo Mielma](image/Logo_Encabezado.png)
 
 # <b><font color="#556CEE">Sintaxis básica para usar condicionales en JavaScript</font></b>
-Los condicionales nos dan la posibilidad de mirar un par de valores o incluso varios. Tres, cuatro o cinco, dependiendo de lo que necesite comparar y ver cómo se relacionan entre sí. Podemos ver si son iguales entre sí si uno es mayor que el otro..
+Los condicionales nos dan la posibilidad de mirar un par de valores o incluso varios. Tres, cuatro o cinco, dependiendo de lo que necesite comparar y ver cómo se relacionan entre sí. Podemos ver si son iguales entre sí si uno es mayor que el otro.
 
 Podemos verificar si no son explícitamente iguales entre sí y luego también en JavaScript tenemos la capacidad de verificar si también son del mismo tipo. 
 
-## <b><font color="#006cb5">if[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else)</font></b>
+## <b><font color="#006cb5">if[🔗](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if..else)</font></b>
 Ejecuta una sentencia si una condición específica es evaluada como verdadera. Si la condición es evaluada como falsa, otra sentencia puede ser ejecutada.
 
 

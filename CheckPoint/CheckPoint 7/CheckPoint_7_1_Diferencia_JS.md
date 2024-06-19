@@ -21,7 +21,7 @@ Aplicaciones populares creadas por `JavaScript`:
 + Twitter
 + Facebook
 
-Google, propietario de GMail, Facebook,... han creado su propio marco de `JavaScript`.
+Google, propietario de GMail, Facebook,..han creado su propio marco de `JavaScript`.
 
 Tomaron el lenguaje `JavaScript` y construyeron sus propios sistemas, sus propias capas encima, que hacen posible que los desarrolladores creen sus propias aplicaciones usando `JavaScript`.
 

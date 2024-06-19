@@ -45,7 +45,7 @@ Para proporcionar una función propia, preceda el literal de plantilla con un no
 ```
 #### <font color="#006cb5">Cadenas de varias líneas</font>
 
-Cualquier carácter de nueva línea insertado en la fuente es parte del literal de la plantilla..
+Cualquier carácter de nueva línea insertado en la fuente es parte del literal de la plantilla.
 
 Usando cadenas normales, tendría que usar la siguiente sintaxis para obtener cadenas de varias líneas:
 ```js
@@ -85,7 +85,7 @@ Tenga en cuenta que existe una ligera diferencia entre las dos sintaxis. Literal
 
 ## <b><font color="#006cb5">Guía DevCamp → Backtick string interpolation</font></b>
 Esta lección tratará sobre enfoques modernos para usar la interpolación de cadenas.
-Ahora, una revisión rápida de la antigua forma de usar la interpolación de cadenas fue algo como esto. Tenemos nuestra constante de letras como variable aquí., `const lyrics = 'Never gonna give you up'`; Y si quiero agregarle algo, entonces si quiero un registro de la consola, diga: "Y luego tendré que agregar un espacio aquí en lugar de un plus"..
+Ahora, una revisión rápida de la antigua forma de usar la interpolación de cadenas fue algo como esto. Tenemos nuestra constante de letras como variable aquí., `const lyrics = 'Never gonna give you up'`; Y si quiero agregarle algo, entonces si quiero un registro de la consola, diga: "Y luego tendré que agregar un espacio aquí en lugar de un plus".
 `console.log("I'm " + lyrics)`;
 Y luego puedo llamar letras. Ahora, si guardo y luego ejecuto esto, todo funcionará.
 ```js
@@ -94,7 +94,7 @@ console.log("Mielma " + backtick); //"Mielma String interpolation"
 ```
 ![Backtick String Interpolation][Backtick String Interpolation]
 
-Esto está bien, pero las versiones más modernas de JavaScript nos brindan una manera mucho mejor de hacerlo y utilizan comillas invertidas. Ahora, si nunca has usado la parte posterior antes, hay un pequeño botón justo encima del botón de pestaña en tu teclado..
+Esto está bien, pero las versiones más modernas de JavaScript nos brindan una manera mucho mejor de hacerlo y utilizan comillas invertidas. Ahora, si nunca has usado la parte posterior antes, hay un pequeño botón justo encima del botón de pestaña en tu teclado.
 Entonces, en lugar de estas comillas dobles, usaré esta comilla invertida. Ahora, cuando miras la documentación, puedes confundirte y pensar que esto es solo un apóstrofo normal.
 
 No lo es. Es una comilla invertida. Así que voy a hacer una comilla invertida aquí mismo. Ahora esto se considera una cadena normal y voy a aclararlo. Y sólo para demostrártelo voy a ejecutarlo de nuevo. Y si lo ejecuta, podrá ver que lo ha convertido en una cadena normal.
@@ -104,7 +104,7 @@ console.log(`Mielma  ${backtick}`); //"Mielma String interpolation"
 ```
 ![Backtick String Interpolation Moderno][Backtick String Interpolation Moderno]
 
-Muchas veces veo estudiantes que ven esta sintaxis y solo ven un ejemplo como este, y piensan que solo puedes colocar una única variable dentro de allí. Pero en realidad puede ser cualquier cosa que desees dentro de ese lugar y lo ejecutará como Javascript puro..
+Muchas veces veo estudiantes que ven esta sintaxis y solo ven un ejemplo como este, y piensan que solo puedes colocar una única variable dentro de allí. Pero en realidad puede ser cualquier cosa que desees dentro de ese lugar y lo ejecutará como Javascript puro.
 Esa es la forma moderna de usar la interpolación de cadenas en javascript.
 ```js
 const backtick = 'String interpolation'

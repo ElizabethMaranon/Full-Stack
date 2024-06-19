@@ -8,7 +8,7 @@ Ahora lo que esto me dice es que me cuenta algunos detalles sobre el input eleme
 ```
 ![Search Inspect][Search Inspect]
 
-Primero, asegurémonos de tener un `script` para poder hacer esto. Voy a usar la clase, pero también podríamos usar el ID. La única diferencia es que recuerde que una identificación solo se puede colocar en un lugar de la página y una clase puede colocar tantas clases como desee..
+Primero, asegurémonos de tener un `script` para poder hacer esto. Voy a usar la clase, pero también podríamos usar el ID. La única diferencia es que recuerde que una identificación solo se puede colocar en un lugar de la página y una clase puede colocar tantas clases como desee.
 
 En este caso específico, no importa porque sé que solo hay uno de estos en la página. Así que haré clic aquí y les mostraré dos formas en las que pueden usar un `selector` dentro de un navegador.
 
@@ -23,9 +23,9 @@ const searchBar = document.querySelector('.gLFyf')
 En este caso, sólo quiero tomar uno para poder decir querySelector y no querySelectorAll. Luego use exactamente la misma sintaxis y dirá undefined, pero luego, si encuentro mi barra de búsqueda, puedes ver que devuelve exactamente el mismo valor.
 ![Search variable][Search variable]
 
-Entonces, todo lo que hicimos con esa primera sintaxis se puede lograr en Javascript normal. Ahora, la diferencia clave aquí es que si estás desarrollando pruebas de un fragmento de código javascript real, algo que vas a colocar en un archivo javascript, entonces debes seguir esta sintaxis..
+Entonces, todo lo que hicimos con esa primera sintaxis se puede lograr en Javascript normal. Ahora, la diferencia clave aquí es que si estás desarrollando pruebas de un fragmento de código javascript real, algo que vas a colocar en un archivo javascript, entonces debes seguir esta sintaxis.
 
-Si simplemente desea automatizar algo en el navegador, puede utilizar esto. Esto le brinda una API realmente agradable y sencilla para simplemente tomar elementos y luego trabajar con ellos. En este video voy a usar esta sintaxis y luego, en videos futuros, les mostraré cómo usar la otra..
+Si simplemente desea automatizar algo en el navegador, puede utilizar esto. Esto le brinda una API realmente agradable y sencilla para simplemente tomar elementos y luego trabajar con ellos. En este video voy a usar esta sintaxis y luego, en videos futuros, les mostraré cómo usar la otra.
 
 Déjame borrar esto y puedes borrarlo presionando control + l. Ahora lo que quiero hacer es establecer el valor, así que diré: esta clase y luego diré:
 ```js

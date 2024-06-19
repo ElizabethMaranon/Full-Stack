@@ -97,7 +97,7 @@ MY_ARRAY = ['B']
 ```
 
 ## <b><font color="#006cb5">Guía DevCamp Variable Const</font></b>
-Durante años y años, siempre que deseaba crear una variable en Javascript, usaba la palabra clave VAR..
+Durante años y años, siempre que deseaba crear una variable en Javascript, usaba la palabra clave VAR.
 ```js
 var city = ‘Scottsdale';console.log(city)
 ```
@@ -107,7 +107,7 @@ Lo que voy a hacer es hablar sobre el miembro más nuevo de la familia de variab
 De hecho, si observa las prácticas de desarrollo modernas en las que se centra este curso, verá que const es en realidad el tipo de variable que se elige sobre todas las demás. En la mayoría de las aplicaciones, trabajo en: o declaro const o declaro let cuando tengo que hacerlo.
 
 La mejor regla general es que en los programas modernos, especialmente si está compilando en reaccionar o en angular o cualquiera de estos marcos, siempre intente usar const de inmediato, que debería ser su opción predeterminada para escribir una variable. Si es demasiado específico entonces, y te mostraré cuándo este es el caso, entonces usa let.
-Es muy raro que utilices var en las prácticas modernas. Todavía es importante saberlo. Esa es la razón por la que lo enseñamos. Verás los tres en diferentes aplicaciones y hay muchas ocasiones en las que necesitarás crear una variable global..
+Es muy raro que utilices var en las prácticas modernas. Todavía es importante saberlo. Esa es la razón por la que lo enseñamos. Verás los tres en diferentes aplicaciones y hay muchas ocasiones en las que necesitarás crear una variable global.
 Para una especie de día a día, usted es una variable común y corriente, intentará usar const tanto como sea posible. Esto se debe a que const nos brinda una pequeña herramienta muy útil.
 ```js
 let lugar = 'let lugar';

@@ -78,7 +78,7 @@ En la última guía hablamos sobre la interpolación de cadenas y cómo las vers
 
 Eso se vería absolutamente horrible, necesitarías tener todas estas líneas diferentes y no querrías poner todo eso dentro de una cadena. Lo que puedes hacer es usar lo que se llama un operador ternario. La mayoría de los lenguajes de programación tienen este tipo de operador y es una forma de comprobar si algo es cierto y luego realizar una acción. Y si no realizar otra acción.
 
-Solo puedes tener un if y un else, no puedes tener múltiples capas, por lo que esto es solo para tipos básicos de condicionales. Sólo puedes tener un tipo de cheque. Entonces, lo que vamos a hacer es un ejemplo bastante práctico aquí donde vamos a cambiar la clase..
+Solo puedes tener un if y un else, no puedes tener múltiples capas, por lo que esto es solo para tipos básicos de condicionales. Sólo puedes tener un tipo de cheque. Entonces, lo que vamos a hacer es un ejemplo bastante práctico aquí donde vamos a cambiar la clase.
 
 Puedes pensar que esto es algo en lo que realizaríamos este tipo de acción dentro de, digamos, un marco como angular donde queremos cambiar la clase de un div o algún tipo de elemento HTML en la página, en función de lo que tipo de página en la que se encuentra.
 
@@ -93,9 +93,9 @@ console.log(`class=${ page === 'Mielma' ? 'Full Stack' : 'Marañón' }`);
 ![Ternary Operator Condicional 1][Ternary Operator Condicional 1]
 ![Ternary Operator Condicional 2][Ternary Operator Condicional 2]
 
-Esta es una excelente manera de agregar algo de comportamiento dinámico directamente a su sistema y lo verá mucho en marcos modernos como angular y reaccionar. Así que analicemos lo que estamos pasando aquí..
+Esta es una excelente manera de agregar algo de comportamiento dinámico directamente a su sistema y lo verá mucho en marcos modernos como angular y reaccionar. Así que analicemos lo que estamos pasando aquí.
 
-Un operador ternario se compone de tres componentes. El primero es el condicional. Así que ahí es donde comprobamos si Page es igual a casa. Y luego tienes todo este signo de interrogación y luego el primer componente justo después es qué sucede si esta condición es verdadera, luego tienes dos puntos seguidos de lo que sucede si esta condición no es verdadera..
+Un operador ternario se compone de tres componentes. El primero es el condicional. Así que ahí es donde comprobamos si Page es igual a casa. Y luego tienes todo este signo de interrogación y luego el primer componente justo después es qué sucede si esta condición es verdadera, luego tienes dos puntos seguidos de lo que sucede si esta condición no es verdadera.
 
 Así es como se puede crear un turno para el operador. Tiene una condición seguida del resultado si es verdadero, seguida del resultado si no lo es. Es un condicional muy básico pero es bueno porque puedes realizarlo en una sola línea.
 

@@ -11,13 +11,13 @@ Todo esto es muy bonito y muy útil. También es importante comprender que no to
 
 ![Buscadores aceptados](image/Browser+Support.png)
 
-Tienes 3, que es compatible con todos los navegadores..
+Tienes 3, que es compatible con todos los navegadores.
 
 5 que es compatible con todos los navegadores modernos.
 
-Eso significa esencialmente todos los navegadores excepto algunas de las versiones anteriores de Internet Explorer..
+Eso significa esencialmente todos los navegadores excepto algunas de las versiones anteriores de Internet Explorer.
 
-6 está parcialmente soportado. No me he encontrado con demasiados problemas en los que el navegador no pudiera interpretar elementos como módulos y clases..
+6 está parcialmente soportado. No me he encontrado con demasiados problemas en los que el navegador no pudiera interpretar elementos como módulos y clases.
 
 7 como se dijo, Chrome, Internet Explorer, Firefox, Opera no son compatibles, todos ellos tienen diferentes formas de poder analizar algunos de los elementos disponibles en ECMAScript 7.
 # <b><font color="#556CEE">Links🔗</font></b>

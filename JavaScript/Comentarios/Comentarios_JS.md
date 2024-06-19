@@ -9,7 +9,7 @@ Los comentarios son parte del código JavaScript. El navegador los recibe y los 
 
 El uso de comentarios es peligroso, ya que si la aplicación es muy grande y posteriormente hay cambios en el código y no se cambian los comentarios pueden llegar a crear errores, por interpretar los comentarios sin haberlos modificado.
 
-La mejor manera es poner un nombre que represente a la variable, función.... que vallamos a crear. Que sea lo más explicativa posible, para evitar el mayor número de comentarios.
+La mejor manera es poner un nombre que represente a la variable, función.. que vallamos a crear. Que sea lo más explicativa posible, para evitar el mayor número de comentarios.
 
 ### <font color="#556CEE">Tipo comentario</font>
 #### <font color="#006cb5">Single line</font>
