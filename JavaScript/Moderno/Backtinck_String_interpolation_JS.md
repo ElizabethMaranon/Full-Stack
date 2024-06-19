@@ -1,9 +1,13 @@
 ![Logo Mielma](image/Logo_Encabezado.png)
 
 # <center><b><font color="#556CEE">Guía para la interpolación de cadenas Backtick (Backtick string interpolation) en Javascript</font></b>
-<!-- ## <b><font color="#006cb5"></font></b>
+## <b><font color="#006cb5">Backtick → Literales de plantilla (cadenas de plantilla) </font></b>
+Literales de plantilla son literales delimitados con comilla invertida ```(`)``` personajes, permitiendo *cadenas de varias líneas*, *interpolación de cadenas* con expresiones incrustadas y construcciones especiales llamadas *plantillas etiquetadas*.
+
+Los literales de plantilla a veces se denominan informalmente cadenas de plantilla, porque se utilizan más comúnmente para *interpolación de cadenas* (para crear cadenas mediante la sustitución de marcadores de posición). Sin embargo, es posible que un literal de plantilla etiquetado no dé como resultado una cadena; se puede utilizar con un personalizado *función de etiqueta* para realizar cualquier operación que desee en las diferentes partes del literal de plantilla.
+
 ### <font color="#556CEE"></font>
-#### <font color="#006cb5"></font> -->
+#### <font color="#006cb5"></font>
 ## <b><font color="#006cb5">Guía DevCamp → Backtick string interpolation</font></b>
 Esta lección tratará sobre enfoques modernos para usar la interpolación de cadenas.
 Ahora, una revisión rápida de la antigua forma de usar la interpolación de cadenas fue algo como esto. Tenemos nuestra constante de letras como variable aquí., `const lyrics = 'Never gonna give you up'`; Y si quiero agregarle algo, entonces si quiero un registro de la consola, diga: "Y luego tendré que agregar un espacio aquí en lugar de un plus"..
