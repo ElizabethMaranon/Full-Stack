@@ -107,9 +107,6 @@ var query = document.querySelector('.target')
 
 [DevCamp Exclusivo Usuarios](https://basque.devcamp.com/pt-full-stack-development-javascript-python-react/guide/running-google-search-queries-javascript)  
 
-[Código DevCamp]()
-
-[Código Mielma]()
 
 <!-- Ordenar enlaces -->
 

@@ -2,7 +2,7 @@
 + <font color="#006cb5">Círculo #006cb5</font>  
 + <font color="#000000">Ratón #000000</font>  
 + <font color="#556CEE">Logo #556CEE</font>  
-
+# <center><b><font color="#556CEE">Título</font></b>
 # <b><font color="#556CEE">Título</font></b>
 ## <b><font color="#006cb5">Subtítulo</font></b>
 ### <font color="#556CEE">H3</font>
