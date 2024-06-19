@@ -47,6 +47,28 @@ Por ahora sólo quiero mostrarte las similitudes para que te acostumbres a este 
 
 Ahora que todo esto está en su lugar, hablemos de ir un paso más allá. Ahora lo siguiente que voy a hacer es la forma en que puedes implementar una función de flecha si solo tienes un argumento.
 
+Entonces aquí puedo decir nombre y este será el nombre de la función. Y luego pasaré un único argumento que será fname y luego le daré la función de flecha y luego copiaré el registro de mi consola aquí.
+
+Entonces, dentro de esto, simplemente pasaré el argumento que es fname y luego también llamaré una función, para que puedas ver que puedes hacer eso.
+
+Así que voy a decir mayúsculas, lo que hará que todo esté en mayúscula y es una función. Así que lo paso así.
+
+Ahora puedo llamar al nombre y pasar el valor, y ahora, si borro y ejecuto, esto se imprimirá. Entonces imprimirá el nombre. Y también ejecutó esta función en él.
+```js
+// Función de flecha con argumento de función abreviada para argumentos únicos
+nombre = (nombre) => {
+  console.log(nombre.toUpperCase());
+};
+nombre("Mielma");
+```
+Lo convirtió a mayúsculas, por lo que esta es exactamente la forma en que puedes hacerlo cuando solo tienes un argumento. Ahora bien, si recuerdas que antes dije que los pares son donde pones tus argumentos y si tienes más de uno, entonces sí necesitas tener pares, pero como un atajo y verás ambas sintaxis. Si solo tiene un argumento, entonces no necesita los pares a su alrededor.
+
+Ahora si quieres. No va a tener ningún efecto. Puedo haberlo ejecutado y todo funciona exactamente igual, depende de ti si quieres usarlos o no. Y los guardaré así en caso de que quieras recordar la sintaxis.
+
+Ahora, el siguiente del que vamos a hablar es qué quieres hacer si tienes múltiples argumentos, aquí es donde vamos a replicar estas funciones aquí arriba.
+
+
+
 
 ## <center><b><font color="#006cb5">Coding Exercise</font></b>
 ```js

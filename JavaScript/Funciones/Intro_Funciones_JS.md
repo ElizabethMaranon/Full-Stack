@@ -8,7 +8,7 @@ Las funciones son uno de los bloques de construcción fundamentales en JavaScrip
 ### <font color="#556CEE">Ejemplo</font>
 Crear un sitio web que tiene `autentificación`, es donde tienes que escribir tu usuario, email y/o tu contraseña.
 
-Si la combinación que se escribió es la correcta, te permitirá entrar en tu perfil,...
+Si la combinación que se escribió es la correcta, te permitirá entrar en tu perfil,..
 
 Muchos procesos en el camino:
 + Conectarse base de datos y leer los datos desde el formulario.
