@@ -1,4 +1,4 @@
-![Logo Mielma](image/Logo_Encabezado.png)
+! [Logo Encabezado](https://github.com/ElizabethMaranon/wiki-images/blob/723e8a1d326b9910a71d8b63ee7e48ccb4971f1e/Logo_Encabezado.png)
 + <font color="#006cb5">Círculo #006cb5</font>  
 + <font color="#000000">Ratón #000000</font>  
 + <font color="#556CEE">Logo #556CEE</font>  
