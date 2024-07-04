@@ -1,3 +1,5 @@
+// Código Codepen: https://codepen.io/ElizabethMaranon/pen/ZENggYy
+
 console.log("-----Bucle For-----");
 // Cree un bucle for en JS que imprima cada nombre en esta lista. miLista = “velma”, “exploradora”, “jane”, “john”, “harry”
 var miLista = ["velma", "exploradora", "jane", "john", "harry"];
