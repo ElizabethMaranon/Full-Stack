@@ -20,7 +20,8 @@ print("""Diccionario
 for español, euskera in diccionarios.items():
   print('español', español)
   print('euskera', euskera)
-print("""-----
+print("""
+-----
 Listas
       """)
 for lista in listas:
